@@ -38,15 +38,26 @@ Each record looks like:
    docker compose up -d
    ```
    Wait until `http://localhost:9200` responds.
-2. Python 3 with `requests` installed (already present in this environment).
+2. Python 3 with the dependencies from `requirements.txt`.
 
 The base URL can be overridden with the `ES_URL` environment variable
 (default `http://localhost:9200`).
+
+## Virtual environment
+
+A `.venv` with `elasticsearch` and `requests` is set up in this folder:
+
+```powershell
+cd "C:\D-Drive\Elastic Search Practicals\Practical_2"
+.\.venv\Scripts\Activate.ps1
+# (or recreate it: python -m venv .venv; .\.venv\Scripts\pip install -r requirements.txt)
+```
 
 ## How to run
 
 ```powershell
 cd "C:\D-Drive\Elastic Search Practicals\Practical_2"
+.\.venv\Scripts\Activate.ps1
 python generate_employees.py   # writes employees.json (120 records)
 # run main.ipynb in Jupyter       (executes tasks 1-10)
 python setup_kibana.py         # creates the Kibana data view + dashboard
