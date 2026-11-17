@@ -1,0 +1,1197 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "description": "Acme Wireless Noise-Cancelling Headphones with active noise cancellation and premium sound. Category: Electronics, type: Headphones.",
+    "brand": "Acme",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "price": 299.99,
+    "stock": 0,
+    "rating": 2.6,
+    "tags": [
+      "wireless",
+      "audio",
+      "noise-cancelling"
+    ],
+    "available": false,
+    "created_at": "2025-08-05",
+    "sku": "SKU-ELEC-0001",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P002",
+    "name": "Bluetooth Speaker Mini",
+    "description": "Nimbus Bluetooth Speaker Mini. Speakers product in Electronics. Tags: bluetooth, audio, portable.",
+    "brand": "Nimbus",
+    "category": "Electronics",
+    "subcategory": "Speakers",
+    "price": 59.99,
+    "stock": 99,
+    "rating": 4.2,
+    "tags": [
+      "bluetooth",
+      "audio",
+      "portable"
+    ],
+    "available": true,
+    "created_at": "2025-07-17",
+    "sku": "SKU-ELEC-0002",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P003",
+    "name": "Smart LED TV 43 inch",
+    "description": "Zenith Smart LED TV 43 inch. Televisions product in Electronics. Tags: tv, smart, 4k.",
+    "brand": "Zenith",
+    "category": "Electronics",
+    "subcategory": "Televisions",
+    "price": 32999.0,
+    "stock": 132,
+    "rating": 4.0,
+    "tags": [
+      "tv",
+      "smart",
+      "4k"
+    ],
+    "available": true,
+    "created_at": "2025-02-01",
+    "sku": "SKU-ELEC-0003",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P004",
+    "name": "Ultra Slim Laptop 14 inch",
+    "description": "Vertex Ultra Slim Laptop 14 inch. Laptops product in Electronics. Tags: laptop, portable, office.",
+    "brand": "Vertex",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "price": 78999.0,
+    "stock": 145,
+    "rating": 4.7,
+    "tags": [
+      "laptop",
+      "portable",
+      "office"
+    ],
+    "available": true,
+    "created_at": "2025-03-17",
+    "sku": "SKU-ELEC-0004",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P005",
+    "name": "Compact Digital Camera",
+    "description": "Lumina Compact Digital Camera. Cameras product in Electronics. Tags: camera, photography.",
+    "brand": "Lumina",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "price": 24999.0,
+    "stock": 50,
+    "rating": 2.6,
+    "tags": [
+      "camera",
+      "photography"
+    ],
+    "available": true,
+    "created_at": "2023-09-13",
+    "sku": "SKU-ELEC-0005",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P006",
+    "name": "Wireless Charging Pad",
+    "description": "Orbit Wireless Charging Pad. Accessories product in Electronics. Tags: wireless, charging, mobile.",
+    "brand": "Orbit",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "price": 1499.0,
+    "stock": 101,
+    "rating": 2.9,
+    "tags": [
+      "wireless",
+      "charging",
+      "mobile"
+    ],
+    "available": true,
+    "created_at": "2025-11-15",
+    "sku": "SKU-ELEC-0006",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P007",
+    "name": "Noise-Cancelling Earbuds",
+    "description": "Acme Noise-Cancelling Earbuds with active noise cancellation and premium sound. Category: Electronics, type: Headphones.",
+    "brand": "Acme",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "price": 7999.0,
+    "stock": 131,
+    "rating": 2.8,
+    "tags": [
+      "audio",
+      "wireless",
+      "earbuds"
+    ],
+    "available": true,
+    "created_at": "2025-11-03",
+    "sku": "SKU-ELEC-0007",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P008",
+    "name": "Smartphone Pro Max",
+    "description": "Pinnacle Smartphone Pro Max. Smartphones product in Electronics. Tags: mobile, smart, camera.",
+    "brand": "Pinnacle",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "price": 129999.0,
+    "stock": 74,
+    "rating": 3.9,
+    "tags": [
+      "mobile",
+      "smart",
+      "camera"
+    ],
+    "available": true,
+    "created_at": "2023-05-11",
+    "sku": "SKU-ELEC-0008",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P009",
+    "name": "Portable Power Bank 20000mAh",
+    "description": "Nimbus Portable Power Bank 20000mAh. Accessories product in Electronics. Tags: powerbank, portable.",
+    "brand": "Nimbus",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "price": 1999.0,
+    "stock": 17,
+    "rating": 3.9,
+    "tags": [
+      "powerbank",
+      "portable"
+    ],
+    "available": true,
+    "created_at": "2023-05-06",
+    "sku": "SKU-ELEC-0009",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P010",
+    "name": "4K Action Camera",
+    "description": "Lumina 4K Action Camera. Cameras product in Electronics. Tags: camera, action, 4k.",
+    "brand": "Lumina",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "price": 18999.0,
+    "stock": 47,
+    "rating": 3.2,
+    "tags": [
+      "camera",
+      "action",
+      "4k"
+    ],
+    "available": true,
+    "created_at": "2025-12-05",
+    "sku": "SKU-ELEC-0010",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P011",
+    "name": "Ceramic Coffee Mug",
+    "description": "Globex Ceramic Coffee Mug. Mugs product in Home & Kitchen. Tags: ceramic, kitchen, drinkware.",
+    "brand": "Globex",
+    "category": "Home & Kitchen",
+    "subcategory": "Mugs",
+    "price": 9.5,
+    "stock": 31,
+    "rating": 5.0,
+    "tags": [
+      "ceramic",
+      "kitchen",
+      "drinkware"
+    ],
+    "available": true,
+    "created_at": "2023-07-12",
+    "sku": "SKU-HOME-0011",
+    "warranty_months": 0
+  },
+  {
+    "product_id": "P012",
+    "name": "Stainless Steel Water Bottle",
+    "description": "Globex Stainless Steel Water Bottle. Bottles product in Home & Kitchen. Tags: steel, bottle, eco.",
+    "brand": "Globex",
+    "category": "Home & Kitchen",
+    "subcategory": "Bottles",
+    "price": 799.0,
+    "stock": 122,
+    "rating": 4.5,
+    "tags": [
+      "steel",
+      "bottle",
+      "eco"
+    ],
+    "available": true,
+    "created_at": "2024-11-07",
+    "sku": "SKU-HOME-0012",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P013",
+    "name": "Non-Stick Cookware Set",
+    "description": "Pinnacle Non-Stick Cookware Set. Cookware product in Home & Kitchen. Tags: cookware, kitchen, nonstick.",
+    "brand": "Pinnacle",
+    "category": "Home & Kitchen",
+    "subcategory": "Cookware",
+    "price": 3499.0,
+    "stock": 140,
+    "rating": 4.2,
+    "tags": [
+      "cookware",
+      "kitchen",
+      "nonstick"
+    ],
+    "available": true,
+    "created_at": "2023-12-08",
+    "sku": "SKU-HOME-0013",
+    "warranty_months": 36
+  },
+  {
+    "product_id": "P014",
+    "name": "Ergonomic Office Chair",
+    "description": "Vertex Ergonomic Office Chair. Furniture product in Home & Kitchen. Tags: furniture, office, ergonomic.",
+    "brand": "Vertex",
+    "category": "Home & Kitchen",
+    "subcategory": "Furniture",
+    "price": 12999.0,
+    "stock": 0,
+    "rating": 2.8,
+    "tags": [
+      "furniture",
+      "office",
+      "ergonomic"
+    ],
+    "available": false,
+    "created_at": "2024-10-16",
+    "sku": "SKU-HOME-0014",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P015",
+    "name": "High-Speed Blender 600W",
+    "description": "Zenith High-Speed Blender 600W. Blenders product in Home & Kitchen. Tags: blender, kitchen, appliance.",
+    "brand": "Zenith",
+    "category": "Home & Kitchen",
+    "subcategory": "Blenders",
+    "price": 2799.0,
+    "stock": 17,
+    "rating": 4.7,
+    "tags": [
+      "blender",
+      "kitchen",
+      "appliance"
+    ],
+    "available": true,
+    "created_at": "2025-01-23",
+    "sku": "SKU-HOME-0015",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P016",
+    "name": "Classic Electric Kettle",
+    "description": "Orbit Classic Electric Kettle. Appliances product in Home & Kitchen. Tags: kettle, kitchen, electric.",
+    "brand": "Orbit",
+    "category": "Home & Kitchen",
+    "subcategory": "Appliances",
+    "price": 1199.0,
+    "stock": 52,
+    "rating": 4.2,
+    "tags": [
+      "kettle",
+      "kitchen",
+      "electric"
+    ],
+    "available": true,
+    "created_at": "2023-08-21",
+    "sku": "SKU-HOME-0016",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P017",
+    "name": "Bamboo Cutting Board",
+    "description": "Lumina Bamboo Cutting Board. Kitchen Tools product in Home & Kitchen. Tags: bamboo, eco, kitchen.",
+    "brand": "Lumina",
+    "category": "Home & Kitchen",
+    "subcategory": "Kitchen Tools",
+    "price": 499.0,
+    "stock": 81,
+    "rating": 3.7,
+    "tags": [
+      "bamboo",
+      "eco",
+      "kitchen"
+    ],
+    "available": true,
+    "created_at": "2025-06-07",
+    "sku": "SKU-HOME-0017",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P018",
+    "name": "Luxury Bed Sheet Set",
+    "description": "Acme Luxury Bed Sheet Set. Bedding product in Home & Kitchen. Tags: bedding, cotton, home.",
+    "brand": "Acme",
+    "category": "Home & Kitchen",
+    "subcategory": "Bedding",
+    "price": 2499.0,
+    "stock": 15,
+    "rating": 3.7,
+    "tags": [
+      "bedding",
+      "cotton",
+      "home"
+    ],
+    "available": true,
+    "created_at": "2023-06-21",
+    "sku": "SKU-HOME-0018",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P019",
+    "name": "Vacuum Insulated Water Bottle",
+    "description": "Nimbus Vacuum Insulated Water Bottle. Bottles product in Home & Kitchen. Tags: flask, insulated, travel.",
+    "brand": "Nimbus",
+    "category": "Home & Kitchen",
+    "subcategory": "Bottles",
+    "price": 1299.0,
+    "stock": 96,
+    "rating": 2.8,
+    "tags": [
+      "flask",
+      "insulated",
+      "travel"
+    ],
+    "available": true,
+    "created_at": "2023-11-12",
+    "sku": "SKU-HOME-0019",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P020",
+    "name": "Dinner Plate Set of 6",
+    "description": "Globex Dinner Plate Set of 6. Dinnerware product in Home & Kitchen. Tags: ceramic, dinnerware, kitchen.",
+    "brand": "Globex",
+    "category": "Home & Kitchen",
+    "subcategory": "Dinnerware",
+    "price": 1899.0,
+    "stock": 83,
+    "rating": 2.8,
+    "tags": [
+      "ceramic",
+      "dinnerware",
+      "kitchen"
+    ],
+    "available": true,
+    "created_at": "2025-06-26",
+    "sku": "SKU-HOME-0020",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P021",
+    "name": "Pro Yoga Mat",
+    "description": "Zenith Pro Yoga Mat. Yoga Mats product in Sports. Tags: yoga, fitness, mat.",
+    "brand": "Zenith",
+    "category": "Sports",
+    "subcategory": "Yoga Mats",
+    "price": 1499.0,
+    "stock": 14,
+    "rating": 2.9,
+    "tags": [
+      "yoga",
+      "fitness",
+      "mat"
+    ],
+    "available": true,
+    "created_at": "2023-09-12",
+    "sku": "SKU-SPOR-0021",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P022",
+    "name": "Adjustable Dumbbell Set",
+    "description": "Vertex Adjustable Dumbbell Set. Dumbbells product in Sports. Tags: dumbbell, fitness, strength.",
+    "brand": "Vertex",
+    "category": "Sports",
+    "subcategory": "Dumbbells",
+    "price": 4999.0,
+    "stock": 37,
+    "rating": 4.3,
+    "tags": [
+      "dumbbell",
+      "fitness",
+      "strength"
+    ],
+    "available": true,
+    "created_at": "2023-08-31",
+    "sku": "SKU-SPOR-0022",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P023",
+    "name": "Mountain Bike 21-Speed",
+    "description": "Pinnacle Mountain Bike 21-Speed. Cycles product in Sports. Tags: cycle, outdoor, sports.",
+    "brand": "Pinnacle",
+    "category": "Sports",
+    "subcategory": "Cycles",
+    "price": 18999.0,
+    "stock": 141,
+    "rating": 3.7,
+    "tags": [
+      "cycle",
+      "outdoor",
+      "sports"
+    ],
+    "available": true,
+    "created_at": "2024-11-27",
+    "sku": "SKU-SPOR-0023",
+    "warranty_months": 36
+  },
+  {
+    "product_id": "P024",
+    "name": "Running Shoes Air",
+    "description": "Lumina Running Shoes Air. Shoes product in Sports. Tags: shoes, running, sports.",
+    "brand": "Lumina",
+    "category": "Sports",
+    "subcategory": "Shoes",
+    "price": 3999.0,
+    "stock": 103,
+    "rating": 2.7,
+    "tags": [
+      "shoes",
+      "running",
+      "sports"
+    ],
+    "available": true,
+    "created_at": "2023-07-10",
+    "sku": "SKU-SPOR-0024",
+    "warranty_months": 0
+  },
+  {
+    "product_id": "P025",
+    "name": "Carbon Tennis Racket",
+    "description": "Acme Carbon Tennis Racket. Rackets product in Sports. Tags: tennis, racket, sports.",
+    "brand": "Acme",
+    "category": "Sports",
+    "subcategory": "Rackets",
+    "price": 6999.0,
+    "stock": 57,
+    "rating": 4.6,
+    "tags": [
+      "tennis",
+      "racket",
+      "sports"
+    ],
+    "available": true,
+    "created_at": "2024-02-02",
+    "sku": "SKU-SPOR-0025",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P026",
+    "name": "Resistance Band Kit",
+    "description": "Orbit Resistance Band Kit. Fitness Accessories product in Sports. Tags: fitness, bands, home.",
+    "brand": "Orbit",
+    "category": "Sports",
+    "subcategory": "Fitness Accessories",
+    "price": 899.0,
+    "stock": 108,
+    "rating": 3.2,
+    "tags": [
+      "fitness",
+      "bands",
+      "home"
+    ],
+    "available": true,
+    "created_at": "2024-11-01",
+    "sku": "SKU-SPOR-0026",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P027",
+    "name": "Steel Football",
+    "description": "Nimbus Steel Football. Football product in Sports. Tags: football, outdoor, sports.",
+    "brand": "Nimbus",
+    "category": "Sports",
+    "subcategory": "Football",
+    "price": 1299.0,
+    "stock": 0,
+    "rating": 3.5,
+    "tags": [
+      "football",
+      "outdoor",
+      "sports"
+    ],
+    "available": false,
+    "created_at": "2024-01-16",
+    "sku": "SKU-SPOR-0027",
+    "warranty_months": 0
+  },
+  {
+    "product_id": "P028",
+    "name": "Badminton Racket Combo",
+    "description": "Globex Badminton Racket Combo. Rackets product in Sports. Tags: badminton, racket, combo.",
+    "brand": "Globex",
+    "category": "Sports",
+    "subcategory": "Rackets",
+    "price": 2199.0,
+    "stock": 142,
+    "rating": 2.9,
+    "tags": [
+      "badminton",
+      "racket",
+      "combo"
+    ],
+    "available": true,
+    "created_at": "2023-04-15",
+    "sku": "SKU-SPOR-0028",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P029",
+    "name": "Cricket Bat Kashmir Willow",
+    "description": "Vertex Cricket Bat Kashmir Willow. Cricket product in Sports. Tags: cricket, bat, sports.",
+    "brand": "Vertex",
+    "category": "Sports",
+    "subcategory": "Cricket",
+    "price": 3299.0,
+    "stock": 64,
+    "rating": 4.9,
+    "tags": [
+      "cricket",
+      "bat",
+      "sports"
+    ],
+    "available": true,
+    "created_at": "2024-12-08",
+    "sku": "SKU-SPOR-0029",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P030",
+    "name": "Foldable Treadmill",
+    "description": "Pinnacle Foldable Treadmill. Fitness Equipment product in Sports. Tags: treadmill, fitness, home.",
+    "brand": "Pinnacle",
+    "category": "Sports",
+    "subcategory": "Fitness Equipment",
+    "price": 34999.0,
+    "stock": 53,
+    "rating": 4.4,
+    "tags": [
+      "treadmill",
+      "fitness",
+      "home"
+    ],
+    "available": true,
+    "created_at": "2025-03-07",
+    "sku": "SKU-SPOR-0030",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P031",
+    "name": "The Silent Horizon",
+    "description": "Lumina The Silent Horizon. Fiction product in Books. Tags: fiction, novel, bestseller.",
+    "brand": "Lumina",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "price": 499.0,
+    "stock": 62,
+    "rating": 2.7,
+    "tags": [
+      "fiction",
+      "novel",
+      "bestseller"
+    ],
+    "available": true,
+    "created_at": "2023-07-16",
+    "sku": "SKU-BOOK-0031",
+    "warranty_months": 0
+  },
+  {
+    "product_id": "P032",
+    "name": "Data Structures Explained",
+    "description": "Vertex Data Structures Explained. Textbooks product in Books. Tags: education, computers, textbook.",
+    "brand": "Vertex",
+    "category": "Books",
+    "subcategory": "Textbooks",
+    "price": 899.0,
+    "stock": 11,
+    "rating": 2.6,
+    "tags": [
+      "education",
+      "computers",
+      "textbook"
+    ],
+    "available": true,
+    "created_at": "2024-12-08",
+    "sku": "SKU-BOOK-0032",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P033",
+    "name": "World History Compendium",
+    "description": "Acme World History Compendium. Non-Fiction product in Books. Tags: history, nonfiction.",
+    "brand": "Acme",
+    "category": "Books",
+    "subcategory": "Non-Fiction",
+    "price": 1299.0,
+    "stock": 72,
+    "rating": 3.0,
+    "tags": [
+      "history",
+      "nonfiction"
+    ],
+    "available": true,
+    "created_at": "2025-03-11",
+    "sku": "SKU-BOOK-0033",
+    "warranty_months": 36
+  },
+  {
+    "product_id": "P034",
+    "name": "The Art of Cooking",
+    "description": "Globex The Art of Cooking. Non-Fiction product in Books. Tags: cooking, nonfiction, lifestyle.",
+    "brand": "Globex",
+    "category": "Books",
+    "subcategory": "Non-Fiction",
+    "price": 799.0,
+    "stock": 44,
+    "rating": 3.1,
+    "tags": [
+      "cooking",
+      "nonfiction",
+      "lifestyle"
+    ],
+    "available": true,
+    "created_at": "2024-03-25",
+    "sku": "SKU-BOOK-0034",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P035",
+    "name": "Galactic Adventures Comic",
+    "description": "Orbit Galactic Adventures Comic. Comics product in Books. Tags: comic, scifi, graphic.",
+    "brand": "Orbit",
+    "category": "Books",
+    "subcategory": "Comics",
+    "price": 349.0,
+    "stock": 36,
+    "rating": 3.9,
+    "tags": [
+      "comic",
+      "scifi",
+      "graphic"
+    ],
+    "available": true,
+    "created_at": "2024-02-16",
+    "sku": "SKU-BOOK-0035",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P036",
+    "name": "Startup Playbook",
+    "description": "Pinnacle Startup Playbook. Business product in Books. Tags: business, startup, nonfiction.",
+    "brand": "Pinnacle",
+    "category": "Books",
+    "subcategory": "Business",
+    "price": 999.0,
+    "stock": 101,
+    "rating": 3.6,
+    "tags": [
+      "business",
+      "startup",
+      "nonfiction"
+    ],
+    "available": true,
+    "created_at": "2024-01-18",
+    "sku": "SKU-BOOK-0036",
+    "warranty_months": 0
+  },
+  {
+    "product_id": "P037",
+    "name": "Poems for Rainy Days",
+    "description": "Zenith Poems for Rainy Days. Poetry product in Books. Tags: poetry, literature.",
+    "brand": "Zenith",
+    "category": "Books",
+    "subcategory": "Poetry",
+    "price": 399.0,
+    "stock": 101,
+    "rating": 2.8,
+    "tags": [
+      "poetry",
+      "literature"
+    ],
+    "available": true,
+    "created_at": "2024-06-18",
+    "sku": "SKU-BOOK-0037",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P038",
+    "name": "Machine Learning Basics",
+    "description": "Nimbus Machine Learning Basics. Textbooks product in Books. Tags: education, ai, textbook.",
+    "brand": "Nimbus",
+    "category": "Books",
+    "subcategory": "Textbooks",
+    "price": 1499.0,
+    "stock": 142,
+    "rating": 2.8,
+    "tags": [
+      "education",
+      "ai",
+      "textbook"
+    ],
+    "available": true,
+    "created_at": "2024-05-11",
+    "sku": "SKU-BOOK-0038",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P039",
+    "name": "The Last Detective",
+    "description": "Lumina The Last Detective. Fiction product in Books. Tags: fiction, thriller, mystery.",
+    "brand": "Lumina",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "price": 599.0,
+    "stock": 56,
+    "rating": 3.1,
+    "tags": [
+      "fiction",
+      "thriller",
+      "mystery"
+    ],
+    "available": true,
+    "created_at": "2024-07-03",
+    "sku": "SKU-BOOK-0039",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P040",
+    "name": "Biography of Innovators",
+    "description": "Vertex Biography of Innovators. Biographies product in Books. Tags: biography, history.",
+    "brand": "Vertex",
+    "category": "Books",
+    "subcategory": "Biographies",
+    "price": 1099.0,
+    "stock": 0,
+    "rating": 3.7,
+    "tags": [
+      "biography",
+      "history"
+    ],
+    "available": false,
+    "created_at": "2023-05-31",
+    "sku": "SKU-BOOK-0040",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P041",
+    "name": "Classic Cotton Shirt",
+    "description": "Acme Classic Cotton Shirt. Shirts product in Fashion. Tags: shirt, cotton, formal.",
+    "brand": "Acme",
+    "category": "Fashion",
+    "subcategory": "Shirts",
+    "price": 1299.0,
+    "stock": 128,
+    "rating": 4.3,
+    "tags": [
+      "shirt",
+      "cotton",
+      "formal"
+    ],
+    "available": true,
+    "created_at": "2024-10-17",
+    "sku": "SKU-FASH-0041",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P042",
+    "name": "Slim Fit Denim Jeans",
+    "description": "Globex Slim Fit Denim Jeans. Jeans product in Fashion. Tags: jeans, denim, casual.",
+    "brand": "Globex",
+    "category": "Fashion",
+    "subcategory": "Jeans",
+    "price": 1899.0,
+    "stock": 62,
+    "rating": 2.5,
+    "tags": [
+      "jeans",
+      "denim",
+      "casual"
+    ],
+    "available": true,
+    "created_at": "2025-08-30",
+    "sku": "SKU-FASH-0042",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P043",
+    "name": "Leather Bomber Jacket",
+    "description": "Zenith Leather Bomber Jacket. Jackets product in Fashion. Tags: jacket, leather, winter.",
+    "brand": "Zenith",
+    "category": "Fashion",
+    "subcategory": "Jackets",
+    "price": 5999.0,
+    "stock": 43,
+    "rating": 3.2,
+    "tags": [
+      "jacket",
+      "leather",
+      "winter"
+    ],
+    "available": true,
+    "created_at": "2024-09-04",
+    "sku": "SKU-FASH-0043",
+    "warranty_months": 36
+  },
+  {
+    "product_id": "P044",
+    "name": "Urban Sneakers",
+    "description": "Nimbus Urban Sneakers. Sneakers product in Fashion. Tags: sneakers, casual, shoes.",
+    "brand": "Nimbus",
+    "category": "Fashion",
+    "subcategory": "Sneakers",
+    "price": 2999.0,
+    "stock": 128,
+    "rating": 4.9,
+    "tags": [
+      "sneakers",
+      "casual",
+      "shoes"
+    ],
+    "available": true,
+    "created_at": "2025-09-24",
+    "sku": "SKU-FASH-0044",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P045",
+    "name": "Minimalist Wrist Watch",
+    "description": "Lumina Minimalist Wrist Watch. Watches product in Fashion. Tags: watch, accessory, minimal.",
+    "brand": "Lumina",
+    "category": "Fashion",
+    "subcategory": "Watches",
+    "price": 7499.0,
+    "stock": 145,
+    "rating": 4.0,
+    "tags": [
+      "watch",
+      "accessory",
+      "minimal"
+    ],
+    "available": true,
+    "created_at": "2025-11-26",
+    "sku": "SKU-FASH-0045",
+    "warranty_months": 24
+  },
+  {
+    "product_id": "P046",
+    "name": "Silk Scarf",
+    "description": "Orbit Silk Scarf. Accessories product in Fashion. Tags: scarf, silk, accessory.",
+    "brand": "Orbit",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "price": 1499.0,
+    "stock": 23,
+    "rating": 3.0,
+    "tags": [
+      "scarf",
+      "silk",
+      "accessory"
+    ],
+    "available": true,
+    "created_at": "2023-02-20",
+    "sku": "SKU-FASH-0046",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P047",
+    "name": "Formal Blazer",
+    "description": "Vertex Formal Blazer. Blazers product in Fashion. Tags: blazer, formal, office.",
+    "brand": "Vertex",
+    "category": "Fashion",
+    "subcategory": "Blazers",
+    "price": 4999.0,
+    "stock": 32,
+    "rating": 4.5,
+    "tags": [
+      "blazer",
+      "formal",
+      "office"
+    ],
+    "available": true,
+    "created_at": "2024-04-18",
+    "sku": "SKU-FASH-0047",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P048",
+    "name": "Sports Cap",
+    "description": "Pinnacle Sports Cap. Accessories product in Fashion. Tags: cap, sports, accessory.",
+    "brand": "Pinnacle",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "price": 599.0,
+    "stock": 53,
+    "rating": 5.0,
+    "tags": [
+      "cap",
+      "sports",
+      "accessory"
+    ],
+    "available": true,
+    "created_at": "2024-06-08",
+    "sku": "SKU-FASH-0048",
+    "warranty_months": 0
+  },
+  {
+    "product_id": "P049",
+    "name": "Woolen Sweater",
+    "description": "Acme Woolen Sweater. Sweaters product in Fashion. Tags: sweater, wool, winter.",
+    "brand": "Acme",
+    "category": "Fashion",
+    "subcategory": "Sweaters",
+    "price": 2199.0,
+    "stock": 48,
+    "rating": 3.7,
+    "tags": [
+      "sweater",
+      "wool",
+      "winter"
+    ],
+    "available": true,
+    "created_at": "2025-05-08",
+    "sku": "SKU-FASH-0049",
+    "warranty_months": 36
+  },
+  {
+    "product_id": "P050",
+    "name": "Aviator Sunglasses",
+    "description": "Globex Aviator Sunglasses. Eyewear product in Fashion. Tags: sunglasses, eyewear, summer.",
+    "brand": "Globex",
+    "category": "Fashion",
+    "subcategory": "Eyewear",
+    "price": 1799.0,
+    "stock": 81,
+    "rating": 2.7,
+    "tags": [
+      "sunglasses",
+      "eyewear",
+      "summer"
+    ],
+    "available": true,
+    "created_at": "2025-06-25",
+    "sku": "SKU-FASH-0050",
+    "warranty_months": 36
+  },
+  {
+    "product_id": "P051",
+    "name": "Vitamin C Face Serum",
+    "description": "Lumina Vitamin C Face Serum. Skincare product in Beauty. Tags: skincare, serum, vitamin.",
+    "brand": "Lumina",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "price": 899.0,
+    "stock": 73,
+    "rating": 3.7,
+    "tags": [
+      "skincare",
+      "serum",
+      "vitamin"
+    ],
+    "available": true,
+    "created_at": "2024-10-20",
+    "sku": "SKU-BEAU-0051",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P052",
+    "name": "Herbal Shampoo",
+    "description": "Orbit Herbal Shampoo. Haircare product in Beauty. Tags: haircare, herbal, shampoo.",
+    "brand": "Orbit",
+    "category": "Beauty",
+    "subcategory": "Haircare",
+    "price": 449.0,
+    "stock": 96,
+    "rating": 3.3,
+    "tags": [
+      "haircare",
+      "herbal",
+      "shampoo"
+    ],
+    "available": true,
+    "created_at": "2025-03-04",
+    "sku": "SKU-BEAU-0052",
+    "warranty_months": 6
+  },
+  {
+    "product_id": "P053",
+    "name": "Matte Lipstick Set",
+    "description": "Zenith Matte Lipstick Set. Makeup product in Beauty. Tags: makeup, lipstick, matte.",
+    "brand": "Zenith",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "price": 1299.0,
+    "stock": 0,
+    "rating": 4.2,
+    "tags": [
+      "makeup",
+      "lipstick",
+      "matte"
+    ],
+    "available": false,
+    "created_at": "2024-10-30",
+    "sku": "SKU-BEAU-0053",
+    "warranty_months": 36
+  },
+  {
+    "product_id": "P054",
+    "name": "Luxury Perfume 100ml",
+    "description": "Pinnacle Luxury Perfume 100ml. Fragrance product in Beauty. Tags: perfume, fragrance, luxury.",
+    "brand": "Pinnacle",
+    "category": "Beauty",
+    "subcategory": "Fragrance",
+    "price": 4999.0,
+    "stock": 84,
+    "rating": 4.6,
+    "tags": [
+      "perfume",
+      "fragrance",
+      "luxury"
+    ],
+    "available": true,
+    "created_at": "2024-04-29",
+    "sku": "SKU-BEAU-0054",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P055",
+    "name": "Makeup Brush Kit",
+    "description": "Nimbus Makeup Brush Kit. Tools product in Beauty. Tags: makeup, brush, tools.",
+    "brand": "Nimbus",
+    "category": "Beauty",
+    "subcategory": "Tools",
+    "price": 999.0,
+    "stock": 123,
+    "rating": 3.0,
+    "tags": [
+      "makeup",
+      "brush",
+      "tools"
+    ],
+    "available": true,
+    "created_at": "2025-06-08",
+    "sku": "SKU-BEAU-0055",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P056",
+    "name": "Sunscreen SPF 50",
+    "description": "Vertex Sunscreen SPF 50. Skincare product in Beauty. Tags: sunscreen, skincare, spf.",
+    "brand": "Vertex",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "price": 649.0,
+    "stock": 66,
+    "rating": 4.6,
+    "tags": [
+      "sunscreen",
+      "skincare",
+      "spf"
+    ],
+    "available": true,
+    "created_at": "2025-12-15",
+    "sku": "SKU-BEAU-0056",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P057",
+    "name": "Beard Trimmer Pro",
+    "description": "Acme Beard Trimmer Pro. Grooming product in Beauty. Tags: grooming, trimmer, beauty.",
+    "brand": "Acme",
+    "category": "Beauty",
+    "subcategory": "Grooming",
+    "price": 1799.0,
+    "stock": 17,
+    "rating": 4.9,
+    "tags": [
+      "grooming",
+      "trimmer",
+      "beauty"
+    ],
+    "available": true,
+    "created_at": "2023-09-25",
+    "sku": "SKU-BEAU-0057",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P058",
+    "name": "Aloe Vera Gel",
+    "description": "Globex Aloe Vera Gel. Skincare product in Beauty. Tags: skincare, aloe, natural.",
+    "brand": "Globex",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "price": 299.0,
+    "stock": 44,
+    "rating": 3.0,
+    "tags": [
+      "skincare",
+      "aloe",
+      "natural"
+    ],
+    "available": true,
+    "created_at": "2025-11-05",
+    "sku": "SKU-BEAU-0058",
+    "warranty_months": 12
+  },
+  {
+    "product_id": "P059",
+    "name": "Hair Dryer 1800W",
+    "description": "Zenith Hair Dryer 1800W. Styling product in Beauty. Tags: hair, dryer, styling.",
+    "brand": "Zenith",
+    "category": "Beauty",
+    "subcategory": "Styling",
+    "price": 1599.0,
+    "stock": 53,
+    "rating": 3.2,
+    "tags": [
+      "hair",
+      "dryer",
+      "styling"
+    ],
+    "available": true,
+    "created_at": "2025-03-06",
+    "sku": "SKU-BEAU-0059",
+    "warranty_months": 36
+  },
+  {
+    "product_id": "P060",
+    "name": "Nail Polish Combo",
+    "description": "Orbit Nail Polish Combo. Makeup product in Beauty. Tags: makeup, nails, combo.",
+    "brand": "Orbit",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "price": 549.0,
+    "stock": 140,
+    "rating": 3.0,
+    "tags": [
+      "makeup",
+      "nails",
+      "combo"
+    ],
+    "available": true,
+    "created_at": "2023-08-06",
+    "sku": "SKU-BEAU-0060",
+    "warranty_months": 12
+  }
+]
