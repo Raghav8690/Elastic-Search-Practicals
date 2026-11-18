@@ -1,0 +1,1209 @@
+[
+  {
+    "project_id": "PJ001",
+    "name": "Green Valley Residency",
+    "locality": "New Panvel",
+    "city": "Navi Mumbai",
+    "builder": "Greenfield Developers",
+    "property_type": "Apartment",
+    "status": "Ready to Move",
+    "price_min": 6500000,
+    "price_max": 9500000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "gym",
+      "swimming pool"
+    ],
+    "possession_date": "2024-12-15",
+    "rera_approved": true,
+    "rating": 4.5,
+    "description": "Green Valley Residency in New Panvel is a 2 BHK and 3 BHK homes apartment project by Greenfield Developers. It offers clubhouse, gym, swimming pool. Possession by 2024-12. RERA approved."
+  },
+  {
+    "project_id": "PJ002",
+    "name": "Skyline Heights",
+    "locality": "Kharghar",
+    "city": "Navi Mumbai",
+    "builder": "Skyline Builders",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 7200000,
+    "price_max": 11000000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "gym",
+      "jogging track",
+      "covered parking"
+    ],
+    "possession_date": "2026-06-30",
+    "rera_approved": true,
+    "rating": 4.2,
+    "description": "Skyline Heights in Kharghar is a 2 BHK and 3 BHK homes apartments project by Skyline Builders. It offers gym, jogging track, covered parking. Possession by 2026-06. RERA approved."
+  },
+  {
+    "project_id": "PJ003",
+    "name": "Palm Grove Residences",
+    "locality": "Kamothe",
+    "city": "Navi Mumbai",
+    "builder": "Palm Estates",
+    "property_type": "Residence",
+    "status": "Ready to Move",
+    "price_min": 9500000,
+    "price_max": 14500000,
+    "bhk": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "landscaped garden",
+      "indoor games"
+    ],
+    "possession_date": "2023-09-20",
+    "rera_approved": true,
+    "rating": 4.4,
+    "description": "Palm Grove Residences in Kamothe is a 3 BHK and 4 BHK homes residence project by Palm Estates. It offers clubhouse, landscaped garden, indoor games. Possession by 2023-09. RERA approved."
+  },
+  {
+    "project_id": "PJ004",
+    "name": "Sunrise Residency",
+    "locality": "Panvel",
+    "city": "Navi Mumbai",
+    "builder": "Sunrise Developers",
+    "property_type": "Apartment",
+    "status": "New Launch",
+    "price_min": 4200000,
+    "price_max": 6800000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "gym",
+      "children's play area",
+      "power backup"
+    ],
+    "possession_date": "2027-03-31",
+    "rera_approved": false,
+    "rating": 4.0,
+    "description": "Sunrise Residency in Panvel is a 1 BHK and 2 BHK homes flats project by Sunrise Developers. It offers gym, children's play area, power backup. Possession by 2027-03. RERA registration pending."
+  },
+  {
+    "project_id": "PJ005",
+    "name": "Green Meadows Villas",
+    "locality": "New Panvel",
+    "city": "Navi Mumbai",
+    "builder": "Greenfield Developers",
+    "property_type": "Villa",
+    "status": "Ready to Move",
+    "price_min": 18000000,
+    "price_max": 24000000,
+    "bhk": [
+      "4 BHK"
+    ],
+    "amenities": [
+      "swimming pool",
+      "landscaped garden",
+      "24x7 security"
+    ],
+    "possession_date": "2022-11-10",
+    "rera_approved": true,
+    "rating": 4.6,
+    "description": "Green Meadows Villas in New Panvel is a 4 BHK homes villas project by Greenfield Developers. It offers swimming pool, landscaped garden, 24x7 security. Possession by 2022-11. RERA approved."
+  },
+  {
+    "project_id": "PJ006",
+    "name": "Royal Palms",
+    "locality": "Ulwe",
+    "city": "Navi Mumbai",
+    "builder": "Delta Realtors",
+    "property_type": "Row House",
+    "status": "Under Construction",
+    "price_min": 12000000,
+    "price_max": 16000000,
+    "bhk": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "sports court",
+      "covered parking"
+    ],
+    "possession_date": "2026-12-01",
+    "rera_approved": true,
+    "rating": 4.3,
+    "description": "Royal Palms in Ulwe is a 3 BHK and 4 BHK homes row houses project by Delta Realtors. It offers clubhouse, sports court, covered parking. Possession by 2026-12. RERA approved."
+  },
+  {
+    "project_id": "PJ007",
+    "name": "Sea Breeze Apartments",
+    "locality": "Vashi",
+    "city": "Navi Mumbai",
+    "builder": "Emerald Infra",
+    "property_type": "Apartment",
+    "status": "Ready to Move",
+    "price_min": 8800000,
+    "price_max": 13000000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "swimming pool",
+      "amphitheatre",
+      "24x7 security"
+    ],
+    "possession_date": "2024-05-15",
+    "rera_approved": true,
+    "rating": 4.1,
+    "description": "Sea Breeze Apartments in Vashi is a 2 BHK and 3 BHK homes apartment project by Emerald Infra. It offers swimming pool, amphitheatre, 24x7 security. Possession by 2024-05. RERA approved."
+  },
+  {
+    "project_id": "PJ008",
+    "name": "Delta Residency",
+    "locality": "Nerul",
+    "city": "Navi Mumbai",
+    "builder": "Delta Realtors",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 5500000,
+    "price_max": 8200000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "gym",
+      "jogging track",
+      "power backup"
+    ],
+    "possession_date": "2025-10-31",
+    "rera_approved": true,
+    "rating": 4.0,
+    "description": "Delta Residency in Nerul is a 1 BHK and 2 BHK homes flat project by Delta Realtors. It offers gym, jogging track, power backup. Possession by 2025-10. RERA approved."
+  },
+  {
+    "project_id": "PJ009",
+    "name": "Horizon Residency",
+    "locality": "Belapur",
+    "city": "Navi Mumbai",
+    "builder": "Horizon Builders",
+    "property_type": "Residence",
+    "status": "Ready to Move",
+    "price_min": 9000000,
+    "price_max": 13500000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "landscaped garden",
+      "covered parking"
+    ],
+    "possession_date": "2023-04-18",
+    "rera_approved": true,
+    "rating": 4.2,
+    "description": "Horizon Residency in Belapur is a 2 BHK and 3 BHK homes residency project by Horizon Builders. It offers clubhouse, landscaped garden, covered parking. Possession by 2023-04. RERA approved."
+  },
+  {
+    "project_id": "PJ010",
+    "name": "Palm Beach Residences",
+    "locality": "Taloja",
+    "city": "Navi Mumbai",
+    "builder": "Palm Estates",
+    "property_type": "Residence",
+    "status": "New Launch",
+    "price_min": 6100000,
+    "price_max": 8900000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "swimming pool",
+      "children's play area",
+      "sports court"
+    ],
+    "possession_date": "2027-08-15",
+    "rera_approved": false,
+    "rating": 3.9,
+    "description": "Palm Beach Residences in Taloja is a 2 BHK and 3 BHK homes residences project by Palm Estates. It offers swimming pool, children's play area, sports court. Possession by 2027-08. RERA registration pending."
+  },
+  {
+    "project_id": "PJ011",
+    "name": "Sunrise Apartments",
+    "locality": "Majiwada",
+    "city": "Thane",
+    "builder": "Urban Nest Builders",
+    "property_type": "Apartment",
+    "status": "New Launch",
+    "price_min": 12600000,
+    "price_max": 14600000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "24x7 security",
+      "power backup"
+    ],
+    "possession_date": "2023-05-27",
+    "rera_approved": true,
+    "rating": 4.6,
+    "description": "Sunrise Apartments in Majiwada is a 2 BHK and 3 BHK homes flat project by Urban Nest Builders. It offers clubhouse, 24x7 security, power backup. Possession by 2023-05. RERA approved."
+  },
+  {
+    "project_id": "PJ012",
+    "name": "River Greens",
+    "locality": "Andheri",
+    "city": "Mumbai",
+    "builder": "Greenfield Developers",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 5500000,
+    "price_max": 11300000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "children's play area",
+      "jogging track",
+      "gym"
+    ],
+    "possession_date": "2024-08-11",
+    "rera_approved": true,
+    "rating": 4.0,
+    "description": "River Greens in Andheri is a 2 BHK and 3 BHK and 4 BHK homes flat project by Greenfield Developers. It offers children's play area, jogging track, gym. Possession by 2024-08. RERA approved."
+  },
+  {
+    "project_id": "PJ013",
+    "name": "Prime Towers",
+    "locality": "Majiwada",
+    "city": "Thane",
+    "builder": "Delta Realtors",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 16600000,
+    "price_max": 20700000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "jogging track",
+      "amphitheatre",
+      "gym"
+    ],
+    "possession_date": "2023-12-02",
+    "rera_approved": true,
+    "rating": 4.8,
+    "description": "Prime Towers in Majiwada is a 2 BHK and 3 BHK and 4 BHK homes apartments project by Delta Realtors. It offers jogging track, amphitheatre, gym. Possession by 2023-12. RERA approved."
+  },
+  {
+    "project_id": "PJ014",
+    "name": "Green Township",
+    "locality": "Dahisar",
+    "city": "Mumbai",
+    "builder": "Greenfield Developers",
+    "property_type": "Row House",
+    "status": "Ready to Move",
+    "price_min": 4600000,
+    "price_max": 8300000,
+    "bhk": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "landscaped garden",
+      "indoor games"
+    ],
+    "possession_date": "2025-01-01",
+    "rera_approved": true,
+    "rating": 4.0,
+    "description": "Green Township in Dahisar is a 3 BHK and 4 BHK homes row houses project by Greenfield Developers. It offers clubhouse, landscaped garden, indoor games. Possession by 2025-01. RERA approved."
+  },
+  {
+    "project_id": "PJ015",
+    "name": "Silver Residency",
+    "locality": "Wakad",
+    "city": "Pune",
+    "builder": "Sunrise Developers",
+    "property_type": "Residence",
+    "status": "Under Construction",
+    "price_min": 17900000,
+    "price_max": 24300000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "children's play area",
+      "power backup",
+      "amphitheatre"
+    ],
+    "possession_date": "2024-12-12",
+    "rera_approved": true,
+    "rating": 4.8,
+    "description": "Silver Residency in Wakad is a 2 BHK and 3 BHK homes residences project by Sunrise Developers. It offers children's play area, power backup, amphitheatre. Possession by 2024-12. RERA approved."
+  },
+  {
+    "project_id": "PJ016",
+    "name": "Maple Residences",
+    "locality": "Hinjewadi",
+    "city": "Pune",
+    "builder": "Greenfield Developers",
+    "property_type": "Residence",
+    "status": "Under Construction",
+    "price_min": 18200000,
+    "price_max": 20000000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "swimming pool",
+      "amphitheatre",
+      "sports court"
+    ],
+    "possession_date": "2026-09-26",
+    "rera_approved": true,
+    "rating": 4.1,
+    "description": "Maple Residences in Hinjewadi is a 2 BHK and 3 BHK homes residences project by Greenfield Developers. It offers swimming pool, amphitheatre, sports court. Possession by 2026-09. RERA approved."
+  },
+  {
+    "project_id": "PJ017",
+    "name": "Elite Court",
+    "locality": "Kolshet",
+    "city": "Thane",
+    "builder": "Greenfield Developers",
+    "property_type": "Residence",
+    "status": "Ready to Move",
+    "price_min": 5800000,
+    "price_max": 10500000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "amphitheatre",
+      "power backup",
+      "jogging track"
+    ],
+    "possession_date": "2025-10-25",
+    "rera_approved": true,
+    "rating": 4.7,
+    "description": "Elite Court in Kolshet is a 2 BHK and 3 BHK homes residences project by Greenfield Developers. It offers amphitheatre, power backup, jogging track. Possession by 2025-10. RERA approved."
+  },
+  {
+    "project_id": "PJ018",
+    "name": "Royal Towers",
+    "locality": "Kolshet",
+    "city": "Thane",
+    "builder": "Palm Estates",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 18500000,
+    "price_max": 22000000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "gym",
+      "amphitheatre",
+      "jogging track"
+    ],
+    "possession_date": "2027-09-11",
+    "rera_approved": true,
+    "rating": 4.2,
+    "description": "Royal Towers in Kolshet is a 2 BHK and 3 BHK and 4 BHK homes apartments project by Palm Estates. It offers gym, amphitheatre, jogging track. Possession by 2027-09. RERA approved."
+  },
+  {
+    "project_id": "PJ019",
+    "name": "Hill Heights",
+    "locality": "Nerul",
+    "city": "Navi Mumbai",
+    "builder": "Metro Developers",
+    "property_type": "Apartment",
+    "status": "Ready to Move",
+    "price_min": 4400000,
+    "price_max": 8400000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "gym",
+      "landscaped garden",
+      "jogging track"
+    ],
+    "possession_date": "2024-09-07",
+    "rera_approved": true,
+    "rating": 4.6,
+    "description": "Hill Heights in Nerul is a 1 BHK and 2 BHK homes apartment project by Metro Developers. It offers gym, landscaped garden, jogging track. Possession by 2024-09. RERA approved."
+  },
+  {
+    "project_id": "PJ020",
+    "name": "Urban Villa Park",
+    "locality": "Borivali",
+    "city": "Mumbai",
+    "builder": "Metro Developers",
+    "property_type": "Villa",
+    "status": "New Launch",
+    "price_min": 8400000,
+    "price_max": 16300000,
+    "bhk": [
+      "4 BHK"
+    ],
+    "amenities": [
+      "jogging track",
+      "power backup",
+      "covered parking"
+    ],
+    "possession_date": "2026-09-30",
+    "rera_approved": true,
+    "rating": 4.8,
+    "description": "Urban Villa Park in Borivali is a 4 BHK homes villa project by Metro Developers. It offers jogging track, power backup, covered parking. Possession by 2026-09. RERA approved."
+  },
+  {
+    "project_id": "PJ021",
+    "name": "Skyline Apartments",
+    "locality": "Majiwada",
+    "city": "Thane",
+    "builder": "Crescent Realty",
+    "property_type": "Apartment",
+    "status": "New Launch",
+    "price_min": 11600000,
+    "price_max": 12800000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "gym",
+      "children's play area",
+      "amphitheatre"
+    ],
+    "possession_date": "2022-09-20",
+    "rera_approved": true,
+    "rating": 3.6,
+    "description": "Skyline Apartments in Majiwada is a 2 BHK and 3 BHK homes apartments project by Crescent Realty. It offers gym, children's play area, amphitheatre. Possession by 2022-09. RERA approved."
+  },
+  {
+    "project_id": "PJ022",
+    "name": "Golden Greens",
+    "locality": "Ulwe",
+    "city": "Navi Mumbai",
+    "builder": "Skyline Builders",
+    "property_type": "Residence",
+    "status": "New Launch",
+    "price_min": 10100000,
+    "price_max": 17300000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "landscaped garden",
+      "gym",
+      "power backup"
+    ],
+    "possession_date": "2024-09-01",
+    "rera_approved": true,
+    "rating": 4.7,
+    "description": "Golden Greens in Ulwe is a 2 BHK and 3 BHK homes residence project by Skyline Builders. It offers landscaped garden, gym, power backup. Possession by 2024-09. RERA approved."
+  },
+  {
+    "project_id": "PJ023",
+    "name": "Cedar Towers",
+    "locality": "Wakad",
+    "city": "Pune",
+    "builder": "Metro Developers",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 12000000,
+    "price_max": 18400000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "children's play area",
+      "gym",
+      "amphitheatre"
+    ],
+    "possession_date": "2026-11-01",
+    "rera_approved": false,
+    "rating": 3.6,
+    "description": "Cedar Towers in Wakad is a 2 BHK and 3 BHK homes flats project by Metro Developers. It offers children's play area, gym, amphitheatre. Possession by 2026-11. RERA registration pending."
+  },
+  {
+    "project_id": "PJ024",
+    "name": "Blue Heights",
+    "locality": "New Panvel",
+    "city": "Navi Mumbai",
+    "builder": "Horizon Builders",
+    "property_type": "Apartment",
+    "status": "Ready to Move",
+    "price_min": 7800000,
+    "price_max": 15600000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "landscaped garden",
+      "gym",
+      "children's play area"
+    ],
+    "possession_date": "2024-02-24",
+    "rera_approved": true,
+    "rating": 3.9,
+    "description": "Blue Heights in New Panvel is a 2 BHK and 3 BHK and 4 BHK homes flats project by Horizon Builders. It offers landscaped garden, gym, children's play area. Possession by 2024-02. RERA approved."
+  },
+  {
+    "project_id": "PJ025",
+    "name": "Crescent Enclave",
+    "locality": "Andheri",
+    "city": "Mumbai",
+    "builder": "Metro Developers",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 5300000,
+    "price_max": 9300000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "gym",
+      "clubhouse",
+      "power backup"
+    ],
+    "possession_date": "2022-03-02",
+    "rera_approved": true,
+    "rating": 3.8,
+    "description": "Crescent Enclave in Andheri is a 2 BHK and 3 BHK and 4 BHK homes apartments project by Metro Developers. It offers gym, clubhouse, power backup. Possession by 2022-03. RERA approved."
+  },
+  {
+    "project_id": "PJ026",
+    "name": "Orchid Villa Park",
+    "locality": "Hinjewadi",
+    "city": "Pune",
+    "builder": "Palm Estates",
+    "property_type": "Villa",
+    "status": "Ready to Move",
+    "price_min": 10300000,
+    "price_max": 16700000,
+    "bhk": [
+      "4 BHK",
+      "5 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "indoor games",
+      "jogging track"
+    ],
+    "possession_date": "2027-02-07",
+    "rera_approved": true,
+    "rating": 3.8,
+    "description": "Orchid Villa Park in Hinjewadi is a 4 BHK and 5 BHK homes villas project by Palm Estates. It offers clubhouse, indoor games, jogging track. Possession by 2027-02. RERA approved."
+  },
+  {
+    "project_id": "PJ027",
+    "name": "Metro Villa Park",
+    "locality": "Taloja",
+    "city": "Navi Mumbai",
+    "builder": "Greenfield Developers",
+    "property_type": "Villa",
+    "status": "Ready to Move",
+    "price_min": 15800000,
+    "price_max": 23500000,
+    "bhk": [
+      "4 BHK",
+      "5 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "sports court",
+      "covered parking"
+    ],
+    "possession_date": "2027-05-07",
+    "rera_approved": false,
+    "rating": 3.6,
+    "description": "Metro Villa Park in Taloja is a 4 BHK and 5 BHK homes villa project by Greenfield Developers. It offers clubhouse, sports court, covered parking. Possession by 2027-05. RERA registration pending."
+  },
+  {
+    "project_id": "PJ028",
+    "name": "Palm Residences",
+    "locality": "Andheri",
+    "city": "Mumbai",
+    "builder": "Urban Nest Builders",
+    "property_type": "Residence",
+    "status": "New Launch",
+    "price_min": 17500000,
+    "price_max": 21600000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "amphitheatre",
+      "children's play area",
+      "indoor games"
+    ],
+    "possession_date": "2023-05-07",
+    "rera_approved": true,
+    "rating": 4.4,
+    "description": "Palm Residences in Andheri is a 2 BHK and 3 BHK homes residence project by Urban Nest Builders. It offers amphitheatre, children's play area, indoor games. Possession by 2023-05. RERA approved."
+  },
+  {
+    "project_id": "PJ029",
+    "name": "Lake Heights",
+    "locality": "Majiwada",
+    "city": "Thane",
+    "builder": "Delta Realtors",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 13100000,
+    "price_max": 15700000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "sports court",
+      "landscaped garden",
+      "children's play area"
+    ],
+    "possession_date": "2024-12-23",
+    "rera_approved": true,
+    "rating": 4.5,
+    "description": "Lake Heights in Majiwada is a 2 BHK and 3 BHK and 4 BHK homes flat project by Delta Realtors. It offers sports court, landscaped garden, children's play area. Possession by 2024-12. RERA approved."
+  },
+  {
+    "project_id": "PJ030",
+    "name": "Horizon Enclave",
+    "locality": "New Panvel",
+    "city": "Navi Mumbai",
+    "builder": "Metro Developers",
+    "property_type": "Apartment",
+    "status": "Ready to Move",
+    "price_min": 8400000,
+    "price_max": 15800000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "covered parking",
+      "gym",
+      "amphitheatre"
+    ],
+    "possession_date": "2028-01-12",
+    "rera_approved": false,
+    "rating": 4.6,
+    "description": "Horizon Enclave in New Panvel is a 2 BHK and 3 BHK and 4 BHK homes flat project by Metro Developers. It offers covered parking, gym, amphitheatre. Possession by 2028-01. RERA registration pending."
+  },
+  {
+    "project_id": "PJ031",
+    "name": "Pearl Apartments",
+    "locality": "Dahisar",
+    "city": "Mumbai",
+    "builder": "Sunrise Developers",
+    "property_type": "Apartment",
+    "status": "New Launch",
+    "price_min": 3200000,
+    "price_max": 11200000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "24x7 security",
+      "power backup",
+      "jogging track"
+    ],
+    "possession_date": "2027-12-07",
+    "rera_approved": true,
+    "rating": 4.6,
+    "description": "Pearl Apartments in Dahisar is a 1 BHK and 2 BHK homes flat project by Sunrise Developers. It offers 24x7 security, power backup, jogging track. Possession by 2027-12. RERA approved."
+  },
+  {
+    "project_id": "PJ032",
+    "name": "Emerald Residences",
+    "locality": "Ghodbunder Road",
+    "city": "Thane",
+    "builder": "Skyline Builders",
+    "property_type": "Residence",
+    "status": "New Launch",
+    "price_min": 11700000,
+    "price_max": 15300000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "jogging track",
+      "sports court",
+      "covered parking"
+    ],
+    "possession_date": "2024-05-12",
+    "rera_approved": true,
+    "rating": 4.7,
+    "description": "Emerald Residences in Ghodbunder Road is a 2 BHK and 3 BHK homes residency project by Skyline Builders. It offers jogging track, sports court, covered parking. Possession by 2024-05. RERA approved."
+  },
+  {
+    "project_id": "PJ033",
+    "name": "Lotus Township",
+    "locality": "Kharghar",
+    "city": "Navi Mumbai",
+    "builder": "Horizon Builders",
+    "property_type": "Row House",
+    "status": "New Launch",
+    "price_min": 19300000,
+    "price_max": 23600000,
+    "bhk": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "sports court",
+      "landscaped garden"
+    ],
+    "possession_date": "2023-06-20",
+    "rera_approved": true,
+    "rating": 4.4,
+    "description": "Lotus Township in Kharghar is a 3 BHK and 4 BHK homes row house project by Horizon Builders. It offers clubhouse, sports court, landscaped garden. Possession by 2023-06. RERA approved."
+  },
+  {
+    "project_id": "PJ034",
+    "name": "Grand Greens",
+    "locality": "Kharghar",
+    "city": "Navi Mumbai",
+    "builder": "Skyline Builders",
+    "property_type": "Residence",
+    "status": "Ready to Move",
+    "price_min": 6700000,
+    "price_max": 13200000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "power backup",
+      "clubhouse",
+      "landscaped garden"
+    ],
+    "possession_date": "2028-03-13",
+    "rera_approved": true,
+    "rating": 4.7,
+    "description": "Grand Greens in Kharghar is a 2 BHK and 3 BHK homes residence project by Skyline Builders. It offers power backup, clubhouse, landscaped garden. Possession by 2028-03. RERA approved."
+  },
+  {
+    "project_id": "PJ035",
+    "name": "Sunrise Enclave",
+    "locality": "Nerul",
+    "city": "Navi Mumbai",
+    "builder": "Delta Realtors",
+    "property_type": "Apartment",
+    "status": "Ready to Move",
+    "price_min": 17300000,
+    "price_max": 23500000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "children's play area",
+      "amphitheatre",
+      "gym"
+    ],
+    "possession_date": "2025-12-19",
+    "rera_approved": false,
+    "rating": 4.8,
+    "description": "Sunrise Enclave in Nerul is a 2 BHK and 3 BHK and 4 BHK homes apartments project by Delta Realtors. It offers children's play area, amphitheatre, gym. Possession by 2025-12. RERA registration pending."
+  },
+  {
+    "project_id": "PJ036",
+    "name": "River Apartments",
+    "locality": "Chembur",
+    "city": "Mumbai",
+    "builder": "Greenfield Developers",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 9800000,
+    "price_max": 12800000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "sports court",
+      "landscaped garden",
+      "indoor games"
+    ],
+    "possession_date": "2024-10-13",
+    "rera_approved": false,
+    "rating": 4.6,
+    "description": "River Apartments in Chembur is a 1 BHK and 2 BHK homes apartment project by Greenfield Developers. It offers sports court, landscaped garden, indoor games. Possession by 2024-10. RERA registration pending."
+  },
+  {
+    "project_id": "PJ037",
+    "name": "Prime Landmark",
+    "locality": "Borivali",
+    "city": "Mumbai",
+    "builder": "Metro Developers",
+    "property_type": "Plot",
+    "status": "Under Construction",
+    "price_min": 19800000,
+    "price_max": 23200000,
+    "bhk": [],
+    "amenities": [
+      "jogging track",
+      "children's play area",
+      "amphitheatre"
+    ],
+    "possession_date": "2022-04-07",
+    "rera_approved": true,
+    "rating": 3.6,
+    "description": "Prime Landmark in Borivali is a residential plots plots project by Metro Developers. It offers jogging track, children's play area, amphitheatre. Possession by 2022-04. RERA approved."
+  },
+  {
+    "project_id": "PJ038",
+    "name": "Green Villa Park",
+    "locality": "Majiwada",
+    "city": "Thane",
+    "builder": "Crescent Realty",
+    "property_type": "Villa",
+    "status": "New Launch",
+    "price_min": 5900000,
+    "price_max": 10200000,
+    "bhk": [
+      "4 BHK",
+      "5 BHK"
+    ],
+    "amenities": [
+      "amphitheatre",
+      "power backup",
+      "landscaped garden"
+    ],
+    "possession_date": "2022-04-24",
+    "rera_approved": false,
+    "rating": 3.8,
+    "description": "Green Villa Park in Majiwada is a 4 BHK and 5 BHK homes villa project by Crescent Realty. It offers amphitheatre, power backup, landscaped garden. Possession by 2022-04. RERA registration pending."
+  },
+  {
+    "project_id": "PJ039",
+    "name": "Silver Heights",
+    "locality": "Belapur",
+    "city": "Navi Mumbai",
+    "builder": "Emerald Infra",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 5900000,
+    "price_max": 11800000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "landscaped garden",
+      "indoor games",
+      "covered parking"
+    ],
+    "possession_date": "2027-09-26",
+    "rera_approved": true,
+    "rating": 4.1,
+    "description": "Silver Heights in Belapur is a 2 BHK and 3 BHK and 4 BHK homes apartments project by Emerald Infra. It offers landscaped garden, indoor games, covered parking. Possession by 2027-09. RERA approved."
+  },
+  {
+    "project_id": "PJ040",
+    "name": "Maple Enclave",
+    "locality": "Dahisar",
+    "city": "Mumbai",
+    "builder": "Horizon Builders",
+    "property_type": "Apartment",
+    "status": "New Launch",
+    "price_min": 19900000,
+    "price_max": 22400000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "amphitheatre",
+      "landscaped garden",
+      "covered parking"
+    ],
+    "possession_date": "2025-07-09",
+    "rera_approved": true,
+    "rating": 4.0,
+    "description": "Maple Enclave in Dahisar is a 1 BHK and 2 BHK homes flats project by Horizon Builders. It offers amphitheatre, landscaped garden, covered parking. Possession by 2025-07. RERA approved."
+  },
+  {
+    "project_id": "PJ041",
+    "name": "Elite Township",
+    "locality": "Kolshet",
+    "city": "Thane",
+    "builder": "Palm Estates",
+    "property_type": "Row House",
+    "status": "Under Construction",
+    "price_min": 18700000,
+    "price_max": 26900000,
+    "bhk": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "indoor games",
+      "amphitheatre",
+      "sports court"
+    ],
+    "possession_date": "2023-12-14",
+    "rera_approved": true,
+    "rating": 3.5,
+    "description": "Elite Township in Kolshet is a 3 BHK and 4 BHK homes row houses project by Palm Estates. It offers indoor games, amphitheatre, sports court. Possession by 2023-12. RERA approved."
+  },
+  {
+    "project_id": "PJ042",
+    "name": "Royal Greens",
+    "locality": "Ghodbunder Road",
+    "city": "Thane",
+    "builder": "Horizon Builders",
+    "property_type": "Residence",
+    "status": "New Launch",
+    "price_min": 16000000,
+    "price_max": 23000000,
+    "bhk": [
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "24x7 security",
+      "sports court",
+      "amphitheatre"
+    ],
+    "possession_date": "2024-05-25",
+    "rera_approved": true,
+    "rating": 4.2,
+    "description": "Royal Greens in Ghodbunder Road is a 3 BHK and 4 BHK homes residence project by Horizon Builders. It offers 24x7 security, sports court, amphitheatre. Possession by 2024-05. RERA approved."
+  },
+  {
+    "project_id": "PJ043",
+    "name": "Hill Towers",
+    "locality": "Ghodbunder Road",
+    "city": "Thane",
+    "builder": "Delta Realtors",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 3600000,
+    "price_max": 5100000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "jogging track",
+      "children's play area",
+      "amphitheatre"
+    ],
+    "possession_date": "2023-08-27",
+    "rera_approved": true,
+    "rating": 4.5,
+    "description": "Hill Towers in Ghodbunder Road is a 2 BHK and 3 BHK and 4 BHK homes apartments project by Delta Realtors. It offers jogging track, children's play area, amphitheatre. Possession by 2023-08. RERA approved."
+  },
+  {
+    "project_id": "PJ044",
+    "name": "Urban Heights",
+    "locality": "Kharadi",
+    "city": "Pune",
+    "builder": "Urban Nest Builders",
+    "property_type": "Apartment",
+    "status": "Ready to Move",
+    "price_min": 9200000,
+    "price_max": 12000000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "sports court",
+      "indoor games",
+      "24x7 security"
+    ],
+    "possession_date": "2026-06-25",
+    "rera_approved": true,
+    "rating": 3.8,
+    "description": "Urban Heights in Kharadi is a 1 BHK and 2 BHK homes apartment project by Urban Nest Builders. It offers sports court, indoor games, 24x7 security. Possession by 2026-06. RERA approved."
+  },
+  {
+    "project_id": "PJ045",
+    "name": "Skyline Enclave",
+    "locality": "Hinjewadi",
+    "city": "Pune",
+    "builder": "Crescent Realty",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 16500000,
+    "price_max": 24600000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "gym",
+      "24x7 security",
+      "swimming pool"
+    ],
+    "possession_date": "2027-03-19",
+    "rera_approved": true,
+    "rating": 4.4,
+    "description": "Skyline Enclave in Hinjewadi is a 1 BHK and 2 BHK homes flat project by Crescent Realty. It offers gym, 24x7 security, swimming pool. Possession by 2027-03. RERA approved."
+  },
+  {
+    "project_id": "PJ046",
+    "name": "Golden Apartments",
+    "locality": "Kharadi",
+    "city": "Pune",
+    "builder": "Palm Estates",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 19300000,
+    "price_max": 23800000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "24x7 security",
+      "sports court",
+      "jogging track"
+    ],
+    "possession_date": "2024-10-09",
+    "rera_approved": true,
+    "rating": 4.4,
+    "description": "Golden Apartments in Kharadi is a 2 BHK and 3 BHK and 4 BHK homes flat project by Palm Estates. It offers 24x7 security, sports court, jogging track. Possession by 2024-10. RERA approved."
+  },
+  {
+    "project_id": "PJ047",
+    "name": "Cedar Greens",
+    "locality": "Dahisar",
+    "city": "Mumbai",
+    "builder": "Emerald Infra",
+    "property_type": "Apartment",
+    "status": "New Launch",
+    "price_min": 8900000,
+    "price_max": 14800000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "power backup",
+      "gym",
+      "swimming pool"
+    ],
+    "possession_date": "2023-09-10",
+    "rera_approved": true,
+    "rating": 4.0,
+    "description": "Cedar Greens in Dahisar is a 2 BHK and 3 BHK homes apartments project by Emerald Infra. It offers power backup, gym, swimming pool. Possession by 2023-09. RERA approved."
+  },
+  {
+    "project_id": "PJ048",
+    "name": "Blue Towers",
+    "locality": "Kolshet",
+    "city": "Thane",
+    "builder": "Metro Developers",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 17900000,
+    "price_max": 19100000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK"
+    ],
+    "amenities": [
+      "clubhouse",
+      "children's play area",
+      "indoor games"
+    ],
+    "possession_date": "2026-05-15",
+    "rera_approved": true,
+    "rating": 4.0,
+    "description": "Blue Towers in Kolshet is a 2 BHK and 3 BHK homes flats project by Metro Developers. It offers clubhouse, children's play area, indoor games. Possession by 2026-05. RERA approved."
+  },
+  {
+    "project_id": "PJ049",
+    "name": "Crescent Heights",
+    "locality": "Kharadi",
+    "city": "Pune",
+    "builder": "Crescent Realty",
+    "property_type": "Apartment",
+    "status": "Under Construction",
+    "price_min": 15400000,
+    "price_max": 19200000,
+    "bhk": [
+      "2 BHK",
+      "3 BHK",
+      "4 BHK"
+    ],
+    "amenities": [
+      "sports court",
+      "power backup",
+      "covered parking"
+    ],
+    "possession_date": "2024-06-22",
+    "rera_approved": true,
+    "rating": 4.0,
+    "description": "Crescent Heights in Kharadi is a 2 BHK and 3 BHK and 4 BHK homes flat project by Crescent Realty. It offers sports court, power backup, covered parking. Possession by 2024-06. RERA approved."
+  },
+  {
+    "project_id": "PJ050",
+    "name": "Orchid Enclave",
+    "locality": "Wakad",
+    "city": "Pune",
+    "builder": "Metro Developers",
+    "property_type": "Apartment",
+    "status": "Ready to Move",
+    "price_min": 18100000,
+    "price_max": 26300000,
+    "bhk": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "amenities": [
+      "covered parking",
+      "power backup",
+      "clubhouse"
+    ],
+    "possession_date": "2026-06-02",
+    "rera_approved": true,
+    "rating": 3.7,
+    "description": "Orchid Enclave in Wakad is a 1 BHK and 2 BHK homes apartment project by Metro Developers. It offers covered parking, power backup, clubhouse. Possession by 2026-06. RERA approved."
+  }
+]
