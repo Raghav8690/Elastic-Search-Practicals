@@ -1,0 +1,51 @@
+[
+  {
+    "method": "from + size",
+    "documents": 10000,
+    "requests": 10,
+    "seconds": 0.769,
+    "scope": "limited to max_result_window",
+    "docs_per_second": 13003.9,
+    "note": "Only the first 10,000 hits are legal."
+  },
+  {
+    "method": "search_after",
+    "documents": 100000,
+    "requests": 100,
+    "batches": 100,
+    "seconds": 7.744,
+    "scope": "full index",
+    "docs_per_second": 12913.2,
+    "note": "Stateless cursor; needs a stable unique sort."
+  },
+  {
+    "method": "PIT + search_after",
+    "documents": 100000,
+    "requests": 102,
+    "batches": 100,
+    "seconds": 7.52,
+    "scope": "full index",
+    "docs_per_second": 13297.9,
+    "note": "Consistent snapshot; adds PIT open/close overhead."
+  },
+  {
+    "method": "scroll",
+    "documents": 100000,
+    "requests": 102,
+    "batches": 101,
+    "seconds": 8.038,
+    "scope": "full index",
+    "docs_per_second": 12441.3,
+    "note": "Stateful cursor; sort=_doc is fastest."
+  },
+  {
+    "method": "helpers.scan",
+    "documents": 100000,
+    "requests": 102,
+    "batches": 100,
+    "seconds": 7.894,
+    "scope": "full index",
+    "docs_per_second": 12668.3,
+    "note": "Scroll wrapper; automatically clears the context."
+  }
+]

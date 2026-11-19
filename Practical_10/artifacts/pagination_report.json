@@ -1,0 +1,141 @@
+{
+  "dataset": {
+    "index": "pagination_events",
+    "documents": 100000,
+    "shards": 1,
+    "sort": [
+      {
+        "created_at": "asc"
+      },
+      {
+        "sequence": "asc"
+      }
+    ],
+    "load_seconds": 36.176
+  },
+  "first_page": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "second_page": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "deep_pagination": {
+    "max_result_window": 10000,
+    "boundary_from": 9990,
+    "rejected_from": 10000,
+    "error": "BadRequestError(400, 'search_phase_execution_exception', 'Result window is too large, from + size must be less than or equal to: [10000] but was [10010]. See the scroll api for a more efficient way to request large data sets. This limit can be set by changing the [index.max_result_window] index level setting.', Result window is too large, from + size must be less than or equal to: [10000] but was [10010]. See the scroll api for a more efficient way to request large data sets. This limit can be set by changing the [index.max_result_window] index level setting.)"
+  },
+  "pit": {
+    "documents": 100,
+    "requests": 10,
+    "seconds": 0.623
+  },
+  "scroll": {
+    "documents": 100000,
+    "batches": 101,
+    "http_calls": 102,
+    "seconds": 8.038
+  },
+  "scan_sample": {
+    "documents": 1000
+  },
+  "full_scan": {
+    "documents": 100000,
+    "min_sequence": 1,
+    "max_sequence": 100000,
+    "seconds": 7.894
+  },
+  "benchmark": [
+    {
+      "method": "from + size",
+      "documents": 10000,
+      "requests": 10,
+      "seconds": 0.769,
+      "scope": "limited to max_result_window",
+      "docs_per_second": 13003.9,
+      "note": "Only the first 10,000 hits are legal."
+    },
+    {
+      "method": "search_after",
+      "documents": 100000,
+      "requests": 100,
+      "batches": 100,
+      "seconds": 7.744,
+      "scope": "full index",
+      "docs_per_second": 12913.2,
+      "note": "Stateless cursor; needs a stable unique sort."
+    },
+    {
+      "method": "PIT + search_after",
+      "documents": 100000,
+      "requests": 102,
+      "batches": 100,
+      "seconds": 7.52,
+      "scope": "full index",
+      "docs_per_second": 13297.9,
+      "note": "Consistent snapshot; adds PIT open/close overhead."
+    },
+    {
+      "method": "scroll",
+      "documents": 100000,
+      "requests": 102,
+      "batches": 101,
+      "seconds": 8.038,
+      "scope": "full index",
+      "docs_per_second": 12441.3,
+      "note": "Stateful cursor; sort=_doc is fastest."
+    },
+    {
+      "method": "helpers.scan",
+      "documents": 100000,
+      "requests": 102,
+      "batches": 100,
+      "seconds": 7.894,
+      "scope": "full index",
+      "docs_per_second": 12668.3,
+      "note": "Scroll wrapper; automatically clears the context."
+    }
+  ],
+  "assignment": {
+    "index": "pagination_events",
+    "output": "C:\\D-Drive\\Elastic Search Practicals\\Practical_10\\artifacts\\export_100000.csv",
+    "requested_limit": 100000,
+    "rows": 100000,
+    "first_row_sequence": 1,
+    "last_row_sequence": 100000,
+    "min_sequence": 1,
+    "max_sequence": 100000,
+    "fields": [
+      "sequence",
+      "event_id",
+      "created_at",
+      "customer_id",
+      "region",
+      "category",
+      "amount",
+      "status"
+    ],
+    "elapsed_seconds": 10.986,
+    "rows_per_second": 9102.8,
+    "output_bytes": 7675821,
+    "created_at": "2026-11-19T09:00:54.583534+00:00"
+  }
+}
