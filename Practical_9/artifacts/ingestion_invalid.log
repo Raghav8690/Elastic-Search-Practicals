@@ -1,0 +1,7 @@
+2026-11-19 12:17:02,870 INFO input=C:\D-Drive\Elastic Search Practicals\Practical_9\data\adult_invalid.csv index=adult_ingest_invalid batch_size=2 pipeline=None dry_run=False
+2026-11-19 12:17:02,966 INFO read 6 records
+2026-11-19 12:17:02,966 INFO valid=4 invalid=2 duplicates_removed=0
+2026-11-19 12:17:05,194 INFO progress: 2 indexed, 0 failed (batch 1)
+2026-11-19 12:17:05,373 INFO progress: 4 indexed, 0 failed (batch 2)
+2026-11-19 12:17:05,380 INFO indexed=4 failed=0 index_count=4 elapsed=0.20s
+2026-11-19 12:17:05,383 INFO summary: {"batches": 2, "docs_per_second": 1.6, "duplicates_removed": 0, "elapsed_seconds": 2.513, "failed": 0, "indexed": 4, "invalid": 2, "read": 6, "valid": 4}

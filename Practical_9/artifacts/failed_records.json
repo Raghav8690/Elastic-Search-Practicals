@@ -1,0 +1,60 @@
+[
+  {
+    "record_id": "AD-000003",
+    "status": 400,
+    "error_type": "document_parsing_exception",
+    "reason": "[1:47] failed to parse field [age] of type [integer] in document with id 'AD-000003'. Preview of field's value: 'not-a-number'",
+    "document": {
+      "record_id": "AD-000003",
+      "source_row": 4,
+      "age": "not-a-number",
+      "workclass": "Private",
+      "fnlwgt": 215646,
+      "education": "HS-grad",
+      "education_num": 9,
+      "marital_status": "Divorced",
+      "occupation": "Handlers-cleaners",
+      "relationship": "Not-in-family",
+      "race": "White",
+      "sex": "male",
+      "capital_gain": 0,
+      "capital_loss": 0,
+      "hours_per_week": 40,
+      "native_country": "United-States",
+      "income": "<=50k",
+      "net_capital": 0,
+      "is_high_income": false,
+      "age_band": "35-44",
+      "hours_band": "full-time"
+    }
+  },
+  {
+    "record_id": "AD-000004",
+    "status": 400,
+    "error_type": "document_parsing_exception",
+    "reason": "[1:300] failed to parse field [hours_per_week] of type [integer] in document with id 'AD-000004'. Preview of field's value: 'many'",
+    "document": {
+      "record_id": "AD-000004",
+      "source_row": 5,
+      "age": 53,
+      "workclass": "Private",
+      "fnlwgt": 234721,
+      "education": "11th",
+      "education_num": 7,
+      "marital_status": "Married-civ-spouse",
+      "occupation": "Handlers-cleaners",
+      "relationship": "Husband",
+      "race": "Black",
+      "sex": "male",
+      "capital_gain": 0,
+      "capital_loss": 0,
+      "hours_per_week": "many",
+      "native_country": "United-States",
+      "income": "<=50k",
+      "net_capital": 0,
+      "is_high_income": false,
+      "age_band": "45-54",
+      "hours_band": "full-time"
+    }
+  }
+]

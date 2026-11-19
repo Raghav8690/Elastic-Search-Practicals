@@ -1,0 +1,19 @@
+{
+  "source": "C:\\D-Drive\\Elastic Search Practicals\\Practical_9\\data\\adult_sample.json",
+  "index": "adult_ingest_json",
+  "pipeline": null,
+  "dry_run": false,
+  "read": 1000,
+  "duplicates_removed": 0,
+  "valid": 1000,
+  "invalid": 0,
+  "indexed": 1000,
+  "failed": 0,
+  "rejected_total": 0,
+  "batches": 2,
+  "elapsed_seconds": 2.133,
+  "bulk_seconds": 0.207,
+  "docs_per_second": 468.9,
+  "started_at": "2026-11-19T06:46:58.188556+00:00",
+  "finished_at": "2026-11-19T06:47:00.321387+00:00"
+}

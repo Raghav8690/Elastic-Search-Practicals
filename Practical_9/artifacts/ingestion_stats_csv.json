@@ -1,0 +1,19 @@
+{
+  "source": "C:\\D-Drive\\Elastic Search Practicals\\Practical_9\\data\\adult.csv",
+  "index": "adult_ingest_csv",
+  "pipeline": null,
+  "dry_run": false,
+  "read": 32561,
+  "duplicates_removed": 24,
+  "valid": 32537,
+  "invalid": 0,
+  "indexed": 32537,
+  "failed": 0,
+  "rejected_total": 0,
+  "batches": 32,
+  "elapsed_seconds": 10.462,
+  "bulk_seconds": 6.293,
+  "docs_per_second": 3110.2,
+  "started_at": "2026-11-19T06:46:44.593019+00:00",
+  "finished_at": "2026-11-19T06:46:55.054561+00:00"
+}

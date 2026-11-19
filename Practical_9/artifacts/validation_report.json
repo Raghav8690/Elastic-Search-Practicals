@@ -1,0 +1,244 @@
+{
+  "dataset": {
+    "source": "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data",
+    "raw_rows": 32561,
+    "clean_rows": 32537,
+    "duplicates_removed": 24,
+    "missing_cells": 4262,
+    "missing_by_field": {
+      "age": 0,
+      "workclass": 1836,
+      "fnlwgt": 0,
+      "education": 0,
+      "education_num": 0,
+      "marital_status": 0,
+      "occupation": 1843,
+      "relationship": 0,
+      "race": 0,
+      "sex": 0,
+      "capital_gain": 0,
+      "capital_loss": 0,
+      "hours_per_week": 0,
+      "native_country": 583,
+      "income": 0
+    }
+  },
+  "cleaning": {
+    "unknown_workclass": 1836,
+    "unknown_occupation": 1843,
+    "unknown_native_country": 582,
+    "avg_age": 38.5855,
+    "income": {
+      "<=50k": 24698,
+      ">50k": 7839
+    },
+    "sex": {
+      "male": 21775,
+      "female": 10762
+    }
+  },
+  "mapping": {
+    "index": "adult_people",
+    "dynamic": "strict",
+    "properties": 21
+  },
+  "indexing": {
+    "sample_size": 500,
+    "individual_seconds": 53.527,
+    "bulk_seconds": 0.237,
+    "speedup": 226.0,
+    "full_dataset_seconds": 4.3,
+    "full_dataset_docs_per_second": 7567.1,
+    "documents": 32537
+  },
+  "failures": {
+    "successful": 2,
+    "failed": 2,
+    "records": [
+      {
+        "record_id": "AD-000003",
+        "status": 400,
+        "error_type": "document_parsing_exception",
+        "reason": "[1:47] failed to parse field [age] of type [integer] in document with id 'AD-000003'. Preview of field's value: 'not-a-number'",
+        "document": {
+          "record_id": "AD-000003",
+          "source_row": 4,
+          "age": "not-a-number",
+          "workclass": "Private",
+          "fnlwgt": 215646,
+          "education": "HS-grad",
+          "education_num": 9,
+          "marital_status": "Divorced",
+          "occupation": "Handlers-cleaners",
+          "relationship": "Not-in-family",
+          "race": "White",
+          "sex": "male",
+          "capital_gain": 0,
+          "capital_loss": 0,
+          "hours_per_week": 40,
+          "native_country": "United-States",
+          "income": "<=50k",
+          "net_capital": 0,
+          "is_high_income": false,
+          "age_band": "35-44",
+          "hours_band": "full-time"
+        }
+      },
+      {
+        "record_id": "AD-000004",
+        "status": 400,
+        "error_type": "document_parsing_exception",
+        "reason": "[1:300] failed to parse field [hours_per_week] of type [integer] in document with id 'AD-000004'. Preview of field's value: 'many'",
+        "document": {
+          "record_id": "AD-000004",
+          "source_row": 5,
+          "age": 53,
+          "workclass": "Private",
+          "fnlwgt": 234721,
+          "education": "11th",
+          "education_num": 7,
+          "marital_status": "Married-civ-spouse",
+          "occupation": "Handlers-cleaners",
+          "relationship": "Husband",
+          "race": "Black",
+          "sex": "male",
+          "capital_gain": 0,
+          "capital_loss": 0,
+          "hours_per_week": "many",
+          "native_country": "United-States",
+          "income": "<=50k",
+          "net_capital": 0,
+          "is_high_income": false,
+          "age_band": "45-54",
+          "hours_band": "full-time"
+        }
+      }
+    ],
+    "repaired_count": 4
+  },
+  "delete_and_restore": {
+    "backup_count": 32537,
+    "backup_seconds": 1.685,
+    "deleted": 5562,
+    "expected_deleted": 5562,
+    "after_delete": 26975,
+    "restored": 5562,
+    "final_count": 32537
+  },
+  "pipeline": {
+    "id": "adult_normalize_pipeline",
+    "processors": 28,
+    "demo_documents": 100,
+    "sample": {
+      "income": "<=50k",
+      "pipeline_version": 1,
+      "education": "Bachelors",
+      "education_num": 13,
+      "occupation": "Adm-clerical",
+      "age_band": "35-44",
+      "race": "White",
+      "sex": "male",
+      "hours_per_week": 40,
+      "pipeline_name": "adult_normalize_pipeline",
+      "fnlwgt": 77516,
+      "capital_loss": 0,
+      "native_country": "United States",
+      "marital_status": "Never-married",
+      "workclass": "State-gov",
+      "is_high_income": false,
+      "relationship": "Not-in-family",
+      "net_capital": 2174,
+      "hours_band": "full-time",
+      "age": 39,
+      "capital_gain": 2174
+    }
+  },
+  "validation": {
+    "income_buckets": {
+      "<=50k": 24698,
+      ">50k": 7839
+    },
+    "avg_age_indexed": 38.5855,
+    "avg_age_pandas": 38.5855,
+    "unknown_fields": {
+      "workclass": 1836,
+      "occupation": 1843,
+      "native_country": 582
+    },
+    "sample_document": {
+      "record_id": "AD-000001",
+      "age": 39,
+      "sex": "male",
+      "income": "<=50k",
+      "net_capital": 2174,
+      "is_high_income": false,
+      "age_band": "35-44",
+      "hours_band": "full-time"
+    },
+    "failed_demo_count": 4
+  },
+  "script_ingestion": {
+    "csv": {
+      "source": "C:\\D-Drive\\Elastic Search Practicals\\Practical_9\\data\\adult.csv",
+      "index": "adult_ingest_csv",
+      "pipeline": null,
+      "dry_run": false,
+      "read": 32561,
+      "duplicates_removed": 24,
+      "valid": 32537,
+      "invalid": 0,
+      "indexed": 32537,
+      "failed": 0,
+      "rejected_total": 0,
+      "batches": 32,
+      "elapsed_seconds": 10.462,
+      "bulk_seconds": 6.293,
+      "docs_per_second": 3110.2,
+      "started_at": "2026-11-19T06:46:44.593019+00:00",
+      "finished_at": "2026-11-19T06:46:55.054561+00:00"
+    },
+    "json": {
+      "source": "C:\\D-Drive\\Elastic Search Practicals\\Practical_9\\data\\adult_sample.json",
+      "index": "adult_ingest_json",
+      "pipeline": null,
+      "dry_run": false,
+      "read": 1000,
+      "duplicates_removed": 0,
+      "valid": 1000,
+      "invalid": 0,
+      "indexed": 1000,
+      "failed": 0,
+      "rejected_total": 0,
+      "batches": 2,
+      "elapsed_seconds": 2.133,
+      "bulk_seconds": 0.207,
+      "docs_per_second": 468.9,
+      "started_at": "2026-11-19T06:46:58.188556+00:00",
+      "finished_at": "2026-11-19T06:47:00.321387+00:00"
+    },
+    "invalid": {
+      "source": "C:\\D-Drive\\Elastic Search Practicals\\Practical_9\\data\\adult_invalid.csv",
+      "index": "adult_ingest_invalid",
+      "pipeline": null,
+      "dry_run": false,
+      "read": 6,
+      "duplicates_removed": 0,
+      "valid": 4,
+      "invalid": 2,
+      "indexed": 4,
+      "failed": 0,
+      "rejected_total": 2,
+      "batches": 2,
+      "elapsed_seconds": 2.513,
+      "bulk_seconds": 0.196,
+      "docs_per_second": 1.6,
+      "started_at": "2026-11-19T06:47:02.869604+00:00",
+      "finished_at": "2026-11-19T06:47:05.382381+00:00"
+    },
+    "index_counts": {
+      "csv": 32537,
+      "json": 1000,
+      "invalid": 4
+    }
+  }
+}

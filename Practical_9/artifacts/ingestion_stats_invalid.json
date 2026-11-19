@@ -1,0 +1,19 @@
+{
+  "source": "C:\\D-Drive\\Elastic Search Practicals\\Practical_9\\data\\adult_invalid.csv",
+  "index": "adult_ingest_invalid",
+  "pipeline": null,
+  "dry_run": false,
+  "read": 6,
+  "duplicates_removed": 0,
+  "valid": 4,
+  "invalid": 2,
+  "indexed": 4,
+  "failed": 0,
+  "rejected_total": 2,
+  "batches": 2,
+  "elapsed_seconds": 2.513,
+  "bulk_seconds": 0.196,
+  "docs_per_second": 1.6,
+  "started_at": "2026-11-19T06:47:02.869604+00:00",
+  "finished_at": "2026-11-19T06:47:05.382381+00:00"
+}

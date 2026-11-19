@@ -1,0 +1,9 @@
+{
+  "sample_size": 500,
+  "individual_seconds": 53.527,
+  "bulk_seconds": 0.237,
+  "speedup": 226.0,
+  "full_dataset_seconds": 4.3,
+  "full_dataset_docs_per_second": 7567.1,
+  "documents": 32537
+}

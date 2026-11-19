@@ -1,0 +1,7 @@
+2026-11-19 12:16:58,189 INFO input=C:\D-Drive\Elastic Search Practicals\Practical_9\data\adult_sample.json index=adult_ingest_json batch_size=500 pipeline=None dry_run=False
+2026-11-19 12:16:58,198 INFO read 1000 records
+2026-11-19 12:16:58,214 INFO valid=1000 invalid=0 duplicates_removed=0
+2026-11-19 12:16:59,966 INFO progress: 500 indexed, 0 failed (batch 1)
+2026-11-19 12:17:00,129 INFO progress: 1000 indexed, 0 failed (batch 2)
+2026-11-19 12:17:00,319 INFO indexed=1000 failed=0 index_count=1000 elapsed=0.21s
+2026-11-19 12:17:00,322 INFO summary: {"batches": 2, "docs_per_second": 468.9, "duplicates_removed": 0, "elapsed_seconds": 2.133, "failed": 0, "indexed": 1000, "invalid": 0, "read": 1000, "valid": 1000}
