@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "refresh_interval": "30s",
+    "codec": "best_compression"
+  },
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "sequence": {"type": "integer"},
+      "event_id": {"type": "keyword"},
+      "created_at": {"type": "date"},
+      "customer_id": {"type": "keyword"},
+      "region": {"type": "keyword"},
+      "category": {"type": "keyword"},
+      "amount": {"type": "integer"},
+      "status": {"type": "keyword"},
+      "description": {"type": "text", "norms": false}
+    }
+  }
+}

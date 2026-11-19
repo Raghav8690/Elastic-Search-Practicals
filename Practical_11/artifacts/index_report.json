@@ -1,0 +1,391 @@
+{
+  "environment": {
+    "elasticsearch_version": "9.2.0",
+    "cluster_name": "my-elasticsearch-cluster",
+    "node_name": "my-node",
+    "baseline_index": "p11-baseline-events",
+    "optimized_index": "p11-events-optimized"
+  },
+  "dataset": {
+    "documents": 100000,
+    "small_experiment_documents": 20000,
+    "fields": [
+      "sequence",
+      "event_id",
+      "created_at",
+      "customer_id",
+      "region",
+      "category",
+      "amount",
+      "status",
+      "description"
+    ]
+  },
+  "templates": {
+    "components": {
+      "component_templates": [
+        {
+          "name": "p11-events-settings",
+          "component_template": {
+            "template": {
+              "settings": {
+                "index": {
+                  "codec": "best_compression",
+                  "refresh_interval": "30s",
+                  "number_of_shards": "1",
+                  "number_of_replicas": "0"
+                }
+              }
+            },
+            "created_date_millis": 1795085434442,
+            "modified_date_millis": 1795085434442
+          }
+        },
+        {
+          "name": "p11-events-mappings",
+          "component_template": {
+            "template": {
+              "mappings": {
+                "dynamic": "strict",
+                "properties": {
+                  "sequence": {
+                    "type": "integer"
+                  },
+                  "amount": {
+                    "type": "integer"
+                  },
+                  "event_id": {
+                    "type": "keyword"
+                  },
+                  "created_at": {
+                    "type": "date"
+                  },
+                  "description": {
+                    "norms": false,
+                    "type": "text"
+                  },
+                  "customer_id": {
+                    "type": "keyword"
+                  },
+                  "region": {
+                    "type": "keyword"
+                  },
+                  "category": {
+                    "type": "keyword"
+                  },
+                  "status": {
+                    "type": "keyword"
+                  }
+                }
+              }
+            },
+            "created_date_millis": 1795085434902,
+            "modified_date_millis": 1795085434902
+          }
+        }
+      ]
+    },
+    "index_template": {
+      "index_templates": [
+        {
+          "name": "p11-events-template",
+          "index_template": {
+            "index_patterns": [
+              "p11-events-*"
+            ],
+            "composed_of": [
+              "p11-events-settings",
+              "p11-events-mappings"
+            ],
+            "priority": 200,
+            "created_date_millis": 1795085435460,
+            "modified_date_millis": 1795085435460
+          }
+        }
+      ]
+    }
+  },
+  "alias": {
+    "name": "p11-events-read",
+    "before": {
+      "p11-baseline-events": {
+        "aliases": {
+          "p11-events-read": {}
+        }
+      }
+    },
+    "after": {
+      "p11-events-optimized": {
+        "aliases": {
+          "p11-events-read": {}
+        }
+      }
+    },
+    "count_before": 100000,
+    "count_after": 100000
+  },
+  "reindex": {
+    "source": "p11-baseline-events",
+    "destination": "p11-events-reindexed",
+    "seconds": 13.047,
+    "response": {
+      "took": 13045,
+      "timed_out": false,
+      "total": 100000,
+      "updated": 0,
+      "created": 100000,
+      "deleted": 0,
+      "batches": 100,
+      "version_conflicts": 0,
+      "noops": 0,
+      "retries": {
+        "bulk": 0,
+        "search": 0
+      },
+      "throttled_millis": 0,
+      "requests_per_second": -1.0,
+      "throttled_until_millis": 0,
+      "failures": []
+    },
+    "documents": 100000
+  },
+  "shards": {
+    "one": {
+      "load": {
+        "documents": 20000,
+        "errors": 0,
+        "seconds": 1.671,
+        "docs_per_second": 11970.8
+      },
+      "metrics": {
+        "documents": 20000,
+        "primary_store_bytes": 2610147,
+        "segments": 2,
+        "search_query_total": 25,
+        "search_query_time_ms": 189,
+        "indexing_index_total": 20000,
+        "indexing_index_time_ms": 401
+      },
+      "query": {
+        "iterations": 20,
+        "p50_ms": 51.561,
+        "p95_ms": 58.847,
+        "mean_took_ms": 11.05
+      },
+      "count": 3025
+    },
+    "three": {
+      "load": {
+        "documents": 20000,
+        "errors": 0,
+        "seconds": 1.503,
+        "docs_per_second": 13304.5
+      },
+      "metrics": {
+        "documents": 20000,
+        "primary_store_bytes": 2755456,
+        "segments": 6,
+        "search_query_total": 75,
+        "search_query_time_ms": 77,
+        "indexing_index_total": 20000,
+        "indexing_index_time_ms": 440
+      },
+      "query": {
+        "iterations": 20,
+        "p50_ms": 52.731,
+        "p95_ms": 61.219,
+        "mean_took_ms": 4.3
+      },
+      "count": 3025
+    }
+  },
+  "refresh": {
+    "one_second": {
+      "documents": 20000,
+      "errors": 0,
+      "seconds": 3.418,
+      "docs_per_second": 5851.9
+    },
+    "disabled_during_load": {
+      "documents": 20000,
+      "errors": 0,
+      "seconds": 3.142,
+      "docs_per_second": 6365.3
+    },
+    "speedup": 1.088
+  },
+  "slow_query": {
+    "script": {
+      "took_ms": 20,
+      "shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+      },
+      "queries": [
+        {
+          "type": "ConstantScoreQuery",
+          "description": "ConstantScore(ScriptQuery(Script{type=inline, lang='painless', idOrCode='doc['amount'].value >= params.min', options={}, params={min=100000}}))",
+          "time_in_nanos": 20644752
+        }
+      ]
+    },
+    "range": {
+      "took_ms": 3,
+      "shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+      },
+      "queries": [
+        {
+          "type": "ConstantScoreQuery",
+          "description": "ConstantScore(IndexOrDocValuesQuery(indexQuery=amount:[100000 TO 2147483647], dvQuery=amount:[100000 TO 2147483647]))",
+          "time_in_nanos": 274446
+        }
+      ]
+    },
+    "script_count": 60014,
+    "range_count": 60014
+  },
+  "ilm": {
+    "policy": "p11-events-ilm",
+    "policy_snapshot": {
+      "p11-events-ilm": {
+        "version": 1,
+        "modified_date": "2026-11-19T10:52:57.106Z",
+        "policy": {
+          "phases": {
+            "hot": {
+              "min_age": "0ms",
+              "actions": {
+                "set_priority": {
+                  "priority": 100
+                },
+                "rollover": {
+                  "max_age": "30d",
+                  "max_primary_shard_size": "50mb"
+                }
+              }
+            },
+            "delete": {
+              "min_age": "90d",
+              "actions": {
+                "delete": {
+                  "delete_searchable_snapshot": true
+                }
+              }
+            }
+          }
+        },
+        "in_use_by": {
+          "indices": [
+            "p11-events-ilm-demo"
+          ],
+          "data_streams": [],
+          "composable_templates": []
+        }
+      }
+    },
+    "explain": {
+      "indices": {
+        "p11-events-ilm-demo": {
+          "index": "p11-events-ilm-demo",
+          "managed": true,
+          "policy": "p11-events-ilm",
+          "index_creation_date_millis": 1795086699212,
+          "time_since_index_creation": "5.08s",
+          "lifecycle_date_millis": 1795086699212,
+          "age": "5.08s",
+          "age_in_millis": 5085,
+          "phase": "hot",
+          "phase_time_millis": 1795086703255,
+          "action": "set_priority",
+          "action_time_millis": 1795086703255,
+          "step": "set_priority",
+          "step_time_millis": 1795086703255,
+          "phase_execution": {
+            "policy": "p11-events-ilm",
+            "phase_definition": {
+              "min_age": "0ms",
+              "actions": {
+                "set_priority": {
+                  "priority": 100
+                },
+                "rollover": {
+                  "max_age": "30d",
+                  "max_primary_shard_docs": 200000000,
+                  "min_docs": 1,
+                  "max_primary_shard_size": "50mb"
+                }
+              }
+            },
+            "version": 1,
+            "modified_date_in_millis": 1795085577106
+          },
+          "skip": false
+        }
+      }
+    }
+  },
+  "rollover": {
+    "load": {
+      "documents": 1200,
+      "errors": 0,
+      "seconds": 0.406,
+      "docs_per_second": 2957.3
+    },
+    "response": {
+      "acknowledged": true,
+      "shards_acknowledged": true,
+      "old_index": "p11-rollover-000001",
+      "new_index": "p11-rollover-000002",
+      "rolled_over": true,
+      "dry_run": false,
+      "lazy": false,
+      "conditions": {
+        "[max_docs: 1000]": true
+      }
+    },
+    "alias": {
+      "p11-rollover-000001": {
+        "aliases": {
+          "p11-rollover-write": {
+            "is_write_index": false
+          }
+        }
+      },
+      "p11-rollover-000002": {
+        "aliases": {
+          "p11-rollover-write": {
+            "is_write_index": true
+          }
+        }
+      }
+    }
+  },
+  "data_stream": {
+    "name": "p11-logs",
+    "before": [
+      ".ds-p11-logs-2026.11.19-000001"
+    ],
+    "after": [
+      ".ds-p11-logs-2026.11.19-000001",
+      ".ds-p11-logs-2026.11.19-000002"
+    ],
+    "rollover": {
+      "acknowledged": true,
+      "shards_acknowledged": true,
+      "old_index": ".ds-p11-logs-2026.11.19-000001",
+      "new_index": ".ds-p11-logs-2026.11.19-000002",
+      "rolled_over": true,
+      "dry_run": false,
+      "lazy": false,
+      "conditions": {
+        "[max_docs: 1]": true
+      }
+    }
+  }
+}

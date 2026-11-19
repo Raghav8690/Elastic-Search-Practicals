@@ -1,0 +1,162 @@
+{
+  "baseline": {
+    "index": "p11-baseline-events",
+    "shards": 5,
+    "mapping": "dynamic",
+    "refresh_interval_during_load": "1s",
+    "load": {
+      "documents": 100000,
+      "errors": 0,
+      "seconds": 43.798,
+      "docs_per_second": 2283.2
+    },
+    "metrics": {
+      "documents": 100000,
+      "primary_store_bytes": 19375515,
+      "segments": 23,
+      "search_query_total": 1235,
+      "search_query_time_ms": 1129,
+      "indexing_index_total": 100000,
+      "indexing_index_time_ms": 30480
+    }
+  },
+  "optimized": {
+    "index": "p11-events-optimized",
+    "shards": 1,
+    "mapping": "explicit strict",
+    "refresh_interval_during_load": "-1",
+    "codec": "best_compression",
+    "load": {
+      "documents": 100000,
+      "errors": 0,
+      "seconds": 14.66,
+      "docs_per_second": 6821.3
+    },
+    "force_merge_seconds": 0.005,
+    "metrics": {
+      "documents": 100000,
+      "primary_store_bytes": 8895089,
+      "segments": 1,
+      "search_query_total": 150,
+      "search_query_time_ms": 122,
+      "indexing_index_total": 100000,
+      "indexing_index_time_ms": 5373
+    }
+  },
+  "reindex": {
+    "source": "p11-baseline-events",
+    "destination": "p11-events-reindexed",
+    "seconds": 13.047,
+    "documents": 100000
+  },
+  "queries": {
+    "status_term": {
+      "baseline_count": 25184,
+      "optimized_count": 25184,
+      "baseline": {
+        "iterations": 20,
+        "p50_ms": 51.035,
+        "p95_ms": 57.988,
+        "mean_took_ms": 2.6
+      },
+      "optimized": {
+        "iterations": 20,
+        "p50_ms": 62.925,
+        "p95_ms": 81.538,
+        "mean_took_ms": 16.25
+      },
+      "p50_latency_reduction_percent": -23.3
+    },
+    "region_term": {
+      "baseline_count": 19902,
+      "optimized_count": 19902,
+      "baseline": {
+        "iterations": 20,
+        "p50_ms": 49.099,
+        "p95_ms": 61.473,
+        "mean_took_ms": 3.1
+      },
+      "optimized": {
+        "iterations": 20,
+        "p50_ms": 49.212,
+        "p95_ms": 63.719,
+        "mean_took_ms": 5.4
+      },
+      "p50_latency_reduction_percent": -0.23
+    },
+    "amount_range": {
+      "baseline_count": 23910,
+      "optimized_count": 23910,
+      "baseline": {
+        "iterations": 20,
+        "p50_ms": 47.848,
+        "p95_ms": 62.922,
+        "mean_took_ms": 6.95
+      },
+      "optimized": {
+        "iterations": 20,
+        "p50_ms": 52.452,
+        "p95_ms": 77.188,
+        "mean_took_ms": 8.25
+      },
+      "p50_latency_reduction_percent": -9.62
+    },
+    "date_range": {
+      "baseline_count": 3100,
+      "optimized_count": 3100,
+      "baseline": {
+        "iterations": 20,
+        "p50_ms": 53.832,
+        "p95_ms": 59.398,
+        "mean_took_ms": 3.95
+      },
+      "optimized": {
+        "iterations": 20,
+        "p50_ms": 61.152,
+        "p95_ms": 77.456,
+        "mean_took_ms": 14.4
+      },
+      "p50_latency_reduction_percent": -13.6
+    },
+    "description_match": {
+      "baseline_count": 20151,
+      "optimized_count": 20151,
+      "baseline": {
+        "iterations": 20,
+        "p50_ms": 53.512,
+        "p95_ms": 61.628,
+        "mean_took_ms": 4.15
+      },
+      "optimized": {
+        "iterations": 20,
+        "p50_ms": 51.92,
+        "p95_ms": 78.796,
+        "mean_took_ms": 10.7
+      },
+      "p50_latency_reduction_percent": 2.98
+    },
+    "combined_filters": {
+      "baseline_count": 15020,
+      "optimized_count": 15020,
+      "baseline": {
+        "iterations": 20,
+        "p50_ms": 54.131,
+        "p95_ms": 60.873,
+        "mean_took_ms": 5
+      },
+      "optimized": {
+        "iterations": 20,
+        "p50_ms": 70.115,
+        "p95_ms": 226.365,
+        "mean_took_ms": 15.85
+      },
+      "p50_latency_reduction_percent": -29.53
+    }
+  },
+  "changes": {
+    "indexing_throughput_percent": 198.76,
+    "primary_store_reduction_percent": 54.09,
+    "segments_before": 23,
+    "segments_after": 1
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cluster_health": {
+    "cluster_name": "my-elasticsearch-cluster",
+    "status": "yellow",
+    "timed_out": false,
+    "number_of_nodes": 1,
+    "number_of_data_nodes": 1,
+    "active_primary_shards": 72,
+    "active_shards": 72,
+    "relocating_shards": 0,
+    "initializing_shards": 0,
+    "unassigned_shards": 2,
+    "unassigned_primary_shards": 0,
+    "delayed_unassigned_shards": 0,
+    "number_of_pending_tasks": 0,
+    "number_of_in_flight_fetch": 0,
+    "task_max_waiting_in_queue_millis": 0,
+    "active_shards_percent_as_number": 97.2972972972973
+  },
+  "indices": {
+    "p11-baseline-events": {
+      "documents": 100000,
+      "primary_store_bytes": 19375515,
+      "segments": 23,
+      "search_query_total": 1235,
+      "search_query_time_ms": 1129,
+      "indexing_index_total": 100000,
+      "indexing_index_time_ms": 30480
+    },
+    "p11-events-optimized": {
+      "documents": 100000,
+      "primary_store_bytes": 8895089,
+      "segments": 1,
+      "search_query_total": 150,
+      "search_query_time_ms": 122,
+      "indexing_index_total": 100000,
+      "indexing_index_time_ms": 5373
+    },
+    "p11-events-reindexed": {
+      "documents": 100000,
+      "primary_store_bytes": 10019210,
+      "segments": 1,
+      "search_query_total": 1,
+      "search_query_time_ms": 0,
+      "indexing_index_total": 100000,
+      "indexing_index_time_ms": 3189
+    }
+  },
+  "nodes": {
+    "exCuso4pRm-M_849Sigu2A": {
+      "name": "my-node",
+      "heap_used_in_bytes": 376832768,
+      "heap_max_in_bytes": 536870912,
+      "cpu_percent": 9,
+      "documents": 581885,
+      "store_bytes": 72409461
+    }
+  }
+}
