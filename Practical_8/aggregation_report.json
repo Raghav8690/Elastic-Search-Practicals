@@ -1,0 +1,432 @@
+{
+  "dataset": {
+    "products": 72,
+    "employees": 120,
+    "reviews": 181
+  },
+  "aggregations": [
+    {
+      "aggregation": "categories",
+      "index": "products",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 12,
+        "documents": 72,
+        "top": {
+          "key": "Automotive",
+          "doc_count": 6
+        }
+      }
+    },
+    {
+      "aggregation": "top_categories",
+      "index": "products",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 10,
+        "documents": 60,
+        "top": {
+          "key": "Automotive",
+          "doc_count": 6
+        }
+      }
+    },
+    {
+      "aggregation": "average_price",
+      "index": "products",
+      "kind": "metric",
+      "type": "avg",
+      "value": 5112.5067
+    },
+    {
+      "aggregation": "minimum_price",
+      "index": "products",
+      "kind": "metric",
+      "type": "min",
+      "value": 9.5
+    },
+    {
+      "aggregation": "maximum_price",
+      "index": "products",
+      "kind": "metric",
+      "type": "max",
+      "value": 78999.0
+    },
+    {
+      "aggregation": "price_stats",
+      "index": "products",
+      "kind": "metric",
+      "type": "stats",
+      "value": {
+        "count": 72,
+        "min": 9.5,
+        "max": 78999.0,
+        "avg": 5112.5067,
+        "sum": 368100.48
+      }
+    },
+    {
+      "aggregation": "price_percentiles",
+      "index": "products",
+      "kind": "metric",
+      "type": "percentiles",
+      "value": {
+        "25.0": 786.5,
+        "50.0": 1649.0,
+        "75.0": 4124.0,
+        "90.0": 11699.0,
+        "95.0": 21699.0
+      }
+    },
+    {
+      "aggregation": "total_inventory",
+      "index": "products",
+      "kind": "metric",
+      "type": "sum",
+      "value": 5753.0
+    },
+    {
+      "aggregation": "product_count",
+      "index": "products",
+      "kind": "metric",
+      "type": "value_count",
+      "value": 72
+    },
+    {
+      "aggregation": "monthly_created",
+      "index": "products",
+      "kind": "bucket",
+      "type": "date_histogram",
+      "value": {
+        "buckets": 36,
+        "documents": 72,
+        "top": {
+          "key": "2023-01",
+          "doc_count": 3
+        }
+      }
+    },
+    {
+      "aggregation": "brands",
+      "index": "products",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 12,
+        "documents": 72,
+        "top": {
+          "key": "Acme",
+          "doc_count": 6
+        }
+      }
+    },
+    {
+      "aggregation": "price_histogram",
+      "index": "products",
+      "kind": "bucket",
+      "type": "histogram",
+      "value": {
+        "buckets": 16,
+        "documents": 72,
+        "top": {
+          "key": 0.0,
+          "doc_count": 59
+        }
+      }
+    },
+    {
+      "aggregation": "price_ranges",
+      "index": "products",
+      "kind": "bucket",
+      "type": "range",
+      "value": {
+        "buckets": 3,
+        "documents": 72,
+        "top": {
+          "key": "*-1000.0",
+          "doc_count": 25
+        }
+      }
+    },
+    {
+      "aggregation": "price_tiers",
+      "index": "products",
+      "kind": "bucket",
+      "type": "filters",
+      "value": {
+        "buckets": 3,
+        "documents": 72,
+        "top": {
+          "key": "budget",
+          "doc_count": 25
+        }
+      }
+    },
+    {
+      "aggregation": "rating_extended",
+      "index": "products",
+      "kind": "metric",
+      "type": "extended_stats",
+      "value": {
+        "count": 72,
+        "min": 2.5,
+        "max": 5.0,
+        "avg": 3.6875,
+        "sum": 265.5
+      }
+    },
+    {
+      "aggregation": "available_only",
+      "index": "products",
+      "kind": "bucket",
+      "type": "filter",
+      "value": {
+        "documents": 66
+      }
+    },
+    {
+      "aggregation": "available_avg_price",
+      "index": "products",
+      "kind": "metric",
+      "type": "avg",
+      "value": 4903.1285
+    },
+    {
+      "aggregation": "stock_zero",
+      "index": "products",
+      "kind": "bucket",
+      "type": "filter",
+      "value": {
+        "documents": 6
+      }
+    },
+    {
+      "aggregation": "global_all",
+      "index": "products",
+      "kind": "bucket",
+      "type": "global",
+      "value": {
+        "documents": 72
+      }
+    },
+    {
+      "aggregation": "global_avg_price",
+      "index": "products",
+      "kind": "metric",
+      "type": "avg",
+      "value": 5112.5067
+    },
+    {
+      "aggregation": "supplier_countries",
+      "index": "products",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 6,
+        "documents": 72,
+        "top": {
+          "key": "CN",
+          "doc_count": 12
+        }
+      }
+    },
+    {
+      "aggregation": "price_by_category",
+      "index": "products",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 12,
+        "documents": 72,
+        "top": {
+          "key": "Automotive",
+          "doc_count": 6
+        }
+      }
+    },
+    {
+      "aggregation": "reviews_nested",
+      "index": "products",
+      "kind": "bucket",
+      "type": "nested",
+      "value": {
+        "documents": 181
+      }
+    },
+    {
+      "aggregation": "review_parent_products",
+      "index": "products",
+      "kind": "bucket",
+      "type": "reverse_nested",
+      "value": {
+        "documents": 72
+      }
+    },
+    {
+      "aggregation": "avg_review_rating",
+      "index": "products",
+      "kind": "metric",
+      "type": "avg",
+      "value": 2.9392
+    },
+    {
+      "aggregation": "review_authors",
+      "index": "products",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 20,
+        "documents": 181,
+        "top": {
+          "key": "dave",
+          "doc_count": 19
+        }
+      }
+    },
+    {
+      "aggregation": "salary_by_department",
+      "index": "employees",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 7,
+        "documents": 120,
+        "top": {
+          "key": "Engineering",
+          "doc_count": 18
+        }
+      }
+    },
+    {
+      "aggregation": "avg_salary_engineering",
+      "index": "employees",
+      "kind": "metric",
+      "type": "avg",
+      "value": 83138.8889
+    },
+    {
+      "aggregation": "avg_salary_finance",
+      "index": "employees",
+      "kind": "metric",
+      "type": "avg",
+      "value": 73382.3529
+    },
+    {
+      "aggregation": "avg_salary_hr",
+      "index": "employees",
+      "kind": "metric",
+      "type": "avg",
+      "value": 76147.0588
+    },
+    {
+      "aggregation": "avg_salary_marketing",
+      "index": "employees",
+      "kind": "metric",
+      "type": "avg",
+      "value": 67705.8824
+    },
+    {
+      "aggregation": "avg_salary_operations",
+      "index": "employees",
+      "kind": "metric",
+      "type": "avg",
+      "value": 79147.0588
+    },
+    {
+      "aggregation": "avg_salary_sales",
+      "index": "employees",
+      "kind": "metric",
+      "type": "avg",
+      "value": 90235.2941
+    },
+    {
+      "aggregation": "avg_salary_support",
+      "index": "employees",
+      "kind": "metric",
+      "type": "avg",
+      "value": 103029.4118
+    },
+    {
+      "aggregation": "unique_by_city",
+      "index": "employees",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 8,
+        "documents": 120,
+        "top": {
+          "key": "Pune",
+          "doc_count": 22
+        }
+      }
+    },
+    {
+      "aggregation": "unique_employee_total",
+      "index": "employees",
+      "kind": "metric",
+      "type": "cardinality",
+      "value": 120
+    },
+    {
+      "aggregation": "missing_bonus",
+      "index": "employees",
+      "kind": "bucket",
+      "type": "missing",
+      "value": {
+        "documents": 68
+      }
+    },
+    {
+      "aggregation": "active_only",
+      "index": "employees",
+      "kind": "bucket",
+      "type": "filter",
+      "value": {
+        "documents": 84
+      }
+    },
+    {
+      "aggregation": "active_avg_salary",
+      "index": "employees",
+      "kind": "metric",
+      "type": "avg",
+      "value": 83297.619
+    },
+    {
+      "aggregation": "designations",
+      "index": "employees",
+      "kind": "bucket",
+      "type": "terms",
+      "value": {
+        "buckets": 25,
+        "documents": 120,
+        "top": {
+          "key": "Accountant",
+          "doc_count": 6
+        }
+      }
+    },
+    {
+      "aggregation": "salary_percentiles",
+      "index": "employees",
+      "kind": "metric",
+      "type": "percentiles",
+      "value": {
+        "25.0": 49250.0,
+        "50.0": 73000.0,
+        "75.0": 115625.0,
+        "90.0": 137300.0,
+        "95.0": 147575.0
+      }
+    },
+    {
+      "aggregation": "employee_count",
+      "index": "employees",
+      "kind": "metric",
+      "type": "value_count",
+      "value": 120
+    }
+  ]
+}

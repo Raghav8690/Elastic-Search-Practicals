@@ -1,0 +1,3032 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "description": "Acme Wireless Noise-Cancelling Headphones. Headphones product in Electronics. Tags: headphones, electronics, sale.",
+    "brand": "Acme",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "price": 299.99,
+    "stock": 78,
+    "rating": 3.6,
+    "tags": [
+      "headphones",
+      "electronics",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-01-02",
+    "sku": "SKU-ELEC-0001",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "niaj",
+        "rating": 1,
+        "comment": "not great, expected better",
+        "date": "2025-08-06"
+      },
+      {
+        "author": "wendy",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2025-10-18"
+      }
+    ]
+  },
+  {
+    "product_id": "P002",
+    "name": "Ultra Slim Laptop 14 inch",
+    "description": "Nimbus Ultra Slim Laptop 14 inch. Laptops product in Electronics. Tags: laptops, electronics, featured.",
+    "brand": "Nimbus",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "price": 78999.0,
+    "stock": 145,
+    "rating": 3.2,
+    "tags": [
+      "laptops",
+      "electronics",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-03-20",
+    "sku": "SKU-ELEC-0002",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "frank",
+        "rating": 1,
+        "comment": "good value for the price",
+        "date": "2024-04-26"
+      },
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "works as expected",
+        "date": "2025-07-06"
+      },
+      {
+        "author": "frank",
+        "rating": 5,
+        "comment": "not great, expected better",
+        "date": "2023-06-26"
+      },
+      {
+        "author": "olivia",
+        "rating": 5,
+        "comment": "exceeded my expectations",
+        "date": "2023-07-29"
+      }
+    ]
+  },
+  {
+    "product_id": "P003",
+    "name": "Smart LED TV 43 inch",
+    "description": "Zenith Smart LED TV 43 inch. Televisions product in Electronics. Tags: televisions, electronics, featured.",
+    "brand": "Zenith",
+    "category": "Electronics",
+    "subcategory": "Televisions",
+    "price": 32999.0,
+    "stock": 0,
+    "rating": 4.9,
+    "tags": [
+      "televisions",
+      "electronics",
+      "featured"
+    ],
+    "available": false,
+    "created_at": "2023-04-13",
+    "sku": "SKU-ELEC-0003",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "victor",
+        "rating": 1,
+        "comment": "works as expected",
+        "date": "2023-06-02"
+      }
+    ]
+  },
+  {
+    "product_id": "P004",
+    "name": "Bluetooth Speaker Mini",
+    "description": "Vertex Bluetooth Speaker Mini. Speakers product in Electronics. Tags: speakers, electronics, sale.",
+    "brand": "Vertex",
+    "category": "Electronics",
+    "subcategory": "Speakers",
+    "price": 59.99,
+    "stock": 75,
+    "rating": 4.1,
+    "tags": [
+      "speakers",
+      "electronics",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-05-10",
+    "sku": "SKU-ELEC-0004",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "wendy",
+        "rating": 1,
+        "comment": "decent product for everyday use",
+        "date": "2024-10-25"
+      }
+    ]
+  },
+  {
+    "product_id": "P005",
+    "name": "Compact Digital Camera",
+    "description": "Lumina Compact Digital Camera. Cameras product in Electronics. Tags: cameras, electronics, featured.",
+    "brand": "Lumina",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "price": 24999.0,
+    "stock": 164,
+    "rating": 4.3,
+    "tags": [
+      "cameras",
+      "electronics",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-06-04",
+    "sku": "SKU-ELEC-0005",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "mallory",
+        "rating": 3,
+        "comment": "exceeded my expectations",
+        "date": "2025-08-17"
+      },
+      {
+        "author": "rupert",
+        "rating": 2,
+        "comment": "works as expected",
+        "date": "2025-04-14"
+      },
+      {
+        "author": "carol",
+        "rating": 3,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-10-19"
+      },
+      {
+        "author": "victor",
+        "rating": 3,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-11-17"
+      }
+    ]
+  },
+  {
+    "product_id": "P006",
+    "name": "Wireless Charging Pad",
+    "description": "Orbit Wireless Charging Pad. Accessories product in Electronics. Tags: accessories, electronics, featured.",
+    "brand": "Orbit",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "price": 1499.0,
+    "stock": 174,
+    "rating": 2.6,
+    "tags": [
+      "accessories",
+      "electronics",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-08-18",
+    "sku": "SKU-ELEC-0006",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "sybil",
+        "rating": 3,
+        "comment": "loved it, highly recommended",
+        "date": "2024-06-17"
+      }
+    ]
+  },
+  {
+    "product_id": "P007",
+    "name": "Ceramic Coffee Mug",
+    "description": "Pinnacle Ceramic Coffee Mug. Mugs product in Home & Kitchen. Tags: mugs, home-kitchen, sale.",
+    "brand": "Pinnacle",
+    "category": "Home & Kitchen",
+    "subcategory": "Mugs",
+    "price": 9.5,
+    "stock": 26,
+    "rating": 2.9,
+    "tags": [
+      "mugs",
+      "home-kitchen",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-09-20",
+    "sku": "SKU-HOME-0007",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "carol",
+        "rating": 2,
+        "comment": "decent product for everyday use",
+        "date": "2024-01-28"
+      },
+      {
+        "author": "judy",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2025-12-24"
+      },
+      {
+        "author": "rupert",
+        "rating": 5,
+        "comment": "excellent quality and fast delivery",
+        "date": "2024-11-27"
+      }
+    ]
+  },
+  {
+    "product_id": "P008",
+    "name": "Non-Stick Cookware Set",
+    "description": "Globex Non-Stick Cookware Set. Cookware product in Home & Kitchen. Tags: cookware, home-kitchen, featured.",
+    "brand": "Globex",
+    "category": "Home & Kitchen",
+    "subcategory": "Cookware",
+    "price": 3499.0,
+    "stock": 36,
+    "rating": 4.8,
+    "tags": [
+      "cookware",
+      "home-kitchen",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-10-26",
+    "sku": "SKU-HOME-0008",
+    "warranty_months": 36,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "alice",
+        "rating": 3,
+        "comment": "good value for the price",
+        "date": "2025-11-16"
+      },
+      {
+        "author": "uma",
+        "rating": 4,
+        "comment": "would buy again",
+        "date": "2025-10-29"
+      }
+    ]
+  },
+  {
+    "product_id": "P009",
+    "name": "Ergonomic Office Chair",
+    "description": "Northwind Ergonomic Office Chair. Furniture product in Home & Kitchen. Tags: furniture, home-kitchen, featured.",
+    "brand": "Northwind",
+    "category": "Home & Kitchen",
+    "subcategory": "Furniture",
+    "price": 12999.0,
+    "stock": 92,
+    "rating": 2.6,
+    "tags": [
+      "furniture",
+      "home-kitchen",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-11-27",
+    "sku": "SKU-HOME-0009",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "bob",
+        "rating": 1,
+        "comment": "average quality, nothing special",
+        "date": "2024-02-24"
+      },
+      {
+        "author": "olivia",
+        "rating": 2,
+        "comment": "decent product for everyday use",
+        "date": "2025-10-15"
+      },
+      {
+        "author": "ivan",
+        "rating": 5,
+        "comment": "decent product for everyday use",
+        "date": "2025-01-13"
+      },
+      {
+        "author": "mallory",
+        "rating": 4,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-01-18"
+      }
+    ]
+  },
+  {
+    "product_id": "P010",
+    "name": "High-Speed Blender 600W",
+    "description": "Apex High-Speed Blender 600W. Blenders product in Home & Kitchen. Tags: blenders, home-kitchen, sale.",
+    "brand": "Apex",
+    "category": "Home & Kitchen",
+    "subcategory": "Blenders",
+    "price": 2799.0,
+    "stock": 53,
+    "rating": 3.4,
+    "tags": [
+      "blenders",
+      "home-kitchen",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-12-26",
+    "sku": "SKU-HOME-0010",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "heidi",
+        "rating": 3,
+        "comment": "average quality, nothing special",
+        "date": "2025-11-10"
+      }
+    ]
+  },
+  {
+    "product_id": "P011",
+    "name": "Bamboo Cutting Board",
+    "description": "Quantum Bamboo Cutting Board. Kitchen Tools product in Home & Kitchen. Tags: kitchen tools, home-kitchen, featured.",
+    "brand": "Quantum",
+    "category": "Home & Kitchen",
+    "subcategory": "Kitchen Tools",
+    "price": 499.0,
+    "stock": 104,
+    "rating": 4.7,
+    "tags": [
+      "kitchen tools",
+      "home-kitchen",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-02-13",
+    "sku": "SKU-HOME-0011",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "rupert",
+        "rating": 5,
+        "comment": "excellent quality and fast delivery",
+        "date": "2024-04-15"
+      },
+      {
+        "author": "alice",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2024-05-21"
+      }
+    ]
+  },
+  {
+    "product_id": "P012",
+    "name": "Luxury Bed Sheet Set",
+    "description": "Terra Luxury Bed Sheet Set. Bedding product in Home & Kitchen. Tags: bedding, home-kitchen, featured.",
+    "brand": "Terra",
+    "category": "Home & Kitchen",
+    "subcategory": "Bedding",
+    "price": 2499.0,
+    "stock": 93,
+    "rating": 3.5,
+    "tags": [
+      "bedding",
+      "home-kitchen",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-03-19",
+    "sku": "SKU-HOME-0012",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "erin",
+        "rating": 4,
+        "comment": "loved it, highly recommended",
+        "date": "2024-10-29"
+      },
+      {
+        "author": "heidi",
+        "rating": 1,
+        "comment": "good value for the price",
+        "date": "2024-08-24"
+      },
+      {
+        "author": "dave",
+        "rating": 5,
+        "comment": "decent product for everyday use",
+        "date": "2024-10-29"
+      }
+    ]
+  },
+  {
+    "product_id": "P013",
+    "name": "Classic Cotton Shirt",
+    "description": "Acme Classic Cotton Shirt. Shirts product in Fashion. Tags: shirts, fashion, sale.",
+    "brand": "Acme",
+    "category": "Fashion",
+    "subcategory": "Shirts",
+    "price": 1299.0,
+    "stock": 32,
+    "rating": 3.3,
+    "tags": [
+      "shirts",
+      "fashion",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2024-04-14",
+    "sku": "SKU-FASH-0013",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "olivia",
+        "rating": 1,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-10-22"
+      }
+    ]
+  },
+  {
+    "product_id": "P014",
+    "name": "Slim Fit Denim Jeans",
+    "description": "Nimbus Slim Fit Denim Jeans. Jeans product in Fashion. Tags: jeans, fashion, featured.",
+    "brand": "Nimbus",
+    "category": "Fashion",
+    "subcategory": "Jeans",
+    "price": 1899.0,
+    "stock": 0,
+    "rating": 4.6,
+    "tags": [
+      "jeans",
+      "fashion",
+      "featured"
+    ],
+    "available": false,
+    "created_at": "2024-05-18",
+    "sku": "SKU-FASH-0014",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "grace",
+        "rating": 2,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-01-21"
+      },
+      {
+        "author": "ivan",
+        "rating": 4,
+        "comment": "would buy again",
+        "date": "2024-08-18"
+      }
+    ]
+  },
+  {
+    "product_id": "P015",
+    "name": "Leather Bomber Jacket",
+    "description": "Zenith Leather Bomber Jacket. Jackets product in Fashion. Tags: jackets, fashion, featured.",
+    "brand": "Zenith",
+    "category": "Fashion",
+    "subcategory": "Jackets",
+    "price": 5999.0,
+    "stock": 185,
+    "rating": 3.3,
+    "tags": [
+      "jackets",
+      "fashion",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-06-16",
+    "sku": "SKU-FASH-0015",
+    "warranty_months": 36,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "mallory",
+        "rating": 2,
+        "comment": "excellent quality and fast delivery",
+        "date": "2024-11-08"
+      },
+      {
+        "author": "sybil",
+        "rating": 2,
+        "comment": "would buy again",
+        "date": "2025-01-14"
+      },
+      {
+        "author": "judy",
+        "rating": 4,
+        "comment": "not great, expected better",
+        "date": "2025-09-13"
+      }
+    ]
+  },
+  {
+    "product_id": "P016",
+    "name": "Urban Sneakers",
+    "description": "Vertex Urban Sneakers. Sneakers product in Fashion. Tags: sneakers, fashion, sale.",
+    "brand": "Vertex",
+    "category": "Fashion",
+    "subcategory": "Sneakers",
+    "price": 2999.0,
+    "stock": 145,
+    "rating": 2.7,
+    "tags": [
+      "sneakers",
+      "fashion",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2024-07-28",
+    "sku": "SKU-FASH-0016",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "trent",
+        "rating": 5,
+        "comment": "good value for the price",
+        "date": "2025-10-15"
+      },
+      {
+        "author": "wendy",
+        "rating": 2,
+        "comment": "decent product for everyday use",
+        "date": "2025-03-03"
+      },
+      {
+        "author": "dave",
+        "rating": 1,
+        "comment": "average quality, nothing special",
+        "date": "2024-08-22"
+      },
+      {
+        "author": "grace",
+        "rating": 5,
+        "comment": "exceeded my expectations",
+        "date": "2025-02-05"
+      }
+    ]
+  },
+  {
+    "product_id": "P017",
+    "name": "Minimalist Wrist Watch",
+    "description": "Lumina Minimalist Wrist Watch. Watches product in Fashion. Tags: watches, fashion, featured.",
+    "brand": "Lumina",
+    "category": "Fashion",
+    "subcategory": "Watches",
+    "price": 7499.0,
+    "stock": 123,
+    "rating": 3.3,
+    "tags": [
+      "watches",
+      "fashion",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-09-16",
+    "sku": "SKU-FASH-0017",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "carol",
+        "rating": 3,
+        "comment": "not great, expected better",
+        "date": "2025-02-15"
+      },
+      {
+        "author": "ivan",
+        "rating": 4,
+        "comment": "works as expected",
+        "date": "2025-04-30"
+      },
+      {
+        "author": "mallory",
+        "rating": 3,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-11-13"
+      },
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "not great, expected better",
+        "date": "2025-03-21"
+      }
+    ]
+  },
+  {
+    "product_id": "P018",
+    "name": "Aviator Sunglasses",
+    "description": "Orbit Aviator Sunglasses. Eyewear product in Fashion. Tags: eyewear, fashion, featured.",
+    "brand": "Orbit",
+    "category": "Fashion",
+    "subcategory": "Eyewear",
+    "price": 1799.0,
+    "stock": 123,
+    "rating": 4.1,
+    "tags": [
+      "eyewear",
+      "fashion",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-10-08",
+    "sku": "SKU-FASH-0018",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "judy",
+        "rating": 4,
+        "comment": "average quality, nothing special",
+        "date": "2025-04-17"
+      },
+      {
+        "author": "victor",
+        "rating": 3,
+        "comment": "exceeded my expectations",
+        "date": "2025-12-06"
+      }
+    ]
+  },
+  {
+    "product_id": "P019",
+    "name": "The Silent Horizon",
+    "description": "Pinnacle The Silent Horizon. Fiction product in Books. Tags: fiction, books, sale.",
+    "brand": "Pinnacle",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "price": 499.0,
+    "stock": 38,
+    "rating": 3.5,
+    "tags": [
+      "fiction",
+      "books",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2024-11-10",
+    "sku": "SKU-BOOK-0019",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "erin",
+        "rating": 2,
+        "comment": "decent product for everyday use",
+        "date": "2025-02-27"
+      },
+      {
+        "author": "grace",
+        "rating": 3,
+        "comment": "not great, expected better",
+        "date": "2025-07-27"
+      }
+    ]
+  },
+  {
+    "product_id": "P020",
+    "name": "Data Structures Explained",
+    "description": "Globex Data Structures Explained. Textbooks product in Books. Tags: textbooks, books, featured.",
+    "brand": "Globex",
+    "category": "Books",
+    "subcategory": "Textbooks",
+    "price": 899.0,
+    "stock": 32,
+    "rating": 3.4,
+    "tags": [
+      "textbooks",
+      "books",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-12-09",
+    "sku": "SKU-BOOK-0020",
+    "warranty_months": 36,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "would buy again",
+        "date": "2025-02-15"
+      },
+      {
+        "author": "ivan",
+        "rating": 1,
+        "comment": "works as expected",
+        "date": "2025-08-22"
+      },
+      {
+        "author": "trent",
+        "rating": 4,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-09-27"
+      }
+    ]
+  },
+  {
+    "product_id": "P021",
+    "name": "World History Compendium",
+    "description": "Northwind World History Compendium. Non-Fiction product in Books. Tags: non-fiction, books, featured.",
+    "brand": "Northwind",
+    "category": "Books",
+    "subcategory": "Non-Fiction",
+    "price": 1299.0,
+    "stock": 122,
+    "rating": 4.9,
+    "tags": [
+      "non-fiction",
+      "books",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-01-21",
+    "sku": "SKU-BOOK-0021",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "dave",
+        "rating": 1,
+        "comment": "not great, expected better",
+        "date": "2025-10-25"
+      },
+      {
+        "author": "carol",
+        "rating": 3,
+        "comment": "good value for the price",
+        "date": "2025-09-24"
+      },
+      {
+        "author": "grace",
+        "rating": 4,
+        "comment": "good value for the price",
+        "date": "2025-12-28"
+      },
+      {
+        "author": "peggy",
+        "rating": 4,
+        "comment": "works as expected",
+        "date": "2025-10-26"
+      }
+    ]
+  },
+  {
+    "product_id": "P022",
+    "name": "Galactic Adventures Comic",
+    "description": "Apex Galactic Adventures Comic. Comics product in Books. Tags: comics, books, sale.",
+    "brand": "Apex",
+    "category": "Books",
+    "subcategory": "Comics",
+    "price": 349.0,
+    "stock": 26,
+    "rating": 3.7,
+    "tags": [
+      "comics",
+      "books",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2025-02-01",
+    "sku": "SKU-BOOK-0022",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "bob",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2025-07-20"
+      },
+      {
+        "author": "frank",
+        "rating": 1,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-07-15"
+      },
+      {
+        "author": "mallory",
+        "rating": 1,
+        "comment": "loved it, highly recommended",
+        "date": "2025-05-16"
+      }
+    ]
+  },
+  {
+    "product_id": "P023",
+    "name": "Startup Playbook",
+    "description": "Quantum Startup Playbook. Business product in Books. Tags: business, books, featured.",
+    "brand": "Quantum",
+    "category": "Books",
+    "subcategory": "Business",
+    "price": 999.0,
+    "stock": 183,
+    "rating": 3.0,
+    "tags": [
+      "business",
+      "books",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-04-21",
+    "sku": "SKU-BOOK-0023",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "dave",
+        "rating": 2,
+        "comment": "decent product for everyday use",
+        "date": "2025-06-16"
+      }
+    ]
+  },
+  {
+    "product_id": "P024",
+    "name": "Machine Learning Basics",
+    "description": "Terra Machine Learning Basics. Textbooks product in Books. Tags: textbooks, books, featured.",
+    "brand": "Terra",
+    "category": "Books",
+    "subcategory": "Textbooks",
+    "price": 1499.0,
+    "stock": 106,
+    "rating": 2.7,
+    "tags": [
+      "textbooks",
+      "books",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-05-25",
+    "sku": "SKU-BOOK-0024",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "dave",
+        "rating": 3,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-06-22"
+      }
+    ]
+  },
+  {
+    "product_id": "P025",
+    "name": "Vitamin C Face Serum",
+    "description": "Acme Vitamin C Face Serum. Skincare product in Beauty. Tags: skincare, beauty, sale.",
+    "brand": "Acme",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "price": 899.0,
+    "stock": 76,
+    "rating": 4.1,
+    "tags": [
+      "skincare",
+      "beauty",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2025-06-09",
+    "sku": "SKU-BEAU-0025",
+    "warranty_months": 36,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "frank",
+        "rating": 2,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-11-11"
+      },
+      {
+        "author": "victor",
+        "rating": 4,
+        "comment": "loved it, highly recommended",
+        "date": "2025-10-12"
+      },
+      {
+        "author": "mallory",
+        "rating": 4,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-11-25"
+      },
+      {
+        "author": "grace",
+        "rating": 4,
+        "comment": "loved it, highly recommended",
+        "date": "2025-11-07"
+      }
+    ]
+  },
+  {
+    "product_id": "P026",
+    "name": "Herbal Shampoo",
+    "description": "Nimbus Herbal Shampoo. Haircare product in Beauty. Tags: haircare, beauty, featured.",
+    "brand": "Nimbus",
+    "category": "Beauty",
+    "subcategory": "Haircare",
+    "price": 449.0,
+    "stock": 9,
+    "rating": 3.7,
+    "tags": [
+      "haircare",
+      "beauty",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-07-27",
+    "sku": "SKU-BEAU-0026",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "bob",
+        "rating": 5,
+        "comment": "works as expected",
+        "date": "2025-11-16"
+      },
+      {
+        "author": "carol",
+        "rating": 4,
+        "comment": "good value for the price",
+        "date": "2025-08-24"
+      }
+    ]
+  },
+  {
+    "product_id": "P027",
+    "name": "Matte Lipstick Set",
+    "description": "Zenith Matte Lipstick Set. Makeup product in Beauty. Tags: makeup, beauty, featured.",
+    "brand": "Zenith",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "price": 1299.0,
+    "stock": 166,
+    "rating": 2.8,
+    "tags": [
+      "makeup",
+      "beauty",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-08-01",
+    "sku": "SKU-BEAU-0027",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "trent",
+        "rating": 4,
+        "comment": "average quality, nothing special",
+        "date": "2025-12-07"
+      },
+      {
+        "author": "alice",
+        "rating": 2,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-12-06"
+      },
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "good value for the price",
+        "date": "2025-11-02"
+      }
+    ]
+  },
+  {
+    "product_id": "P028",
+    "name": "Luxury Perfume 100ml",
+    "description": "Vertex Luxury Perfume 100ml. Fragrance product in Beauty. Tags: fragrance, beauty, sale.",
+    "brand": "Vertex",
+    "category": "Beauty",
+    "subcategory": "Fragrance",
+    "price": 4999.0,
+    "stock": 0,
+    "rating": 4.3,
+    "tags": [
+      "fragrance",
+      "beauty",
+      "sale"
+    ],
+    "available": false,
+    "created_at": "2025-10-21",
+    "sku": "SKU-BEAU-0028",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "bob",
+        "rating": 1,
+        "comment": "average quality, nothing special",
+        "date": "2025-12-15"
+      }
+    ]
+  },
+  {
+    "product_id": "P029",
+    "name": "Beard Trimmer Pro",
+    "description": "Lumina Beard Trimmer Pro. Grooming product in Beauty. Tags: grooming, beauty, featured.",
+    "brand": "Lumina",
+    "category": "Beauty",
+    "subcategory": "Grooming",
+    "price": 1799.0,
+    "stock": 147,
+    "rating": 2.5,
+    "tags": [
+      "grooming",
+      "beauty",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-11-18",
+    "sku": "SKU-BEAU-0029",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "alice",
+        "rating": 3,
+        "comment": "decent product for everyday use",
+        "date": "2025-12-20"
+      },
+      {
+        "author": "niaj",
+        "rating": 3,
+        "comment": "loved it, highly recommended",
+        "date": "2025-12-08"
+      },
+      {
+        "author": "alice",
+        "rating": 4,
+        "comment": "good value for the price",
+        "date": "2025-12-22"
+      },
+      {
+        "author": "wendy",
+        "rating": 1,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-11-19"
+      }
+    ]
+  },
+  {
+    "product_id": "P030",
+    "name": "Sunscreen SPF 50",
+    "description": "Orbit Sunscreen SPF 50. Skincare product in Beauty. Tags: skincare, beauty, featured.",
+    "brand": "Orbit",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "price": 649.0,
+    "stock": 142,
+    "rating": 2.6,
+    "tags": [
+      "skincare",
+      "beauty",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-12-09",
+    "sku": "SKU-BEAU-0030",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "niaj",
+        "rating": 4,
+        "comment": "would buy again",
+        "date": "2025-12-09"
+      },
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "would buy again",
+        "date": "2025-12-10"
+      },
+      {
+        "author": "mallory",
+        "rating": 1,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-12-17"
+      }
+    ]
+  },
+  {
+    "product_id": "P031",
+    "name": "Pro Yoga Mat",
+    "description": "Pinnacle Pro Yoga Mat. Yoga Mats product in Sports. Tags: yoga mats, sports, sale.",
+    "brand": "Pinnacle",
+    "category": "Sports",
+    "subcategory": "Yoga Mats",
+    "price": 1499.0,
+    "stock": 36,
+    "rating": 3.1,
+    "tags": [
+      "yoga mats",
+      "sports",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-01-18",
+    "sku": "SKU-SPOR-0031",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "niaj",
+        "rating": 5,
+        "comment": "not great, expected better",
+        "date": "2024-11-25"
+      },
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-08-18"
+      },
+      {
+        "author": "frank",
+        "rating": 1,
+        "comment": "not great, expected better",
+        "date": "2025-11-13"
+      },
+      {
+        "author": "peggy",
+        "rating": 4,
+        "comment": "works as expected",
+        "date": "2025-06-05"
+      }
+    ]
+  },
+  {
+    "product_id": "P032",
+    "name": "Adjustable Dumbbell Set",
+    "description": "Globex Adjustable Dumbbell Set. Dumbbells product in Sports. Tags: dumbbells, sports, featured.",
+    "brand": "Globex",
+    "category": "Sports",
+    "subcategory": "Dumbbells",
+    "price": 4999.0,
+    "stock": 131,
+    "rating": 4.1,
+    "tags": [
+      "dumbbells",
+      "sports",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-03-09",
+    "sku": "SKU-SPOR-0032",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "mallory",
+        "rating": 3,
+        "comment": "would buy again",
+        "date": "2023-10-03"
+      },
+      {
+        "author": "wendy",
+        "rating": 5,
+        "comment": "exceeded my expectations",
+        "date": "2023-10-16"
+      },
+      {
+        "author": "uma",
+        "rating": 4,
+        "comment": "would buy again",
+        "date": "2025-08-21"
+      },
+      {
+        "author": "olivia",
+        "rating": 1,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-05-08"
+      }
+    ]
+  },
+  {
+    "product_id": "P033",
+    "name": "Mountain Bike 21-Speed",
+    "description": "Northwind Mountain Bike 21-Speed. Cycles product in Sports. Tags: cycles, sports, featured.",
+    "brand": "Northwind",
+    "category": "Sports",
+    "subcategory": "Cycles",
+    "price": 18999.0,
+    "stock": 79,
+    "rating": 3.6,
+    "tags": [
+      "cycles",
+      "sports",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-04-06",
+    "sku": "SKU-SPOR-0033",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "niaj",
+        "rating": 5,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-05-08"
+      },
+      {
+        "author": "trent",
+        "rating": 5,
+        "comment": "exceeded my expectations",
+        "date": "2023-09-11"
+      }
+    ]
+  },
+  {
+    "product_id": "P034",
+    "name": "Running Shoes Air",
+    "description": "Apex Running Shoes Air. Shoes product in Sports. Tags: shoes, sports, sale.",
+    "brand": "Apex",
+    "category": "Sports",
+    "subcategory": "Shoes",
+    "price": 3999.0,
+    "stock": 6,
+    "rating": 4.3,
+    "tags": [
+      "shoes",
+      "sports",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-05-19",
+    "sku": "SKU-SPOR-0034",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "heidi",
+        "rating": 5,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-12-01"
+      },
+      {
+        "author": "wendy",
+        "rating": 1,
+        "comment": "decent product for everyday use",
+        "date": "2024-03-24"
+      },
+      {
+        "author": "frank",
+        "rating": 1,
+        "comment": "would buy again",
+        "date": "2024-10-13"
+      }
+    ]
+  },
+  {
+    "product_id": "P035",
+    "name": "Carbon Tennis Racket",
+    "description": "Quantum Carbon Tennis Racket. Rackets product in Sports. Tags: rackets, sports, featured.",
+    "brand": "Quantum",
+    "category": "Sports",
+    "subcategory": "Rackets",
+    "price": 6999.0,
+    "stock": 120,
+    "rating": 4.7,
+    "tags": [
+      "rackets",
+      "sports",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-06-04",
+    "sku": "SKU-SPOR-0035",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "erin",
+        "rating": 2,
+        "comment": "excellent quality and fast delivery",
+        "date": "2024-02-20"
+      },
+      {
+        "author": "carol",
+        "rating": 3,
+        "comment": "would buy again",
+        "date": "2025-05-01"
+      },
+      {
+        "author": "victor",
+        "rating": 4,
+        "comment": "exceeded my expectations",
+        "date": "2023-11-27"
+      }
+    ]
+  },
+  {
+    "product_id": "P036",
+    "name": "Foldable Treadmill",
+    "description": "Terra Foldable Treadmill. Fitness Equipment product in Sports. Tags: fitness equipment, sports, featured.",
+    "brand": "Terra",
+    "category": "Sports",
+    "subcategory": "Fitness Equipment",
+    "price": 34999.0,
+    "stock": 102,
+    "rating": 4.2,
+    "tags": [
+      "fitness equipment",
+      "sports",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-08-03",
+    "sku": "SKU-SPOR-0036",
+    "warranty_months": 36,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "wendy",
+        "rating": 2,
+        "comment": "exceeded my expectations",
+        "date": "2025-02-10"
+      },
+      {
+        "author": "niaj",
+        "rating": 1,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-11-22"
+      },
+      {
+        "author": "rupert",
+        "rating": 3,
+        "comment": "good value for the price",
+        "date": "2025-04-24"
+      }
+    ]
+  },
+  {
+    "product_id": "P037",
+    "name": "Building Blocks 500 Pieces",
+    "description": "Acme Building Blocks 500 Pieces. Building Sets product in Toys. Tags: building sets, toys, sale.",
+    "brand": "Acme",
+    "category": "Toys",
+    "subcategory": "Building Sets",
+    "price": 2499.0,
+    "stock": 22,
+    "rating": 3.2,
+    "tags": [
+      "building sets",
+      "toys",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-09-19",
+    "sku": "SKU-TOYS-0037",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "erin",
+        "rating": 4,
+        "comment": "loved it, highly recommended",
+        "date": "2024-02-23"
+      }
+    ]
+  },
+  {
+    "product_id": "P038",
+    "name": "Remote Control Car",
+    "description": "Nimbus Remote Control Car. Vehicles product in Toys. Tags: vehicles, toys, featured.",
+    "brand": "Nimbus",
+    "category": "Toys",
+    "subcategory": "Vehicles",
+    "price": 1799.0,
+    "stock": 106,
+    "rating": 4.6,
+    "tags": [
+      "vehicles",
+      "toys",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-10-02",
+    "sku": "SKU-TOYS-0038",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "rupert",
+        "rating": 5,
+        "comment": "decent product for everyday use",
+        "date": "2025-07-04"
+      },
+      {
+        "author": "victor",
+        "rating": 3,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-12-28"
+      }
+    ]
+  },
+  {
+    "product_id": "P039",
+    "name": "Wooden Puzzle Set",
+    "description": "Zenith Wooden Puzzle Set. Puzzles product in Toys. Tags: puzzles, toys, featured.",
+    "brand": "Zenith",
+    "category": "Toys",
+    "subcategory": "Puzzles",
+    "price": 699.0,
+    "stock": 67,
+    "rating": 4.8,
+    "tags": [
+      "puzzles",
+      "toys",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-11-05",
+    "sku": "SKU-TOYS-0039",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "mallory",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2025-08-29"
+      },
+      {
+        "author": "alice",
+        "rating": 4,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-02-02"
+      }
+    ]
+  },
+  {
+    "product_id": "P040",
+    "name": "Plush Teddy Bear",
+    "description": "Vertex Plush Teddy Bear. Soft Toys product in Toys. Tags: soft toys, toys, sale.",
+    "brand": "Vertex",
+    "category": "Toys",
+    "subcategory": "Soft Toys",
+    "price": 899.0,
+    "stock": 55,
+    "rating": 2.8,
+    "tags": [
+      "soft toys",
+      "toys",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-12-08",
+    "sku": "SKU-TOYS-0040",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "victor",
+        "rating": 5,
+        "comment": "loved it, highly recommended",
+        "date": "2025-06-24"
+      },
+      {
+        "author": "heidi",
+        "rating": 2,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-11-08"
+      },
+      {
+        "author": "sybil",
+        "rating": 1,
+        "comment": "would buy again",
+        "date": "2024-07-30"
+      },
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-10-29"
+      }
+    ]
+  },
+  {
+    "product_id": "P041",
+    "name": "Board Game Strategy",
+    "description": "Lumina Board Game Strategy. Board Games product in Toys. Tags: board games, toys, featured.",
+    "brand": "Lumina",
+    "category": "Toys",
+    "subcategory": "Board Games",
+    "price": 1499.0,
+    "stock": 0,
+    "rating": 3.5,
+    "tags": [
+      "board games",
+      "toys",
+      "featured"
+    ],
+    "available": false,
+    "created_at": "2024-02-01",
+    "sku": "SKU-TOYS-0041",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "grace",
+        "rating": 3,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-01-01"
+      },
+      {
+        "author": "victor",
+        "rating": 1,
+        "comment": "decent product for everyday use",
+        "date": "2025-03-06"
+      },
+      {
+        "author": "bob",
+        "rating": 1,
+        "comment": "not great, expected better",
+        "date": "2024-12-21"
+      }
+    ]
+  },
+  {
+    "product_id": "P042",
+    "name": "Kids Art Kit",
+    "description": "Orbit Kids Art Kit. Art & Craft product in Toys. Tags: art & craft, toys, featured.",
+    "brand": "Orbit",
+    "category": "Toys",
+    "subcategory": "Art & Craft",
+    "price": 599.0,
+    "stock": 177,
+    "rating": 4.5,
+    "tags": [
+      "art & craft",
+      "toys",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-03-08",
+    "sku": "SKU-TOYS-0042",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "victor",
+        "rating": 4,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-05-06"
+      },
+      {
+        "author": "trent",
+        "rating": 2,
+        "comment": "good value for the price",
+        "date": "2024-05-30"
+      }
+    ]
+  },
+  {
+    "product_id": "P043",
+    "name": "Organic Basmati Rice 5kg",
+    "description": "Pinnacle Organic Basmati Rice 5kg. Staples product in Grocery. Tags: staples, grocery, sale.",
+    "brand": "Pinnacle",
+    "category": "Grocery",
+    "subcategory": "Staples",
+    "price": 899.0,
+    "stock": 29,
+    "rating": 3.6,
+    "tags": [
+      "staples",
+      "grocery",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2024-04-15",
+    "sku": "SKU-GROC-0043",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "sybil",
+        "rating": 5,
+        "comment": "loved it, highly recommended",
+        "date": "2025-03-15"
+      },
+      {
+        "author": "niaj",
+        "rating": 3,
+        "comment": "good value for the price",
+        "date": "2025-11-02"
+      }
+    ]
+  },
+  {
+    "product_id": "P044",
+    "name": "Cold Pressed Olive Oil 1L",
+    "description": "Globex Cold Pressed Olive Oil 1L. Oils product in Grocery. Tags: oils, grocery, featured.",
+    "brand": "Globex",
+    "category": "Grocery",
+    "subcategory": "Oils",
+    "price": 1299.0,
+    "stock": 95,
+    "rating": 4.7,
+    "tags": [
+      "oils",
+      "grocery",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-05-08",
+    "sku": "SKU-GROC-0044",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "victor",
+        "rating": 1,
+        "comment": "decent product for everyday use",
+        "date": "2025-08-31"
+      },
+      {
+        "author": "grace",
+        "rating": 1,
+        "comment": "loved it, highly recommended",
+        "date": "2024-06-25"
+      },
+      {
+        "author": "grace",
+        "rating": 4,
+        "comment": "not great, expected better",
+        "date": "2025-03-04"
+      },
+      {
+        "author": "wendy",
+        "rating": 5,
+        "comment": "good value for the price",
+        "date": "2024-10-22"
+      }
+    ]
+  },
+  {
+    "product_id": "P045",
+    "name": "Almonds Premium 500g",
+    "description": "Northwind Almonds Premium 500g. Dry Fruits product in Grocery. Tags: dry fruits, grocery, featured.",
+    "brand": "Northwind",
+    "category": "Grocery",
+    "subcategory": "Dry Fruits",
+    "price": 749.0,
+    "stock": 121,
+    "rating": 2.9,
+    "tags": [
+      "dry fruits",
+      "grocery",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-06-01",
+    "sku": "SKU-GROC-0045",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "uma",
+        "rating": 3,
+        "comment": "loved it, highly recommended",
+        "date": "2024-06-18"
+      },
+      {
+        "author": "frank",
+        "rating": 4,
+        "comment": "loved it, highly recommended",
+        "date": "2025-04-29"
+      }
+    ]
+  },
+  {
+    "product_id": "P046",
+    "name": "Green Tea 100 Bags",
+    "description": "Apex Green Tea 100 Bags. Beverages product in Grocery. Tags: beverages, grocery, sale.",
+    "brand": "Apex",
+    "category": "Grocery",
+    "subcategory": "Beverages",
+    "price": 449.0,
+    "stock": 121,
+    "rating": 4.4,
+    "tags": [
+      "beverages",
+      "grocery",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2024-07-04",
+    "sku": "SKU-GROC-0046",
+    "warranty_months": 36,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "alice",
+        "rating": 3,
+        "comment": "exceeded my expectations",
+        "date": "2025-08-31"
+      }
+    ]
+  },
+  {
+    "product_id": "P047",
+    "name": "Dark Chocolate Pack",
+    "description": "Quantum Dark Chocolate Pack. Snacks product in Grocery. Tags: snacks, grocery, featured.",
+    "brand": "Quantum",
+    "category": "Grocery",
+    "subcategory": "Snacks",
+    "price": 299.0,
+    "stock": 40,
+    "rating": 2.8,
+    "tags": [
+      "snacks",
+      "grocery",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-09-09",
+    "sku": "SKU-GROC-0047",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "ivan",
+        "rating": 4,
+        "comment": "exceeded my expectations",
+        "date": "2025-01-03"
+      },
+      {
+        "author": "wendy",
+        "rating": 5,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-11-27"
+      },
+      {
+        "author": "trent",
+        "rating": 5,
+        "comment": "loved it, highly recommended",
+        "date": "2025-09-15"
+      }
+    ]
+  },
+  {
+    "product_id": "P048",
+    "name": "Whole Wheat Flour 10kg",
+    "description": "Terra Whole Wheat Flour 10kg. Staples product in Grocery. Tags: staples, grocery, featured.",
+    "brand": "Terra",
+    "category": "Grocery",
+    "subcategory": "Staples",
+    "price": 499.0,
+    "stock": 168,
+    "rating": 2.9,
+    "tags": [
+      "staples",
+      "grocery",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-10-12",
+    "sku": "SKU-GROC-0048",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "uma",
+        "rating": 4,
+        "comment": "not great, expected better",
+        "date": "2025-04-20"
+      },
+      {
+        "author": "wendy",
+        "rating": 1,
+        "comment": "decent product for everyday use",
+        "date": "2025-06-28"
+      }
+    ]
+  },
+  {
+    "product_id": "P049",
+    "name": "Car Phone Mount",
+    "description": "Acme Car Phone Mount. Accessories product in Automotive. Tags: accessories, automotive, sale.",
+    "brand": "Acme",
+    "category": "Automotive",
+    "subcategory": "Accessories",
+    "price": 499.0,
+    "stock": 116,
+    "rating": 4.2,
+    "tags": [
+      "accessories",
+      "automotive",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2024-11-18",
+    "sku": "SKU-AUTO-0049",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "victor",
+        "rating": 3,
+        "comment": "good value for the price",
+        "date": "2024-11-30"
+      }
+    ]
+  },
+  {
+    "product_id": "P050",
+    "name": "Engine Oil 5L",
+    "description": "Nimbus Engine Oil 5L. Lubricants product in Automotive. Tags: lubricants, automotive, featured.",
+    "brand": "Nimbus",
+    "category": "Automotive",
+    "subcategory": "Lubricants",
+    "price": 2499.0,
+    "stock": 60,
+    "rating": 4.6,
+    "tags": [
+      "lubricants",
+      "automotive",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-12-13",
+    "sku": "SKU-AUTO-0050",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "trent",
+        "rating": 2,
+        "comment": "works as expected",
+        "date": "2025-08-03"
+      },
+      {
+        "author": "rupert",
+        "rating": 5,
+        "comment": "average quality, nothing special",
+        "date": "2025-10-26"
+      },
+      {
+        "author": "frank",
+        "rating": 2,
+        "comment": "exceeded my expectations",
+        "date": "2025-01-28"
+      },
+      {
+        "author": "carol",
+        "rating": 1,
+        "comment": "works as expected",
+        "date": "2025-04-24"
+      }
+    ]
+  },
+  {
+    "product_id": "P051",
+    "name": "Dash Camera Full HD",
+    "description": "Zenith Dash Camera Full HD. Electronics product in Automotive. Tags: electronics, automotive, featured.",
+    "brand": "Zenith",
+    "category": "Automotive",
+    "subcategory": "Electronics",
+    "price": 4499.0,
+    "stock": 176,
+    "rating": 4.0,
+    "tags": [
+      "electronics",
+      "automotive",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-01-09",
+    "sku": "SKU-AUTO-0051",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "trent",
+        "rating": 1,
+        "comment": "not great, expected better",
+        "date": "2025-06-16"
+      },
+      {
+        "author": "bob",
+        "rating": 3,
+        "comment": "good value for the price",
+        "date": "2025-07-17"
+      },
+      {
+        "author": "alice",
+        "rating": 3,
+        "comment": "good value for the price",
+        "date": "2025-03-13"
+      },
+      {
+        "author": "victor",
+        "rating": 2,
+        "comment": "would buy again",
+        "date": "2025-12-28"
+      }
+    ]
+  },
+  {
+    "product_id": "P052",
+    "name": "Car Vacuum Cleaner",
+    "description": "Vertex Car Vacuum Cleaner. Cleaning product in Automotive. Tags: cleaning, automotive, sale.",
+    "brand": "Vertex",
+    "category": "Automotive",
+    "subcategory": "Cleaning",
+    "price": 1899.0,
+    "stock": 110,
+    "rating": 3.8,
+    "tags": [
+      "cleaning",
+      "automotive",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2025-02-24",
+    "sku": "SKU-AUTO-0052",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "dave",
+        "rating": 2,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-03-11"
+      },
+      {
+        "author": "wendy",
+        "rating": 4,
+        "comment": "average quality, nothing special",
+        "date": "2025-12-31"
+      }
+    ]
+  },
+  {
+    "product_id": "P053",
+    "name": "All-Weather Floor Mats",
+    "description": "Lumina All-Weather Floor Mats. Interior product in Automotive. Tags: interior, automotive, featured.",
+    "brand": "Lumina",
+    "category": "Automotive",
+    "subcategory": "Interior",
+    "price": 2999.0,
+    "stock": 76,
+    "rating": 5.0,
+    "tags": [
+      "interior",
+      "automotive",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-04-02",
+    "sku": "SKU-AUTO-0053",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "alice",
+        "rating": 2,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-12-11"
+      }
+    ]
+  },
+  {
+    "product_id": "P054",
+    "name": "Portable Tire Inflator",
+    "description": "Orbit Portable Tire Inflator. Tools product in Automotive. Tags: tools, automotive, featured.",
+    "brand": "Orbit",
+    "category": "Automotive",
+    "subcategory": "Tools",
+    "price": 2199.0,
+    "stock": 106,
+    "rating": 3.0,
+    "tags": [
+      "tools",
+      "automotive",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-05-09",
+    "sku": "SKU-AUTO-0054",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "wendy",
+        "rating": 4,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-11-10"
+      },
+      {
+        "author": "judy",
+        "rating": 4,
+        "comment": "would buy again",
+        "date": "2025-12-15"
+      },
+      {
+        "author": "dave",
+        "rating": 5,
+        "comment": "good value for the price",
+        "date": "2025-08-26"
+      },
+      {
+        "author": "rupert",
+        "rating": 4,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-05-24"
+      }
+    ]
+  },
+  {
+    "product_id": "P055",
+    "name": "Garden Tool Set",
+    "description": "Pinnacle Garden Tool Set. Tools product in Garden. Tags: tools, garden, sale.",
+    "brand": "Pinnacle",
+    "category": "Garden",
+    "subcategory": "Tools",
+    "price": 1499.0,
+    "stock": 115,
+    "rating": 4.5,
+    "tags": [
+      "tools",
+      "garden",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2025-06-13",
+    "sku": "SKU-GARD-0055",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "erin",
+        "rating": 5,
+        "comment": "decent product for everyday use",
+        "date": "2025-11-11"
+      }
+    ]
+  },
+  {
+    "product_id": "P056",
+    "name": "Solar Garden Lights Pack",
+    "description": "Globex Solar Garden Lights Pack. Lighting product in Garden. Tags: lighting, garden, featured.",
+    "brand": "Globex",
+    "category": "Garden",
+    "subcategory": "Lighting",
+    "price": 1799.0,
+    "stock": 0,
+    "rating": 3.6,
+    "tags": [
+      "lighting",
+      "garden",
+      "featured"
+    ],
+    "available": false,
+    "created_at": "2025-07-07",
+    "sku": "SKU-GARD-0056",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "heidi",
+        "rating": 1,
+        "comment": "good value for the price",
+        "date": "2025-07-13"
+      },
+      {
+        "author": "bob",
+        "rating": 5,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-10-11"
+      }
+    ]
+  },
+  {
+    "product_id": "P057",
+    "name": "Indoor Plant Pot Set",
+    "description": "Northwind Indoor Plant Pot Set. Planters product in Garden. Tags: planters, garden, featured.",
+    "brand": "Northwind",
+    "category": "Garden",
+    "subcategory": "Planters",
+    "price": 899.0,
+    "stock": 41,
+    "rating": 3.1,
+    "tags": [
+      "planters",
+      "garden",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-08-22",
+    "sku": "SKU-GARD-0057",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-11-09"
+      },
+      {
+        "author": "judy",
+        "rating": 4,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-09-02"
+      }
+    ]
+  },
+  {
+    "product_id": "P058",
+    "name": "Watering Can 5L",
+    "description": "Apex Watering Can 5L. Watering product in Garden. Tags: watering, garden, sale.",
+    "brand": "Apex",
+    "category": "Garden",
+    "subcategory": "Watering",
+    "price": 399.0,
+    "stock": 75,
+    "rating": 3.0,
+    "tags": [
+      "watering",
+      "garden",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2025-10-21",
+    "sku": "SKU-GARD-0058",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "bob",
+        "rating": 1,
+        "comment": "would buy again",
+        "date": "2025-12-19"
+      },
+      {
+        "author": "dave",
+        "rating": 1,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-12-20"
+      }
+    ]
+  },
+  {
+    "product_id": "P059",
+    "name": "Hedge Trimmer Electric",
+    "description": "Quantum Hedge Trimmer Electric. Power Tools product in Garden. Tags: power tools, garden, featured.",
+    "brand": "Quantum",
+    "category": "Garden",
+    "subcategory": "Power Tools",
+    "price": 6499.0,
+    "stock": 120,
+    "rating": 5.0,
+    "tags": [
+      "power tools",
+      "garden",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-11-28",
+    "sku": "SKU-GARD-0059",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "trent",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2025-12-08"
+      },
+      {
+        "author": "trent",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2025-12-16"
+      },
+      {
+        "author": "sybil",
+        "rating": 3,
+        "comment": "decent product for everyday use",
+        "date": "2025-12-22"
+      }
+    ]
+  },
+  {
+    "product_id": "P060",
+    "name": "Outdoor Patio Chair",
+    "description": "Terra Outdoor Patio Chair. Furniture product in Garden. Tags: furniture, garden, featured.",
+    "brand": "Terra",
+    "category": "Garden",
+    "subcategory": "Furniture",
+    "price": 8999.0,
+    "stock": 39,
+    "rating": 2.5,
+    "tags": [
+      "furniture",
+      "garden",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2025-12-27",
+    "sku": "SKU-GARD-0060",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "niaj",
+        "rating": 4,
+        "comment": "loved it, highly recommended",
+        "date": "2025-12-29"
+      },
+      {
+        "author": "wendy",
+        "rating": 1,
+        "comment": "not great, expected better",
+        "date": "2025-12-27"
+      }
+    ]
+  },
+  {
+    "product_id": "P061",
+    "name": "Ergonomic Wireless Mouse",
+    "description": "Acme Ergonomic Wireless Mouse. Computer Accessories product in Office. Tags: computer accessories, office, sale.",
+    "brand": "Acme",
+    "category": "Office",
+    "subcategory": "Computer Accessories",
+    "price": 1299.0,
+    "stock": 117,
+    "rating": 3.9,
+    "tags": [
+      "computer accessories",
+      "office",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-01-16",
+    "sku": "SKU-OFFI-0061",
+    "warranty_months": 0,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "niaj",
+        "rating": 4,
+        "comment": "loved it, highly recommended",
+        "date": "2025-11-05"
+      },
+      {
+        "author": "judy",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2025-05-07"
+      },
+      {
+        "author": "alice",
+        "rating": 5,
+        "comment": "loved it, highly recommended",
+        "date": "2025-10-08"
+      }
+    ]
+  },
+  {
+    "product_id": "P062",
+    "name": "A4 Printer Paper 500 Sheets",
+    "description": "Nimbus A4 Printer Paper 500 Sheets. Paper product in Office. Tags: paper, office, featured.",
+    "brand": "Nimbus",
+    "category": "Office",
+    "subcategory": "Paper",
+    "price": 349.0,
+    "stock": 5,
+    "rating": 4.7,
+    "tags": [
+      "paper",
+      "office",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-03-04",
+    "sku": "SKU-OFFI-0062",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "sybil",
+        "rating": 3,
+        "comment": "exceeded my expectations",
+        "date": "2024-11-10"
+      },
+      {
+        "author": "grace",
+        "rating": 1,
+        "comment": "exceeded my expectations",
+        "date": "2024-05-27"
+      }
+    ]
+  },
+  {
+    "product_id": "P063",
+    "name": "Standing Desk Converter",
+    "description": "Zenith Standing Desk Converter. Furniture product in Office. Tags: furniture, office, featured.",
+    "brand": "Zenith",
+    "category": "Office",
+    "subcategory": "Furniture",
+    "price": 11999.0,
+    "stock": 25,
+    "rating": 3.4,
+    "tags": [
+      "furniture",
+      "office",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-04-11",
+    "sku": "SKU-OFFI-0063",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "alice",
+        "rating": 2,
+        "comment": "not great, expected better",
+        "date": "2025-04-07"
+      }
+    ]
+  },
+  {
+    "product_id": "P064",
+    "name": "Noise-Cancelling Headset",
+    "description": "Vertex Noise-Cancelling Headset. Audio product in Office. Tags: audio, office, sale.",
+    "brand": "Vertex",
+    "category": "Office",
+    "subcategory": "Audio",
+    "price": 4999.0,
+    "stock": 139,
+    "rating": 3.9,
+    "tags": [
+      "audio",
+      "office",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-05-26",
+    "sku": "SKU-OFFI-0064",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "mallory",
+        "rating": 1,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-07-15"
+      },
+      {
+        "author": "dave",
+        "rating": 2,
+        "comment": "poor packaging but the product is fine",
+        "date": "2023-06-08"
+      }
+    ]
+  },
+  {
+    "product_id": "P065",
+    "name": "Desk Organizer Set",
+    "description": "Lumina Desk Organizer Set. Organization product in Office. Tags: organization, office, featured.",
+    "brand": "Lumina",
+    "category": "Office",
+    "subcategory": "Organization",
+    "price": 799.0,
+    "stock": 27,
+    "rating": 4.9,
+    "tags": [
+      "organization",
+      "office",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-06-25",
+    "sku": "SKU-OFFI-0065",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "grace",
+        "rating": 5,
+        "comment": "works as expected",
+        "date": "2025-03-02"
+      },
+      {
+        "author": "dave",
+        "rating": 1,
+        "comment": "decent product for everyday use",
+        "date": "2025-03-26"
+      },
+      {
+        "author": "peggy",
+        "rating": 5,
+        "comment": "average quality, nothing special",
+        "date": "2024-12-23"
+      }
+    ]
+  },
+  {
+    "product_id": "P066",
+    "name": "Laser Printer Compact",
+    "description": "Orbit Laser Printer Compact. Printers product in Office. Tags: printers, office, featured.",
+    "brand": "Orbit",
+    "category": "Office",
+    "subcategory": "Printers",
+    "price": 18999.0,
+    "stock": 92,
+    "rating": 2.8,
+    "tags": [
+      "printers",
+      "office",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-08-02",
+    "sku": "SKU-OFFI-0066",
+    "warranty_months": 6,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "carol",
+        "rating": 5,
+        "comment": "loved it, highly recommended",
+        "date": "2025-01-08"
+      },
+      {
+        "author": "erin",
+        "rating": 1,
+        "comment": "excellent quality and fast delivery",
+        "date": "2024-08-24"
+      },
+      {
+        "author": "dave",
+        "rating": 4,
+        "comment": "works as expected",
+        "date": "2025-03-15"
+      }
+    ]
+  },
+  {
+    "product_id": "P067",
+    "name": "Dog Food Premium 10kg",
+    "description": "Pinnacle Dog Food Premium 10kg. Food product in Pet Supplies. Tags: food, pet-supplies, sale.",
+    "brand": "Pinnacle",
+    "category": "Pet Supplies",
+    "subcategory": "Food",
+    "price": 2499.0,
+    "stock": 17,
+    "rating": 3.0,
+    "tags": [
+      "food",
+      "pet-supplies",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-09-17",
+    "sku": "SKU-PETS-0067",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "AcmeSupply",
+      "country": "IN",
+      "lead_time_days": 7
+    },
+    "reviews": [
+      {
+        "author": "wendy",
+        "rating": 2,
+        "comment": "good value for the price",
+        "date": "2023-12-18"
+      },
+      {
+        "author": "bob",
+        "rating": 5,
+        "comment": "not great, expected better",
+        "date": "2023-10-14"
+      },
+      {
+        "author": "bob",
+        "rating": 3,
+        "comment": "works as expected",
+        "date": "2024-02-28"
+      },
+      {
+        "author": "trent",
+        "rating": 5,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-07-23"
+      }
+    ]
+  },
+  {
+    "product_id": "P068",
+    "name": "Cat Scratching Post",
+    "description": "Globex Cat Scratching Post. Furniture product in Pet Supplies. Tags: furniture, pet-supplies, featured.",
+    "brand": "Globex",
+    "category": "Pet Supplies",
+    "subcategory": "Furniture",
+    "price": 1899.0,
+    "stock": 68,
+    "rating": 3.5,
+    "tags": [
+      "furniture",
+      "pet-supplies",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2023-10-26",
+    "sku": "SKU-PETS-0068",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "GlobexTrade",
+      "country": "US",
+      "lead_time_days": 14
+    },
+    "reviews": [
+      {
+        "author": "frank",
+        "rating": 5,
+        "comment": "average quality, nothing special",
+        "date": "2025-04-26"
+      },
+      {
+        "author": "olivia",
+        "rating": 1,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-11-20"
+      },
+      {
+        "author": "rupert",
+        "rating": 5,
+        "comment": "average quality, nothing special",
+        "date": "2024-08-03"
+      }
+    ]
+  },
+  {
+    "product_id": "P069",
+    "name": "Pet Grooming Kit",
+    "description": "Northwind Pet Grooming Kit. Grooming product in Pet Supplies. Tags: grooming, pet-supplies, featured.",
+    "brand": "Northwind",
+    "category": "Pet Supplies",
+    "subcategory": "Grooming",
+    "price": 1299.0,
+    "stock": 0,
+    "rating": 3.9,
+    "tags": [
+      "grooming",
+      "pet-supplies",
+      "featured"
+    ],
+    "available": false,
+    "created_at": "2023-11-23",
+    "sku": "SKU-PETS-0069",
+    "warranty_months": 36,
+    "supplier": {
+      "name": "NimbusLogistics",
+      "country": "CN",
+      "lead_time_days": 21
+    },
+    "reviews": [
+      {
+        "author": "judy",
+        "rating": 1,
+        "comment": "good value for the price",
+        "date": "2024-09-02"
+      },
+      {
+        "author": "sybil",
+        "rating": 3,
+        "comment": "excellent quality and fast delivery",
+        "date": "2024-04-02"
+      },
+      {
+        "author": "rupert",
+        "rating": 3,
+        "comment": "poor packaging but the product is fine",
+        "date": "2024-03-14"
+      },
+      {
+        "author": "rupert",
+        "rating": 5,
+        "comment": "excellent quality and fast delivery",
+        "date": "2023-12-28"
+      }
+    ]
+  },
+  {
+    "product_id": "P070",
+    "name": "Chew Toy Pack",
+    "description": "Apex Chew Toy Pack. Toys product in Pet Supplies. Tags: toys, pet-supplies, sale.",
+    "brand": "Apex",
+    "category": "Pet Supplies",
+    "subcategory": "Toys",
+    "price": 499.0,
+    "stock": 13,
+    "rating": 3.4,
+    "tags": [
+      "toys",
+      "pet-supplies",
+      "sale"
+    ],
+    "available": true,
+    "created_at": "2023-12-12",
+    "sku": "SKU-PETS-0070",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "ZenithDistributors",
+      "country": "DE",
+      "lead_time_days": 10
+    },
+    "reviews": [
+      {
+        "author": "mallory",
+        "rating": 2,
+        "comment": "loved it, highly recommended",
+        "date": "2025-06-21"
+      },
+      {
+        "author": "trent",
+        "rating": 3,
+        "comment": "decent product for everyday use",
+        "date": "2024-05-20"
+      },
+      {
+        "author": "uma",
+        "rating": 1,
+        "comment": "poor packaging but the product is fine",
+        "date": "2025-10-12"
+      }
+    ]
+  },
+  {
+    "product_id": "P071",
+    "name": "Pet Bed Large",
+    "description": "Quantum Pet Bed Large. Beds product in Pet Supplies. Tags: beds, pet-supplies, featured.",
+    "brand": "Quantum",
+    "category": "Pet Supplies",
+    "subcategory": "Beds",
+    "price": 2299.0,
+    "stock": 12,
+    "rating": 3.5,
+    "tags": [
+      "beds",
+      "pet-supplies",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-02-19",
+    "sku": "SKU-PETS-0071",
+    "warranty_months": 12,
+    "supplier": {
+      "name": "VertexGlobal",
+      "country": "JP",
+      "lead_time_days": 12
+    },
+    "reviews": [
+      {
+        "author": "erin",
+        "rating": 1,
+        "comment": "decent product for everyday use",
+        "date": "2025-10-09"
+      },
+      {
+        "author": "mallory",
+        "rating": 4,
+        "comment": "excellent quality and fast delivery",
+        "date": "2025-05-01"
+      }
+    ]
+  },
+  {
+    "product_id": "P072",
+    "name": "Aquarium Starter Kit",
+    "description": "Terra Aquarium Starter Kit. Aquarium product in Pet Supplies. Tags: aquarium, pet-supplies, featured.",
+    "brand": "Terra",
+    "category": "Pet Supplies",
+    "subcategory": "Aquarium",
+    "price": 4499.0,
+    "stock": 34,
+    "rating": 2.5,
+    "tags": [
+      "aquarium",
+      "pet-supplies",
+      "featured"
+    ],
+    "available": true,
+    "created_at": "2024-03-01",
+    "sku": "SKU-PETS-0072",
+    "warranty_months": 24,
+    "supplier": {
+      "name": "OrbitExports",
+      "country": "GB",
+      "lead_time_days": 18
+    },
+    "reviews": [
+      {
+        "author": "uma",
+        "rating": 2,
+        "comment": "not great, expected better",
+        "date": "2024-05-02"
+      }
+    ]
+  }
+]
