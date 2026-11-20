@@ -1,0 +1,39 @@
+{
+  "locations": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "refresh_interval": "-1"
+    },
+    "mappings": {
+      "dynamic": "strict",
+      "properties": {
+        "place_id": {"type": "keyword"},
+        "name": {"type": "keyword"},
+        "category": {"type": "keyword"},
+        "latitude": {"type": "double"},
+        "longitude": {"type": "double"},
+        "location": {"type": "geo_point"},
+        "rating": {"type": "half_float"},
+        "capacity": {"type": "integer"},
+        "open_now": {"type": "boolean"}
+      }
+    }
+  },
+  "districts": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "refresh_interval": "-1"
+    },
+    "mappings": {
+      "dynamic": "strict",
+      "properties": {
+        "district_id": {"type": "keyword"},
+        "name": {"type": "keyword"},
+        "center": {"type": "geo_point"},
+        "boundary": {"type": "geo_shape"}
+      }
+    }
+  }
+}

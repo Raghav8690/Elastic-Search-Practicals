@@ -1,0 +1,851 @@
+{
+  "environment": {
+    "elasticsearch_version": "9.2.0",
+    "cluster_name": "my-elasticsearch-cluster",
+    "node_name": "my-node"
+  },
+  "dataset": {
+    "locations_index": "p12-locations",
+    "districts_index": "p12-districts",
+    "documents": 10000,
+    "districts": 5,
+    "center": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "maximum_generated_radius_km": 20.0,
+    "place_fields": [
+      "place_id",
+      "name",
+      "category",
+      "latitude",
+      "longitude",
+      "location",
+      "rating",
+      "capacity",
+      "open_now"
+    ],
+    "district_fields": [
+      "district_id",
+      "name",
+      "center",
+      "boundary"
+    ],
+    "load": {
+      "documents": 10000,
+      "errors": 0,
+      "seconds": 3.049,
+      "docs_per_second": 3279.6
+    },
+    "district_load": {
+      "documents": 5,
+      "errors": 0,
+      "seconds": 0.19,
+      "docs_per_second": 26.3
+    },
+    "location_metrics": {
+      "documents": 10000,
+      "primary_store_bytes": 1528238,
+      "segments": 1
+    },
+    "district_metrics": {
+      "documents": 5,
+      "primary_store_bytes": 7073,
+      "segments": 1
+    }
+  },
+  "mapping": {
+    "location_type": "geo_point",
+    "boundary_type": "geo_shape",
+    "location_mapping": {
+      "dynamic": "strict",
+      "properties": {
+        "capacity": {
+          "type": "integer"
+        },
+        "category": {
+          "type": "keyword"
+        },
+        "latitude": {
+          "type": "double"
+        },
+        "location": {
+          "type": "geo_point"
+        },
+        "longitude": {
+          "type": "double"
+        },
+        "name": {
+          "type": "keyword"
+        },
+        "open_now": {
+          "type": "boolean"
+        },
+        "place_id": {
+          "type": "keyword"
+        },
+        "rating": {
+          "type": "half_float"
+        }
+      }
+    },
+    "district_properties": {
+      "boundary": {
+        "type": "geo_shape"
+      },
+      "center": {
+        "type": "geo_point"
+      },
+      "district_id": {
+        "type": "keyword"
+      },
+      "name": {
+        "type": "keyword"
+      }
+    }
+  },
+  "radius": {
+    "center": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "distance_km": 5.0,
+    "query": {
+      "geo_distance": {
+        "distance": "5km",
+        "location": {
+          "lat": 51.5074,
+          "lon": -0.1278
+        }
+      }
+    },
+    "matches": 660,
+    "returned": 660,
+    "max_distance_km": 4.9907,
+    "elapsed_seconds": 0.0929,
+    "sample": [
+      {
+        "place_id": "PLC-007804",
+        "name": "Thames Bank 07804",
+        "category": "bank",
+        "latitude": 51.505577,
+        "longitude": -0.129103,
+        "location": {
+          "lat": 51.505577,
+          "lon": -0.129103
+        },
+        "rating": 4.9,
+        "distance_km": 0.222
+      },
+      {
+        "place_id": "PLC-000562",
+        "name": "Hampstead Bank 00562",
+        "category": "bank",
+        "latitude": 51.508665,
+        "longitude": -0.124636,
+        "location": {
+          "lat": 51.508665,
+          "lon": -0.124636
+        },
+        "rating": 4.1,
+        "distance_km": 0.26
+      },
+      {
+        "place_id": "PLC-000731",
+        "name": "Richmond Bank 00731",
+        "category": "bank",
+        "latitude": 51.507943,
+        "longitude": -0.123858,
+        "location": {
+          "lat": 51.507943,
+          "lon": -0.123858
+        },
+        "rating": 3.0,
+        "distance_km": 0.279
+      },
+      {
+        "place_id": "PLC-005197",
+        "name": "Shoreditch Pharmacy 05197",
+        "category": "pharmacy",
+        "latitude": 51.508443,
+        "longitude": -0.12347,
+        "location": {
+          "lat": 51.508443,
+          "lon": -0.12347
+        },
+        "rating": 3.1,
+        "distance_km": 0.321
+      },
+      {
+        "place_id": "PLC-002575",
+        "name": "Camden Grocery 02575",
+        "category": "grocery",
+        "latitude": 51.510811,
+        "longitude": -0.125493,
+        "location": {
+          "lat": 51.510811,
+          "lon": -0.125493
+        },
+        "rating": 4.8,
+        "distance_km": 0.412
+      },
+      {
+        "place_id": "PLC-006851",
+        "name": "Ealing Pharmacy 06851",
+        "category": "pharmacy",
+        "latitude": 51.51153,
+        "longitude": -0.124298,
+        "location": {
+          "lat": 51.51153,
+          "lon": -0.124298
+        },
+        "rating": 4.6,
+        "distance_km": 0.519
+      },
+      {
+        "place_id": "PLC-003528",
+        "name": "Islington Grocery 03528",
+        "category": "grocery",
+        "latitude": 51.508385,
+        "longitude": -0.135776,
+        "location": {
+          "lat": 51.508385,
+          "lon": -0.135776
+        },
+        "rating": 3.1,
+        "distance_km": 0.563
+      },
+      {
+        "place_id": "PLC-000837",
+        "name": "Kensington Gym 00837",
+        "category": "gym",
+        "latitude": 51.505478,
+        "longitude": -0.135593,
+        "location": {
+          "lat": 51.505478,
+          "lon": -0.135593
+        },
+        "rating": 4.7,
+        "distance_km": 0.58
+      },
+      {
+        "place_id": "PLC-006281",
+        "name": "Thames Cafe 06281",
+        "category": "cafe",
+        "latitude": 51.511766,
+        "longitude": -0.122487,
+        "location": {
+          "lat": 51.511766,
+          "lon": -0.122487
+        },
+        "rating": 3.8,
+        "distance_km": 0.609
+      },
+      {
+        "place_id": "PLC-001400",
+        "name": "Paddington Grocery 01400",
+        "category": "grocery",
+        "latitude": 51.513569,
+        "longitude": -0.126186,
+        "location": {
+          "lat": 51.513569,
+          "lon": -0.126186
+        },
+        "rating": 3.8,
+        "distance_km": 0.695
+      }
+    ]
+  },
+  "bounding_box": {
+    "box": {
+      "top_left": {
+        "lat": 51.54,
+        "lon": -0.18
+      },
+      "bottom_right": {
+        "lat": 51.48,
+        "lon": -0.07
+      }
+    },
+    "query": {
+      "geo_bounding_box": {
+        "location": {
+          "top_left": {
+            "lat": 51.54,
+            "lon": -0.18
+          },
+          "bottom_right": {
+            "lat": 51.48,
+            "lon": -0.07
+          }
+        }
+      }
+    },
+    "matches": 425,
+    "returned": 425,
+    "all_inside": true,
+    "elapsed_seconds": 0.0484,
+    "sample": [
+      {
+        "place_id": "PLC-000004",
+        "name": "Fulham Library 00004",
+        "category": "library",
+        "latitude": 51.493798,
+        "longitude": -0.119805,
+        "location": {
+          "lat": 51.493798,
+          "lon": -0.119805
+        },
+        "rating": 3.6
+      },
+      {
+        "place_id": "PLC-000017",
+        "name": "Fulham Bank 00017",
+        "category": "bank",
+        "latitude": 51.488474,
+        "longitude": -0.133458,
+        "location": {
+          "lat": 51.488474,
+          "lon": -0.133458
+        },
+        "rating": 3.2
+      },
+      {
+        "place_id": "PLC-000018",
+        "name": "Hampstead Bank 00018",
+        "category": "bank",
+        "latitude": 51.497322,
+        "longitude": -0.130669,
+        "location": {
+          "lat": 51.497322,
+          "lon": -0.130669
+        },
+        "rating": 4.5
+      },
+      {
+        "place_id": "PLC-000040",
+        "name": "Soho Restaurant 00040",
+        "category": "restaurant",
+        "latitude": 51.495438,
+        "longitude": -0.14797,
+        "location": {
+          "lat": 51.495438,
+          "lon": -0.14797
+        },
+        "rating": 4.1
+      },
+      {
+        "place_id": "PLC-000049",
+        "name": "Kensington Grocery 00049",
+        "category": "grocery",
+        "latitude": 51.535362,
+        "longitude": -0.163936,
+        "location": {
+          "lat": 51.535362,
+          "lon": -0.163936
+        },
+        "rating": 3.7
+      },
+      {
+        "place_id": "PLC-000054",
+        "name": "Greenwich Gym 00054",
+        "category": "gym",
+        "latitude": 51.533292,
+        "longitude": -0.112269,
+        "location": {
+          "lat": 51.533292,
+          "lon": -0.112269
+        },
+        "rating": 4.7
+      },
+      {
+        "place_id": "PLC-000075",
+        "name": "Canary Library 00075",
+        "category": "library",
+        "latitude": 51.490287,
+        "longitude": -0.098279,
+        "location": {
+          "lat": 51.490287,
+          "lon": -0.098279
+        },
+        "rating": 3.0
+      },
+      {
+        "place_id": "PLC-000083",
+        "name": "Chelsea Grocery 00083",
+        "category": "grocery",
+        "latitude": 51.514384,
+        "longitude": -0.07098,
+        "location": {
+          "lat": 51.514384,
+          "lon": -0.07098
+        },
+        "rating": 4.7
+      },
+      {
+        "place_id": "PLC-000179",
+        "name": "Fulham Bank 00179",
+        "category": "bank",
+        "latitude": 51.537644,
+        "longitude": -0.134956,
+        "location": {
+          "lat": 51.537644,
+          "lon": -0.134956
+        },
+        "rating": 3.7
+      },
+      {
+        "place_id": "PLC-000230",
+        "name": "Battersea Library 00230",
+        "category": "library",
+        "latitude": 51.492449,
+        "longitude": -0.073813,
+        "location": {
+          "lat": 51.492449,
+          "lon": -0.073813
+        },
+        "rating": 3.9
+      }
+    ]
+  },
+  "distance_sort": {
+    "origin": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "sort": [
+      {
+        "_geo_distance": {
+          "location": {
+            "lat": 51.5074,
+            "lon": -0.1278
+          },
+          "order": "asc",
+          "unit": "km",
+          "mode": "min"
+        }
+      }
+    ],
+    "returned": 10,
+    "elapsed_seconds": 0.0185,
+    "places": [
+      {
+        "place_id": "PLC-007804",
+        "name": "Thames Bank 07804",
+        "category": "bank",
+        "latitude": 51.505577,
+        "longitude": -0.129103,
+        "location": {
+          "lat": 51.505577,
+          "lon": -0.129103
+        },
+        "rating": 4.9,
+        "distance_km": 0.222
+      },
+      {
+        "place_id": "PLC-000562",
+        "name": "Hampstead Bank 00562",
+        "category": "bank",
+        "latitude": 51.508665,
+        "longitude": -0.124636,
+        "location": {
+          "lat": 51.508665,
+          "lon": -0.124636
+        },
+        "rating": 4.1,
+        "distance_km": 0.26
+      },
+      {
+        "place_id": "PLC-000731",
+        "name": "Richmond Bank 00731",
+        "category": "bank",
+        "latitude": 51.507943,
+        "longitude": -0.123858,
+        "location": {
+          "lat": 51.507943,
+          "lon": -0.123858
+        },
+        "rating": 3.0,
+        "distance_km": 0.279
+      },
+      {
+        "place_id": "PLC-005197",
+        "name": "Shoreditch Pharmacy 05197",
+        "category": "pharmacy",
+        "latitude": 51.508443,
+        "longitude": -0.12347,
+        "location": {
+          "lat": 51.508443,
+          "lon": -0.12347
+        },
+        "rating": 3.1,
+        "distance_km": 0.321
+      },
+      {
+        "place_id": "PLC-002575",
+        "name": "Camden Grocery 02575",
+        "category": "grocery",
+        "latitude": 51.510811,
+        "longitude": -0.125493,
+        "location": {
+          "lat": 51.510811,
+          "lon": -0.125493
+        },
+        "rating": 4.8,
+        "distance_km": 0.412
+      },
+      {
+        "place_id": "PLC-006851",
+        "name": "Ealing Pharmacy 06851",
+        "category": "pharmacy",
+        "latitude": 51.51153,
+        "longitude": -0.124298,
+        "location": {
+          "lat": 51.51153,
+          "lon": -0.124298
+        },
+        "rating": 4.6,
+        "distance_km": 0.519
+      },
+      {
+        "place_id": "PLC-003528",
+        "name": "Islington Grocery 03528",
+        "category": "grocery",
+        "latitude": 51.508385,
+        "longitude": -0.135776,
+        "location": {
+          "lat": 51.508385,
+          "lon": -0.135776
+        },
+        "rating": 3.1,
+        "distance_km": 0.563
+      },
+      {
+        "place_id": "PLC-000837",
+        "name": "Kensington Gym 00837",
+        "category": "gym",
+        "latitude": 51.505478,
+        "longitude": -0.135593,
+        "location": {
+          "lat": 51.505478,
+          "lon": -0.135593
+        },
+        "rating": 4.7,
+        "distance_km": 0.58
+      },
+      {
+        "place_id": "PLC-006281",
+        "name": "Thames Cafe 06281",
+        "category": "cafe",
+        "latitude": 51.511766,
+        "longitude": -0.122487,
+        "location": {
+          "lat": 51.511766,
+          "lon": -0.122487
+        },
+        "rating": 3.8,
+        "distance_km": 0.609
+      },
+      {
+        "place_id": "PLC-001400",
+        "name": "Paddington Grocery 01400",
+        "category": "grocery",
+        "latitude": 51.513569,
+        "longitude": -0.126186,
+        "location": {
+          "lat": 51.513569,
+          "lon": -0.126186
+        },
+        "rating": 3.8,
+        "distance_km": 0.695
+      }
+    ],
+    "sort_distances_km": [
+      0.22186695701246392,
+      0.2602577931262921,
+      0.27941952631355416,
+      0.3213293025274106,
+      0.4115172735354154,
+      0.5192612893510623,
+      0.5627698350998597,
+      0.5801617898926897,
+      0.6089997528730823,
+      0.6949955382858721
+    ],
+    "haversine_distances_km": [
+      0.222,
+      0.26,
+      0.279,
+      0.321,
+      0.412,
+      0.519,
+      0.563,
+      0.58,
+      0.609,
+      0.695
+    ]
+  },
+  "aggregation": {
+    "origin": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "unit": "km",
+    "ranges": [
+      {
+        "to": 1
+      },
+      {
+        "from": 1,
+        "to": 2
+      },
+      {
+        "from": 2,
+        "to": 5
+      },
+      {
+        "from": 5,
+        "to": 10
+      },
+      {
+        "from": 10,
+        "to": 20
+      },
+      {
+        "from": 20
+      }
+    ],
+    "buckets": [
+      {
+        "from": 0.0,
+        "to": 1.0,
+        "count": 21
+      },
+      {
+        "from": 1.0,
+        "to": 2.0,
+        "count": 83
+      },
+      {
+        "from": 2.0,
+        "to": 5.0,
+        "count": 556
+      },
+      {
+        "from": 5.0,
+        "to": 10.0,
+        "count": 1794
+      },
+      {
+        "from": 10.0,
+        "to": 20.0,
+        "count": 7546
+      },
+      {
+        "from": 20.0,
+        "to": null,
+        "count": 0
+      }
+    ],
+    "bucket_sum": 10000,
+    "within_5km": 660,
+    "elapsed_seconds": 0.0617
+  },
+  "shapes": {
+    "districts": 5,
+    "point_shape": {
+      "type": "point",
+      "coordinates": [
+        -0.1278,
+        51.5074
+      ]
+    },
+    "point_shape_matches": [
+      "Central"
+    ],
+    "point_shape_total": 1,
+    "polygon_shape": {
+      "type": "polygon",
+      "coordinates": [
+        [
+          [
+            -0.145,
+            51.495
+          ],
+          [
+            -0.005,
+            51.495
+          ],
+          [
+            -0.005,
+            51.525
+          ],
+          [
+            -0.145,
+            51.525
+          ],
+          [
+            -0.145,
+            51.495
+          ]
+        ]
+      ]
+    },
+    "polygon_shape_matches": [
+      "Central",
+      "East"
+    ],
+    "polygon_shape_total": 2,
+    "geo_polygon": {
+      "query": {
+        "geo_polygon": {
+          "location": {
+            "points": [
+              {
+                "lat": 51.49,
+                "lon": -0.15
+              },
+              {
+                "lat": 51.49,
+                "lon": -0.1
+              },
+              {
+                "lat": 51.53,
+                "lon": -0.1
+              },
+              {
+                "lat": 51.53,
+                "lon": -0.15
+              }
+            ]
+          }
+        }
+      },
+      "matches": 126,
+      "independent_count": 126,
+      "elapsed_seconds": 0.7144,
+      "sample": [
+        {
+          "place_id": "PLC-000004",
+          "name": "Fulham Library 00004",
+          "category": "library",
+          "latitude": 51.493798,
+          "longitude": -0.119805,
+          "location": {
+            "lat": 51.493798,
+            "lon": -0.119805
+          },
+          "rating": 3.6
+        },
+        {
+          "place_id": "PLC-000018",
+          "name": "Hampstead Bank 00018",
+          "category": "bank",
+          "latitude": 51.497322,
+          "longitude": -0.130669,
+          "location": {
+            "lat": 51.497322,
+            "lon": -0.130669
+          },
+          "rating": 4.5
+        },
+        {
+          "place_id": "PLC-000040",
+          "name": "Soho Restaurant 00040",
+          "category": "restaurant",
+          "latitude": 51.495438,
+          "longitude": -0.14797,
+          "location": {
+            "lat": 51.495438,
+            "lon": -0.14797
+          },
+          "rating": 4.1
+        },
+        {
+          "place_id": "PLC-000400",
+          "name": "Southbank Restaurant 00400",
+          "category": "restaurant",
+          "latitude": 51.498568,
+          "longitude": -0.125631,
+          "location": {
+            "lat": 51.498568,
+            "lon": -0.125631
+          },
+          "rating": 4.3
+        },
+        {
+          "place_id": "PLC-000515",
+          "name": "Battersea Gym 00515",
+          "category": "gym",
+          "latitude": 51.507345,
+          "longitude": -0.103057,
+          "location": {
+            "lat": 51.507345,
+            "lon": -0.103057
+          },
+          "rating": 4.3
+        },
+        {
+          "place_id": "PLC-000562",
+          "name": "Hampstead Bank 00562",
+          "category": "bank",
+          "latitude": 51.508665,
+          "longitude": -0.124636,
+          "location": {
+            "lat": 51.508665,
+            "lon": -0.124636
+          },
+          "rating": 4.1
+        },
+        {
+          "place_id": "PLC-000565",
+          "name": "Battersea Bank 00565",
+          "category": "bank",
+          "latitude": 51.514049,
+          "longitude": -0.136102,
+          "location": {
+            "lat": 51.514049,
+            "lon": -0.136102
+          },
+          "rating": 4.0
+        },
+        {
+          "place_id": "PLC-000619",
+          "name": "Hampstead Pharmacy 00619",
+          "category": "pharmacy",
+          "latitude": 51.525845,
+          "longitude": -0.125726,
+          "location": {
+            "lat": 51.525845,
+            "lon": -0.125726
+          },
+          "rating": 3.3
+        },
+        {
+          "place_id": "PLC-000660",
+          "name": "Hackney Grocery 00660",
+          "category": "grocery",
+          "latitude": 51.491994,
+          "longitude": -0.113748,
+          "location": {
+            "lat": 51.491994,
+            "lon": -0.113748
+          },
+          "rating": 3.2
+        },
+        {
+          "place_id": "PLC-000694",
+          "name": "Battersea Library 00694",
+          "category": "library",
+          "latitude": 51.518285,
+          "longitude": -0.144992,
+          "location": {
+            "lat": 51.518285,
+            "lon": -0.144992
+          },
+          "rating": 3.9
+        }
+      ]
+    }
+  }
+}
