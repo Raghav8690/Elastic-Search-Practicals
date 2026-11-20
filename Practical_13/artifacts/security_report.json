@@ -1,0 +1,265 @@
+{
+  "environment": {
+    "url": "http://127.0.0.1:9201",
+    "cluster_name": "p13-secured-cluster",
+    "node_name": "p13-node",
+    "version": "9.2.0",
+    "authenticated_user": "elastic",
+    "authenticated_roles": [
+      "superuser"
+    ],
+    "anonymous_status": 401
+  },
+  "user": {
+    "username": "p13_analyst",
+    "roles": [],
+    "full_name": "Practical 13 Analyst",
+    "email": "p13-analyst@example.test",
+    "metadata": {},
+    "enabled": true
+  },
+  "role": {
+    "cluster": [
+      "monitor"
+    ],
+    "indices": [
+      {
+        "names": [
+          "p13-public-*"
+        ],
+        "privileges": [
+          "read",
+          "view_index_metadata"
+        ],
+        "allow_restricted_indices": false
+      }
+    ],
+    "applications": [],
+    "run_as": [],
+    "metadata": {},
+    "transient_metadata": {
+      "enabled": true
+    }
+  },
+  "index_access": {
+    "public_index": "p13-public-events",
+    "private_index": "p13-private-events",
+    "public_documents": 1000,
+    "private_documents": 500,
+    "analyst_public_count": 1000,
+    "analyst_private_status": 403,
+    "analyst_private_error": "AuthorizationException(403, 'security_exception', 'action [indices:data/read/search] is unauthorized for user [p13_analyst] with effective roles [p13_public_reader] on indices [p13-private-events], this action is granted by the index privileges [read,all]')"
+  },
+  "api_key": {
+    "name": "p13-public-reader-1795155648",
+    "id": "haud96EBccIezWQdYTDi",
+    "expiration": 1795242049070,
+    "public_count": 1000,
+    "private_status": 403,
+    "encoded_secret_stored": false
+  },
+  "cluster_health": {
+    "cluster_name": "p13-secured-cluster",
+    "status": "green",
+    "timed_out": false,
+    "number_of_nodes": 1,
+    "number_of_data_nodes": 1,
+    "active_primary_shards": 8,
+    "active_shards": 8,
+    "relocating_shards": 0,
+    "initializing_shards": 0,
+    "unassigned_shards": 0,
+    "unassigned_primary_shards": 0,
+    "delayed_unassigned_shards": 0,
+    "number_of_pending_tasks": 0,
+    "number_of_in_flight_fetch": 0,
+    "task_max_waiting_in_queue_millis": 0,
+    "active_shards_percent_as_number": 100.0
+  },
+  "node": {
+    "node_id": "S1plS8ZeRLu_6h52Xacocg",
+    "name": "p13-node",
+    "roles": [
+      "data",
+      "data_cold",
+      "data_content",
+      "data_frozen",
+      "data_hot",
+      "data_warm",
+      "ingest",
+      "master",
+      "ml",
+      "remote_cluster_client",
+      "transform"
+    ],
+    "os": {
+      "cpu_percent": 34,
+      "mem_total_in_bytes": 4042948608,
+      "mem_free_in_bytes": 68845568,
+      "mem_used_percent": 98,
+      "swap_used_in_bytes": 238858240
+    },
+    "process": {
+      "open_file_descriptors": 629,
+      "max_file_descriptors": 1048576,
+      "cpu_percent": 18
+    },
+    "indices": {
+      "documents": 2543,
+      "store_bytes": 374479,
+      "search_query_total": 24,
+      "indexing_index_total": 3063
+    },
+    "jvm": {
+      "uptime_in_millis": 1578446,
+      "heap_used_in_bytes": 130617600,
+      "heap_max_in_bytes": 536870912,
+      "heap_used_percent": 24,
+      "non_heap_used_in_bytes": 238065312
+    },
+    "thread_pool": {
+      "get": {
+        "active": 0,
+        "queue": 0,
+        "rejected": 0
+      },
+      "search": {
+        "active": 0,
+        "queue": 0,
+        "rejected": 0
+      },
+      "write": {
+        "active": 0,
+        "queue": 0,
+        "rejected": 0
+      }
+    }
+  },
+  "jvm": {
+    "heap_used_in_bytes": 130617600,
+    "heap_max_in_bytes": 536870912,
+    "heap_used_percent": 24.33,
+    "non_heap_used_in_bytes": 238065312,
+    "pools": {
+      "CodeHeap 'non-nmethods'": {
+        "used_in_bytes": 2799872,
+        "max_in_bytes": 5836800,
+        "peak_used_in_bytes": 2859136
+      },
+      "Metaspace": {
+        "used_in_bytes": 173331008,
+        "max_in_bytes": 0,
+        "peak_used_in_bytes": 173331008
+      },
+      "CodeHeap 'profiled nmethods'": {
+        "used_in_bytes": 28805120,
+        "max_in_bytes": 122908672,
+        "peak_used_in_bytes": 28805120
+      },
+      "Compressed Class Space": {
+        "used_in_bytes": 21673056,
+        "max_in_bytes": 1073741824,
+        "peak_used_in_bytes": 21673056
+      },
+      "young": {
+        "used_in_bytes": 12582912,
+        "max_in_bytes": 0,
+        "peak_used_in_bytes": 310378496
+      },
+      "old": {
+        "used_in_bytes": 115265848,
+        "max_in_bytes": 536870912,
+        "peak_used_in_bytes": 115265848
+      },
+      "survivor": {
+        "used_in_bytes": 2768840,
+        "max_in_bytes": 0,
+        "peak_used_in_bytes": 41943040
+      },
+      "CodeHeap 'non-profiled nmethods'": {
+        "used_in_bytes": 11456256,
+        "max_in_bytes": 122912768,
+        "peak_used_in_bytes": 11456256
+      }
+    },
+    "gc_collectors": {
+      "young": {
+        "collection_count": 44,
+        "collection_time_in_millis": 24027
+      },
+      "G1 Concurrent GC": {
+        "collection_count": 10,
+        "collection_time_in_millis": 21309
+      },
+      "old": {
+        "collection_count": 0,
+        "collection_time_in_millis": 0
+      }
+    },
+    "uptime_in_millis": 1578446
+  },
+  "slow_log": {
+    "settings": {
+      "index.search.slowlog.threshold.query.warn": "0ms",
+      "index.search.slowlog.threshold.query.info": "0ms",
+      "index.search.slowlog.threshold.fetch.warn": "0ms",
+      "index.search.slowlog.threshold.fetch.info": "0ms",
+      "index.indexing.slowlog.threshold.index.warn": "0ms",
+      "index.indexing.slowlog.threshold.index.info": "0ms"
+    },
+    "docker_available": true,
+    "docker_error": null,
+    "search_entries": [
+      {
+        "level": "WARN",
+        "logger": "index.search.slowlog.fetch",
+        "message": "[p13-public-events][0]",
+        "took": "11.6ms",
+        "took_millis": 11,
+        "source": "{\\\"size\\\":5,\\\"query\\\":{\\\"match\\\":{\\\"message\\\":{\\\"query\\\":\\\"error\\\"}}}}"
+      },
+      {
+        "level": "WARN",
+        "logger": "index.search.slowlog.query",
+        "message": "[p13-public-events][0]",
+        "took": "25.4ms",
+        "took_millis": 25,
+        "source": "{\\\"size\\\":5,\\\"query\\\":{\\\"match\\\":{\\\"message\\\":{\\\"query\\\":\\\"error\\\"}}}}"
+      },
+      {
+        "level": "WARN",
+        "logger": "index.search.slowlog.fetch",
+        "message": "[p13-public-events][0]",
+        "took": "1.2ms",
+        "took_millis": 1,
+        "source": "{\\\"size\\\":5,\\\"query\\\":{\\\"match\\\":{\\\"message\\\":{\\\"query\\\":\\\"error\\\"}}}}"
+      }
+    ],
+    "indexing_entries": [
+      {
+        "level": "WARN",
+        "logger": "index.indexing.slowlog.index",
+        "message": "[p13-slowlog-demo/dQGd93ELR2-P1nbWipD3fA]",
+        "took": "228.9micros",
+        "took_millis": "0",
+        "source": "{\\\"event_id\\\":\\\"SLOW-002\\\",\\\"created_at\\\":\\\"2024-01-01T00:00:00Z\\\",\\\"service\\\":\\\"slowlog\\\",\\\"level\\\":\\\"info\\\",\\\"amount\\\":102,\\\"message\\\":\\\"slow log demo event 2\\\",\\\"visibility\\\":\\\"public\\\"}"
+      },
+      {
+        "level": "WARN",
+        "logger": "index.indexing.slowlog.index",
+        "message": "[p13-slowlog-demo/dQGd93ELR2-P1nbWipD3fA]",
+        "took": "245.5micros",
+        "took_millis": "0",
+        "source": "{\\\"event_id\\\":\\\"SLOW-003\\\",\\\"created_at\\\":\\\"2024-01-01T00:00:00Z\\\",\\\"service\\\":\\\"slowlog\\\",\\\"level\\\":\\\"info\\\",\\\"amount\\\":103,\\\"message\\\":\\\"slow log demo event 3\\\",\\\"visibility\\\":\\\"public\\\"}"
+      },
+      {
+        "level": "WARN",
+        "logger": "index.indexing.slowlog.index",
+        "message": "[p13-slowlog-demo/dQGd93ELR2-P1nbWipD3fA]",
+        "took": "219.2micros",
+        "took_millis": "0",
+        "source": "{\\\"event_id\\\":\\\"SLOW-004\\\",\\\"created_at\\\":\\\"2024-01-01T00:00:00Z\\\",\\\"service\\\":\\\"slowlog\\\",\\\"level\\\":\\\"info\\\",\\\"amount\\\":104,\\\"message\\\":\\\"slow log demo event 4\\\",\\\"visibility\\\":\\\"public\\\"}"
+      }
+    ]
+  }
+}

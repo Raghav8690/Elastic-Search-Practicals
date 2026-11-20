@@ -1,0 +1,35 @@
+{
+  "events": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "refresh_interval": "-1"
+    },
+    "mappings": {
+      "dynamic": "strict",
+      "properties": {
+        "event_id": {"type": "keyword"},
+        "created_at": {"type": "date"},
+        "service": {"type": "keyword"},
+        "level": {"type": "keyword"},
+        "amount": {"type": "integer"},
+        "message": {"type": "text"},
+        "visibility": {"type": "keyword"}
+      }
+    }
+  },
+  "failure_demo": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "refresh_interval": "1s"
+    },
+    "mappings": {
+      "dynamic": "strict",
+      "properties": {
+        "event_id": {"type": "keyword"},
+        "amount": {"type": "integer"}
+      }
+    }
+  }
+}

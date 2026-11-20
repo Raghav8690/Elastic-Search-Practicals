@@ -1,0 +1,14 @@
+cluster.name: p13-secured-cluster
+node.name: p13-node
+
+discovery.type: single-node
+
+network.host: 0.0.0.0
+http.port: 9200
+
+path.repo: ["/usr/share/elasticsearch/snapshots"]
+
+xpack.security.enabled: true
+xpack.security.http.ssl.enabled: false
+xpack.security.transport.ssl.enabled: false
+xpack.security.autoconfiguration.enabled: false
